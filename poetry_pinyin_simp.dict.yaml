@@ -1,17 +1,17 @@
 # Rime dictionary
-# encoding utf-8 
-# Magician created on 2024-11-11
-# rime-poetry reverse lookup comment dict
-# for reverse_lookup_filter
+# encoding utf-8
+# zc0xb created on 2024-11-11  updated: 20260422
+# rime-poetry pinyin dict
+# for translator
 
 ---
-name: poetry_comment_simp
-version: "0.1"
-columns:	
+name: poetry_pinyin_simp
+version: "20260422"
+columns:
   - text	# 诗词
-  - code	# 诗词名|朝代·作者
+  - code	# 拼音
 ...
-#text	comment in reverse_lookup_filter
+#text	code
 骆宾王	luo bin wang
 在岳咏蝉	zai yue yong chan
 西陆蝉声唱	xi lu chan sheng chang
@@ -189,7 +189,7 @@ columns:
 公之斯文不示后	gong zhi si wen bu shi hou
 曷与三五相攀追	he yu san wu xiang pan zhui
 愿书万本诵万过	yuan shu wan ben song wan guo
-口角流沫右手胝	kou jue liu mo you shou zhi
+口角流沫右手胝	kou jiao liu mo you shou zhi
 传之七十有二代	chuan zhi qi shi you er dai
 以为封禅玉检明堂基	yi wei feng chan yu jian ming tang ji
 李商隐	li shang yin
@@ -261,7 +261,7 @@ columns:
 李商隐	li shang yin
 隋宫	sui gong
 乘兴南游不戒严	cheng xing nan you bu jie yan
-九重谁省谏书函	jiu zhong shui sheng jian shu han
+九重谁省谏书函	jiu chong shui sheng jian shu han
 春风举国裁宫锦	chun feng ju guo cai gong jin
 半作障泥半作帆	ban zuo zhang ni ban zuo fan
 李商隐	li shang yin
@@ -1863,7 +1863,7 @@ columns:
 尽日君王看不足	jin ri jun wang kan bu zu
 渔阳鞞鼓动地来	yu yang bing gu dong di lai
 惊破霓裳羽衣曲	jing po ni chang yu yi qu
-九重城阙烟尘生	jiu zhong cheng que yan chen sheng
+九重城阙烟尘生	jiu chong cheng que yan chen sheng
 千乘万骑西南行	qian cheng wan qi xi nan xing
 翠华摇摇行复止	cui hua yao yao xing fu zhi
 西出都门百余里	xi chu dou men bai yu li
@@ -2919,7 +2919,7 @@ columns:
 迥立阊阖生长风	jiong li chang he sheng zhang feng
 诏谓将军拂绢素	zhao wei jiang jun fu juan su
 意匠惨澹经营中	yi jiang can dan jing ying zhong
-斯须九重真龙出	si xu jiu zhong zhen long chu
+斯须九重真龙出	si xu jiu chong zhen long chu
 一洗万古凡马空	yi xi wan gu fan ma kong
 玉花却在御榻上	yu hua que zai yu ta shang
 榻上庭前屹相向	ta shang ting qian yi xiang xiang
@@ -3424,7 +3424,7 @@ columns:
 山回路转不见君	shan hui lu zhuan bu jian jun
 雪上空留马行处	xue shang kong liu ma xing chu
 岑参	cen can
-轮台歌奉送封大夫出师西征	lun tai ge feng song feng dai fu chu shi xi zheng
+轮台歌奉送封大夫出师西征	lun tai ge feng song feng da fu chu shi xi zheng
 轮台城头夜吹角	lun tai cheng tou ye chui jiao
 轮台城北旄头落	lun tai cheng bei mao tou luo
 羽书昨夜过渠黎	yu shu zuo ye guo qu li
@@ -4309,10 +4309,10 @@ columns:
 青山不语	qing shan bu yu
 残月当门	can yue dang men
 翠玉楼前	cui yu lou qian
-惟是有、一波湘水	wei shi you 、 yi bo xiang shui
+惟是有、一波湘水	wei shi you yi bo xiang shui
 摇荡湘云	yao dang xiang yun
 天长梦短	tian zhang meng duan
-问甚时、重见桃根	wen shen shi 、 zhong jian tao gen
+问甚时、重见桃根	wen shen shi zhong jian tao gen
 这次第	zhe ci di
 算人间没个并刀	suan ren jian mei ge bing dao
 翦断心上愁痕	jian duan xin shang chou hen
@@ -4325,8 +4325,8 @@ columns:
 但疏钟催晓	dan shu zhong cui xiao
 乱鸦啼暝	luan ya ti ming
 花暗省	hua an sheng
-许多情、相逢梦境	xu duo qing 、 xiang feng meng jing
-便行云、都不归来	bian xing yun 、 dou bu gui lai
+许多情、相逢梦境	xu duo qing xiang feng meng jing
+便行云、都不归来	bian xing yun dou bu gui lai
 也合寄将音信	ye he ji jiang yin xin
 孤迥	gu jiong
 盟鸾心在	meng luan xin zai
@@ -4338,10 +4338,10 @@ columns:
 怕天教何处	pa tian jiao he chu
 参差双燕	cen ci shuang yan
 还染残朱剩粉	hai ran can zhu sheng fen
-对菱花、与说相思	dui ling hua 、 yu shuo xiang si
+对菱花、与说相思	dui ling hua yu shuo xiang si
 看谁瘦损	kan shui shou sun
 吴文英	wu wen ying
-渡江云三犯・渡江云	du jiang yun san fan ・ du jiang yun
+渡江云三犯·渡江云	du jiang yun san fan du jiang yun
 羞红颦浅恨	xiu hong pin qian hen
 晚风为落	wan feng wei luo
 片绣点重茵	pian xiu dian zhong yin
@@ -4349,7 +4349,7 @@ columns:
 桂棹轻鸥	gui zhao qing ou
 宝勒倚残云	bao lei yi can yun
 千丝怨碧	qian si yuan bi
-渐路入、仙坞迷津	jian lu ru 、 xian wu mi jin
+渐路入、仙坞迷津	jian lu ru xian wu mi jin
 肠漫回	chang man hui
 隔花时见	ge hua shi jian
 背面楚腰身	bei mian chu yao shen
@@ -4357,10 +4357,10 @@ columns:
 题门惆怅	ti men chou chang
 堕履牵萦	duo lv qian ying
 数幽期难准	shu you qi nan zhun
-还始觉、留情缘眼	hai shi jue 、 liu qing yuan yan
+还始觉、留情缘眼	hai shi jue liu qing yuan yan
 宽带因春	kuan dai yin chun
 明朝事与孤烟冷	ming chao shi yu gu yan leng
-做满湖、风雨愁人	zuo man hu 、 feng yu chou ren
+做满湖、风雨愁人	zuo man hu feng yu chou ren
 山黛暝	shan dai ming
 尘波澹绿无痕	chen bo dan lv wu hen
 吴文英	wu wen ying
@@ -4370,19 +4370,19 @@ columns:
 斜阳红隐霜树	xie yang hong yin shuang shu
 半壶秋水荐黄花	ban hu qiu shui jian huang hua
 香西风雨	xiang xi feng yu
-纵玉勒、轻飞迅羽	zong yu lei 、 qing fei xun yu
+纵玉勒、轻飞迅羽	zong yu lei qing fei xun yu
 凄凉谁吊荒台古	qi liang shui diao huang tai gu
 记醉蹋南屏	ji zui ta nan ping
-彩扇咽、寒蝉倦梦	cai shan yan 、 han chan juan meng
+彩扇咽、寒蝉倦梦	cai shan yan han chan juan meng
 不知蛮素	bu zhi man su
 聊对旧节传杯	liao dui jiu jie chuan bei
 尘笺蠹管	chen jian du guan
 断阕经岁慵赋	duan que jing sui yong fu
 小蟾斜影转东篱	xiao chan xie ying zhuan dong li
 夜冷残蛩语	ye leng can qiong yu
-早白发、缘愁万缕	zao bai fa 、 yuan chou wan lv
+早白发、缘愁万缕	zao bai fa yuan chou wan lv
 惊飙从卷乌纱去	jing biao cong juan wu sha qu
-漫细将、茱萸看	man xi jiang 、 zhu yu kan
+漫细将、茱萸看	man xi jiang zhu yu kan
 但约明年	dan yue ming nian
 翠微高处	cui wei gao chu
 吴文英	wu wen ying
@@ -4394,8 +4394,8 @@ columns:
 正旗亭烟冷	zheng qi ting yan leng
 河桥风暖	he qiao feng nuan
 兰情蕙盼	lan qing hui pan
-惹相思、春根酒畔	re xiang si 、 chun gen jiu pan
-又争知、吟骨萦销	you zheng zhi 、 yin gu ying xiao
+惹相思、春根酒畔	re xiang si chun gen jiu pan
+又争知、吟骨萦销	you zheng zhi yin gu ying xiao
 渐把旧衫重翦	jian ba jiu shan zhong jian
 凄断	qi duan
 流红千浪	liu hong qian lang
@@ -4407,7 +4407,7 @@ columns:
 试挑灯欲写	shi tiao deng yu xie
 还依不忍	hai yi bu ren
 笺幅偷和泪卷	jian fu tou he lei juan
-寄残云、剩雨蓬莱	ji can yun 、 sheng yu peng lai
+寄残云、剩雨蓬莱	ji can yun sheng yu peng lai
 也应梦见	ye ying meng jian
 吴文英	wu wen ying
 宴清都	yan qing dou
@@ -4418,8 +4418,8 @@ columns:
 花梢钿合	hua shao dian he
 锦屏人妒	jin ping ren du
 东风睡足交枝	dong feng shui zu jiao zhi
-正梦花、瑶钗燕股	zheng meng hua 、 yao chai yan gu
-障滟蜡、满照欢丛	zhang yan la 、 man zhao huan cong
+正梦花、瑶钗燕股	zheng meng hua yao chai yan gu
+障滟蜡、满照欢丛	zhang yan la man zhao huan cong
 嫠蟾冷落羞度	li chan leng luo xiu du
 人间万感幽单	ren jian wan gan you dan
 华清惯浴	hua qing guan yu
@@ -4428,8 +4428,8 @@ columns:
 同心共结	tong xin gong jie
 向承恩处	xiang cheng en chu
 凭谁为歌长恨	ping shui wei ge zhang hen
-暗殿锁、秋灯夜语	an dian suo 、 qiu deng ye yu
-叙旧期、不负春盟	xu jiu qi 、 bu fu chun meng
+暗殿锁、秋灯夜语	an dian suo qiu deng ye yu
+叙旧期、不负春盟	xu jiu qi bu fu chun meng
 红朝翠暮	hong chao cui mu
 吴文英	wu wen ying
 齐天乐	qi tian le
@@ -4459,60 +4459,60 @@ columns:
 听风听雨过清明	ting feng ting yu guo qing ming
 愁草瘗花铭	chou cao yi hua ming
 楼前绿暗分携路	lou qian lv an fen xie lu
-一丝柳、一寸柔情	yi si liu 、 yi cun rou qing
+一丝柳、一寸柔情	yi si liu yi cun rou qing
 料峭春寒中酒	liao qiao chun han zhong jiu
 交加晓梦啼莺	jiao jia xiao meng ti ying
 西园日日扫林亭	xi yuan ri ri sao lin ting
 依旧赏新晴	yi jiu shang xin qing
 黄蜂频扑秋千索	huang feng pin pu qiu qian suo
-有当时、纤手香凝	you dang shi 、 qian shou xiang ning
+有当时、纤手香凝	you dang shi qian shou xiang ning
 惆怅双鸳不到	chou chang shuang yuan bu dao
 幽阶一夜苔生	you jie yi ye tai sheng
 吴文英	wu wen ying
 莺啼序	ying ti xu
 残寒正欺病酒	can han zheng qi bing jiu
 掩沈香绣户	yan shen xiang xiu hu
-燕来晚、飞入西城	yan lai wan 、 fei ru xi cheng
+燕来晚、飞入西城	yan lai wan fei ru xi cheng
 似说春事迟暮	shi shuo chun shi chi mu
-画船载、清明过却	hua chuan zai 、 qing ming guo que
+画船载、清明过却	hua chuan zai qing ming guo que
 晴烟冉冉吴宫树	qing yan ran ran wu gong shu
 念羁情游荡	nian ji qing you dang
 随风化为轻絮	sui feng hua wei qing xu
 十载西湖	shi zai xi hu
 傍柳系马	bang liu xi ma
 趁娇尘软雾	chen jiao chen ruan wu
-溯红渐、招入仙溪	su hong jian 、 zhao ru xian xi
+溯红渐、招入仙溪	su hong jian zhao ru xian xi
 锦儿偷寄幽素	jin er tou ji you su
-倚银屏、春宽梦窄	yi yin ping 、 chun kuan meng zhai
-断红湿、歌纨金缕	duan hong shi 、 ge wan jin lv
+倚银屏、春宽梦窄	yi yin ping chun kuan meng zhai
+断红湿、歌纨金缕	duan hong shi ge wan jin lv
 暝堤空	ming di kong
 轻把斜阳	qing ba xie yang
 总还鸥鹭	zong hai ou lu
 幽兰旋老	you lan xuan lao
 杜若还生	du ruo hai sheng
 水乡尚寄旅	shui xiang shang ji lv
-别後访、六桥无信	bie hou fang 、 liu qiao wu xin
+别後访、六桥无信	bie hou fang liu qiao wu xin
 事往花委	shi wang hua wei
 瘗玉埋香	yi yu mai xiang
 几番风雨	ji fan feng yu
 长波妒盼	chang bo du pan
 遥山羞黛	yao shan xiu dai
 渔灯分影春江宿	yu deng fen ying chun jiang su
-记当时、短楫桃根渡	ji dang shi 、 duan ji tao gen du
+记当时、短楫桃根渡	ji dang shi duan ji tao gen du
 青楼彷佛	qing lou pang fo
 临分败壁题诗	lin fen bai bi ti shi
 泪墨惨澹尘土	lei mo can dan chen tu
 危亭望极	wei ting wang ji
 草色天涯	cao se tian ya
 吹鬓侵半苎	chui bin qin ban zhu
-暗点检、离痕欢唾	an dian jian 、 li hen huan tuo
+暗点检、离痕欢唾	an dian jian li hen huan tuo
 尚染鲛绡	shang ran jiao xiao
 凤迷归	feng mi gui
 破鸾慵舞	po luan yong wu
 殷勤待写	yin qin dai xie
 书中长恨	shu zhong chang hen
 蓝霞辽海沈过雁	lan xia liao hai shen guo yan
-漫相思、弹入哀筝柱	man xiang si 、 dan ru ai zheng zhu
+漫相思、弹入哀筝柱	man xiang si dan ru ai zheng zhu
 伤心千里江南	shang xin qian li jiang nan
 怨曲重招	yuan qu zhong zhao
 断魂在否	duan hun zai fou
@@ -4526,7 +4526,7 @@ columns:
 离亭黯黯	li ting an an
 恨水迢迢	hen shui tiao tiao
 翠香零落红衣老	cui xiang ling luo hong yi lao
-暮愁锁、残柳眉梢	mu chou suo 、 can liu mei shao
+暮愁锁、残柳眉梢	mu chou suo can liu mei shao
 念瘦腰	nian shou yao
 沈郎旧日	shen lang jiu ri
 曾系兰桡	ceng xi lan rao
@@ -4538,7 +4538,7 @@ columns:
 歌云载恨	ge yun zai hen
 飞上银霄	fei shang yin xiao
 素秋不解随船去	su qiu bu jie sui chuan qu
-败红趁、一叶寒涛	bai hong chen 、 yi ye han tao
+败红趁、一叶寒涛	bai hong chen yi ye han tao
 梦翠翘	meng cui qiao
 怨鸿料过南谯	yuan hong liao guo nan qiao
 袁去华	yuan qu hua
@@ -4550,7 +4550,7 @@ columns:
 映浓愁浅黛	ying nong chou qian dai
 遥山眉妩	yao shan mei wu
 来时旧路	lai shi jiu lu
-尚岩花、娇黄半吐	shang yan hua 、 jiao huang ban tu
+尚岩花、娇黄半吐	shang yan hua jiao huang ban tu
 到而今	dao er jin
 唯有溪边流水	wei you xi bian liu shui
 见人如故	jian ren ru gu
@@ -4564,22 +4564,22 @@ columns:
 纵收香藏镜	zong shou xiang cang jing
 他年重到	ta nian zhong dao
 人面桃花在否	ren mian tao hua zai fou
-念沈沈、小阁幽窗	nian shen shen 、 xiao ge you chuang
+念沈沈、小阁幽窗	nian shen shen xiao ge you chuang
 有时梦去	you shi meng qu
 袁去华	yuan qu hua
 剑器近	jian qi jin
 夜来雨	ye lai yu
-赖倩得、东风吹住	lai qian de 、 dong feng chui zhu
+赖倩得、东风吹住	lai qian de dong feng chui zhu
 海棠正妖饶处	hai tang zheng yao rao chu
 且留取	qie liu qu
 悄庭户	qiao ting hu
-试细听、莺啼燕语	shi xi ting 、 ying ti yan yu
+试细听、莺啼燕语	shi xi ting ying ti yan yu
 分明共人愁绪	fen ming gong ren chou xu
 怕春去	pa chun qu
 佳树	jia shu
 翠阴初转午	cui yin chu zhuan wu
 重帘未卷	zhong lian wei juan
-乍睡起、寂寞看风絮	zha shui qi 、 ji mo kan feng xu
+乍睡起、寂寞看风絮	zha shui qi ji mo kan feng xu
 偷弹清泪寄烟波	tou dan qing lei ji yan bo
 见江头故人	jian jiang tou gu ren
 为言憔悴如许	wei yan qiao cui ru xu
@@ -4595,7 +4595,7 @@ columns:
 过一番风雨	guo yi fan feng yu
 问燕子来时	wen yan zi lai shi
 绿水桥边路	lv shui qiao bian lu
-曾画楼、见个人人否	ceng hua lou 、 jian ge ren ren fou
+曾画楼、见个人人否	ceng hua lou jian ge ren ren fou
 料静掩云窗	liao jing yan yun chuang
 尘满哀弦危柱	chen man ai xian wei zhu
 庾信愁如许	yu xin chou ru xu
@@ -4604,7 +4604,7 @@ columns:
 寄烟波东去	ji yan bo dong qu
 念永昼春闲	nian yong zhou chun xian
 人倦如何度	ren juan ru he du
-闲傍枕、百啭黄鹂语	xian bang zhen 、 bai zhuan huang li yu
+闲傍枕、百啭黄鹂语	xian bang zhen bai zhuan huang li yu
 唤觉来厌厌	huan jue lai yan yan
 残照依然花坞	can zhao yi ran hua wu
 陆游	lu you
@@ -4618,7 +4618,7 @@ columns:
 零落成泥碾作尘	ling luo cheng ni nian zuo chen
 只有香如故	zhi you xiang ru gu
 韩缜	han zhen
-凤箫吟・芳草	feng xiao yin ・ fang cao
+凤箫吟·芳草	feng xiao yin fang cao
 锁离愁	suo li chou
 连绵无际	lian mian wu ji
 来时陌上初熏	lai shi mo shang chu xun
@@ -4626,17 +4626,17 @@ columns:
 暗垂珠泪	an chui zhu lei
 泣送征轮	qi song zheng lun
 长亭长在眼	chang ting zhang zai yan
-更重重、远水孤云	geng chong chong 、 yuan shui gu yun
+更重重、远水孤云	geng chong chong yuan shui gu yun
 但望极楼高	dan wang ji lou gao
 尽日目断王孙	jin ri mu duan wang sun
 消魂	xiao hun
 池塘别後	chi tang bie hou
-曾行处、绿妒轻裙	ceng xing chu 、 lv du qing qun
+曾行处、绿妒轻裙	ceng xing chu lv du qing qun
 恁时携素手	nen shi xie su shou
 乱花飞絮里	luan hua fei xu li
 缓步香	huan bu xiang
 朱颜空自改	zhu yan kong zi gai
-向年年、芳意长新	xiang nian nian 、 fang yi zhang xin
+向年年、芳意长新	xiang nian nian fang yi zhang xin
 遍绿野	bian lv ye
 嬉游醉眠	xi you zui mian
 莫负青春	mo fu qing chun
@@ -4648,17 +4648,17 @@ columns:
 千里澄江似练	qian li cheng jiang shi lian
 翠峰如簇	cui feng ru cu
 归帆去棹残阳里	gui fan qu zhao can yang li
-背西风、酒旗斜矗	bei xi feng 、 jiu qi xie chu
+背西风、酒旗斜矗	bei xi feng jiu qi xie chu
 彩舟云淡	cai zhou yun dan
 星河鹭起	xing he lu qi
 画图难足	hua tu nan zu
-念往昔、繁华竞逐	nian wang xi 、 fan hua jing zhu
+念往昔、繁华竞逐	nian wang xi fan hua jing zhu
 叹门外楼头	tan men wai lou tou
 悲恨相续	bei hen xiang xu
 千古凭高	qian gu ping gao
 对此漫嗟荣辱	dui ci man jie rong ru
 六朝旧事随流水	liu chao jiu shi sui liu shui
-但寒烟、芳草凝绿	dan han yan 、 fang cao ning lv
+但寒烟、芳草凝绿	dan han yan fang cao ning lv
 至今商女	zhi jin shang nv
 时时犹唱	shi shi you chang
 後庭遗曲	hou ting yi qu
@@ -4780,7 +4780,7 @@ columns:
 此後锦书休寄	ci hou jin shu xiu ji
 画楼云雨无凭	hua lou yun yu wu ping
 晏几道	yan ji dao
-木兰花・玉楼春	mu lan hua ・ yu lou chun
+木兰花·玉楼春	mu lan hua yu lou chun
 秋千院落重帘暮	qiu qian yuan luo zhong lian mu
 彩笔闲来题绣户	cai bi xian lai ti xiu hu
 墙头丹杏雨馀花	qiang tou dan xing yu yu hua
@@ -4872,22 +4872,22 @@ columns:
 曲阑干外天如水	qu lan gan wai tian ru shui
 昨夜还曾倚	zuo ye hai ceng yi
 初将明月比佳期	chu jiang ming yue bi jia qi
-长向月圆时候、望人归	zhang xiang yue yuan shi hou 、 wang ren gui
+长向月圆时候、望人归	zhang xiang yue yuan shi hou wang ren gui
 罗衣著破前香在	luo yi zhu po qian xiang zai
 旧意谁教改	jiu yi shui jiao gai
 一春离恨懒调弦	yi chun li hen lan diao xian
-犹有两行闲泪、宝筝前	you you liang xing xian lei 、 bao zheng qian
+犹有两行闲泪、宝筝前	you you liang xing xian lei bao zheng qian
 晏几道	yan ji dao
 留春令	liu chun ling
 画屏天畔	hua ping tian pan
 梦回依约	meng hui yi yue
 十洲云水	shi zhou yun shui
 手拈红笺寄人书	shou nian hong jian ji ren shu
-写无限、伤春事	xie wu xian 、 shang chun shi
+写无限、伤春事	xie wu xian shang chun shi
 别浦高楼曾漫倚	bie pu gao lou ceng man yi
 对江南千里	dui jiang nan qian li
 楼下分流水声中	lou xia fen liu shui sheng zhong
-有当日、凭高泪	you dang ri 、 ping gao lei
+有当日、凭高泪	you dang ri ping gao lei
 晏几道	yan ji dao
 思远人	si yuan ren
 红叶黄花秋意晚	hong ye huang hua qiu yi wan
@@ -4922,9 +4922,9 @@ columns:
 欲开还闭	yu kai hai bi
 梦随风万里	meng sui feng wan li
 寻郎去处	xun lang qu chu
-又还被、莺呼起	you hai bei 、 ying hu qi
+又还被、莺呼起	you hai bei ying hu qi
 不恨此花飞尽	bu hen ci hua fei jin
-恨西园、落红难缀	hen xi yuan 、 luo hong nan zhui
+恨西园、落红难缀	hen xi yuan luo hong nan zhui
 晓来雨过	xiao lai yu guo
 遗踪何在	yi zong he zai
 一池萍碎	yi chi ping sui
@@ -4993,21 +4993,21 @@ columns:
 苏轼	su shi
 贺新郎	he xin lang
 乳燕飞华屋	ru yan fei hua wu
-悄无人、桐阴转午	qiao wu ren 、 tong yin zhuan wu
+悄无人、桐阴转午	qiao wu ren tong yin zhuan wu
 晚凉新浴	wan liang xin yu
 手弄生绡白团扇	shou nong sheng xiao bai tuan shan
 扇手一时似玉	shan shou yi shi shi yu
-渐困倚、孤眠清熟	jian kun yi 、 gu mian qing shu
+渐困倚、孤眠清熟	jian kun yi gu mian qing shu
 帘外谁来推绣户	lian wai shui lai tui xiu hu
-枉教人、梦断瑶台曲	wang jiao ren 、 meng duan yao tai qu
+枉教人、梦断瑶台曲	wang jiao ren meng duan yao tai qu
 又却是	you que shi
 风敲竹	feng qiao zhu
 石榴半吐红巾蹙	shi liu ban tu hong jin cu
-待浮花、浪蕊都尽	dai fu hua 、 lang rui dou jin
+待浮花、浪蕊都尽	dai fu hua lang rui dou jin
 伴君幽独	ban jun you du
 艳一枝细看取	yan yi zhi xi kan qu
 芳心千重似束	fang xin qian zhong shi shu
-又恐被、秋风惊绿	you kong bei 、 qiu feng jing lv
+又恐被、秋风惊绿	you kong bei qiu feng jing lv
 若待得君来向此	ruo dai de jun lai xiang ci
 花前对酒不忍触	hua qian dui jiu bu ren chu
 共粉泪	gong fen lei
@@ -5017,18 +5017,18 @@ columns:
 冰肌玉骨	bing ji yu gu
 自清凉无汗	zi qing liang wu han
 水殿风来暗香满	shui dian feng lai an xiang man
-绣帘开、一点明月窥人	xiu lian kai 、 yi dian ming yue kui ren
-人未寝、枕钗横鬓乱	ren wei qin 、 zhen chai heng bin luan
+绣帘开、一点明月窥人	xiu lian kai yi dian ming yue kui ren
+人未寝、枕钗横鬓乱	ren wei qin zhen chai heng bin luan
 起来携素手	qi lai xie su shou
 庭户无声	ting hu wu sheng
 时见疏星渡河汉	shi jian shu xing du he han
 试问夜如何	shi wen ye ru he
 夜已三更	ye yi san geng
-金波淡、玉绳低转	jin bo dan 、 yu sheng di zhuan
-但屈指、西风几时来	dan qu zhi 、 xi feng ji shi lai
-又不道、流年暗中偷换	you bu dao 、 liu nian an zhong tou huan
+金波淡、玉绳低转	jin bo dan yu sheng di zhuan
+但屈指、西风几时来	dan qu zhi xi feng ji shi lai
+又不道、流年暗中偷换	you bu dao liu nian an zhong tou huan
 苏轼	su shi
-江神子・江城子	jiang shen zi ・ jiang cheng zi
+江神子·江城子	jiang shen zi jiang cheng zi
 十年生死两茫茫	shi nian sheng si liang mang mang
 不思量	bu si liang
 自难忘	zi nan wang
@@ -5074,7 +5074,7 @@ columns:
 苏轼	su shi
 青玉案	qing yu an
 三年枕上吴中路	san nian zhen shang wu zhong lu
-遣黄耳、随君去	qian huang er 、 sui jun qu
+遣黄耳、随君去	qian huang er sui jun qu
 若到松江呼小渡	ruo dao song jiang hu xiao du
 莫惊鸥鹭	mo jing ou lu
 四桥尽是	si qiao jin shi
@@ -5088,7 +5088,7 @@ columns:
 李之仪	li zhi yi
 谢池春	xie chi chun
 残寒销尽	can han xiao jin
-疏雨过、清明後	shu yu guo 、 qing ming hou
+疏雨过、清明後	shu yu guo qing ming hou
 花径敛馀红	hua jing lian yu hong
 风沼萦新皱	feng zhao ying xin zhou
 乳燕穿庭户	ru yan chuan ting hu
@@ -5098,7 +5098,7 @@ columns:
 著人滋味	zhu ren zi wei
 真个浓如酒	zhen ge nong ru jiu
 频移带眼	pin yi dai yan
-空只恁、厌厌瘦	kong zhi nen 、 yan yan shou
+空只恁、厌厌瘦	kong zhi nen yan yan shou
 不见又思量	bu jian you si liang
 见了还依旧	jian le hai yi jiu
 为问频相见	wei wen pin xiang jian
@@ -5122,11 +5122,11 @@ columns:
 芙蓉落尽天涵水	fu rong luo jin tian han shui
 日暮沧波起	ri mu cang bo qi
 背飞双燕帖云寒	bei fei shuang yan tie yun han
-独向小楼东畔、倚阑看	du xiang xiao lou dong pan 、 yi lan kan
+独向小楼东畔、倚阑看	du xiang xiao lou dong pan yi lan kan
 浮生只合尊前老	fu sheng zhi he zun qian lao
-雪满长安道	xue man zhang an dao
+雪满长安道	xue man chang an dao
 故人早晚上高台	gu ren zao wan shang gao tai
-赠我江南春色、一枝梅	zeng wo jiang nan chun se 、 yi zhi mei
+赠我江南春色、一枝梅	zeng wo jiang nan chun se yi zhi mei
 韩疁	han liu
 高阳台·除夜	gao yang tai chu ye
 频听银签	pin ting yin qian
@@ -5135,7 +5135,7 @@ columns:
 饯旧迎新	jian jiu ying xin
 能消几刻光阴	neng xiao ji ke guang yin
 老来可惯通宵饮	lao lai ke guan tong xiao yin
-待不眠、还怕寒侵	dai bu mian 、 hai pa han qin
+待不眠、还怕寒侵	dai bu mian hai pa han qin
 掩清尊	yan qing zun
 多谢梅花	duo xie mei hua
 伴我微吟	ban wo wei yin
@@ -5145,7 +5145,7 @@ columns:
 勾引东风	gou yin dong feng
 也知芳思难禁	ye zhi fang si nan jin
 朱颜那有年年好	zhu yan na you nian nian hao
-逞艳游、赢取如今	cheng yan you 、 ying qu ru jin
+逞艳游、赢取如今	cheng yan you ying qu ru jin
 恣登临	zi deng lin
 残雪楼台	can xue lou tai
 迟日园林	chi ri yuan lin
@@ -5177,7 +5177,7 @@ columns:
 能几番游	neng ji fan you
 看花又是明年	kan hua you shi ming nian
 东风且伴蔷薇住	dong feng qie ban qiang wei zhu
-到蔷薇、春已堪怜	dao qiang wei 、 chun yi kan lian
+到蔷薇、春已堪怜	dao qiang wei chun yi kan lian
 更凄然	geng qi ran
 万绿西泠	wan lv xi ling
 一抹荒烟	yi mo huang yan
@@ -5187,52 +5187,52 @@ columns:
 见说新愁	jian shuo xin chou
 如今也到鸥边	ru jin ye dao ou bian
 无心再续笙歌梦	wu xin zai xu sheng ge meng
-掩重门、浅醉闲眠	yan zhong men 、 qian zui xian mian
+掩重门、浅醉闲眠	yan zhong men qian zui xian mian
 莫开帘	mo kai lian
 怕见飞花	pa jian fei hua
 怕听啼鹃	pa ting ti juan
 刘克庄	liu ke zhuang
 贺新郎	he xin lang
 深院榴花吐	shen yuan liu hua tu
-画帘开、衣纨扇	hua lian kai 、 yi wan shan
+画帘开、衣纨扇	hua lian kai yi wan shan
 午风清暑	wu feng qing shu
 儿女纷纷夸结束	er nv fen fen kua jie shu
 新样钗符艾虎	xin yang chai fu ai hu
-早已有、游人观渡	zao yi you 、 you ren guan du
+早已有、游人观渡	zao yi you you ren guan du
 老大逢场慵作戏	lao da feng chang yong zuo xi
-任陌头、年少争旗鼓	ren mo tou 、 nian shao zheng qi gu
+任陌头、年少争旗鼓	ren mo tou nian shao zheng qi gu
 溪雨急	xi yu ji
 浪花舞	lang hua wu
 灵均标致高如许	ling jun biao zhi gao ru xu
-忆生平、既纫兰佩	yi sheng ping 、 ji ren lan pei
+忆生平、既纫兰佩	yi sheng ping ji ren lan pei
 更怀椒糈	geng huai jiao xu
 谁信骚魂千载後	shui xin sao hun qian zai hou
 波底垂涎角黍	bo di chui xian jiao shu
-又说是、蛟馋龙怒	you shuo shi 、 jiao chan long nu
+又说是、蛟馋龙怒	you shuo shi jiao chan long nu
 把似而今醒到了	ba shi er jin xing dao le
-料当年、醉死差无苦	liao dang nian 、 zui si cha wu ku
+料当年、醉死差无苦	liao dang nian zui si cha wu ku
 聊一笑	liao yi xiao
 吊千古	diao qian gu
 刘克庄	liu ke zhuang
 贺新郎	he xin lang
 湛湛长空黑	zhan zhan chang kong hei
-更那堪、斜风细雨	geng na kan 、 xie feng xi yu
+更那堪、斜风细雨	geng na kan xie feng xi yu
 乱愁如织	luan chou ru zhi
 老眼平生空四海	lao yan ping sheng kong si hai
 赖有高楼百尺	lai you gao lou bai chi
-看浩荡、千崖秋色	kan hao dang 、 qian ya qiu se
+看浩荡、千崖秋色	kan hao dang qian ya qiu se
 白发书生神州泪	bai fa shu sheng shen zhou lei
-尽凄凉、不向牛山滴	jin qi liang 、 bu xiang niu shan di
+尽凄凉、不向牛山滴	jin qi liang bu xiang niu shan di
 追往事	zhui wang shi
 去无迹	qu wu ji
 少年自负凌云笔	shao nian zi fu ling yun bi
-到而今、春华落尽	dao er jin 、 chun hua luo jin
+到而今、春华落尽	dao er jin chun hua luo jin
 满怀萧瑟	man huai xiao se
 常恨世人新意少	chang hen shi ren xin yi shao
 爱说南朝狂客	ai shuo nan chao kuang ke
-把破帽、年年拈出	ba po mao 、 nian nian nian chu
+把破帽、年年拈出	ba po mao nian nian nian chu
 若对黄花孤负酒	ruo dui huang hua gu fu jiu
-怕黄花、也笑人岑寂	pa huang hua 、 ye xiao ren cen ji
+怕黄花、也笑人岑寂	pa huang hua ye xiao ren cen ji
 鸿北去	hong bei qu
 日西匿	ri xi ni
 刘克庄	liu ke zhuang
@@ -5270,7 +5270,7 @@ columns:
 斜桥转	xie qiao zhuan
 夹城西	jia cheng xi
 草软莎平跋马	cao ruan sha ping ba ma
-垂杨渡、玉勒争嘶	chui yang du 、 yu lei zheng si
+垂杨渡、玉勒争嘶	chui yang du yu lei zheng si
 认蛾眉凝笑	ren e mei ning xiao
 脸薄拂燕支	lian bao fu yan zhi
 绣户曾窥	xiu hu ceng kui
@@ -5302,7 +5302,7 @@ columns:
 去年元夜奉宸游	qu nian yuan ye feng chen you
 曾侍瑶池宴	ceng shi yao chi yan
 玉殿珠帘尽卷	yu dian zhu lian jin juan
-拥群仙、蓬壶阆苑	yong qun xian 、 peng hu lang yuan
+拥群仙、蓬壶阆苑	yong qun xian peng hu lang yuan
 五云深处	wu yun shen chu
 万烛光中	wan zhu guang zhong
 揭天丝管	jie tian si guan
@@ -5311,7 +5311,7 @@ columns:
 今宵谁念泣孤臣	jin xiao shui nian qi gu chen
 回首长安远	hui shou zhang an yuan
 可是尘缘未断	ke shi chen yuan wei duan
-谩惆怅、华胥梦短	man chou chang 、 hua xu meng duan
+谩惆怅、华胥梦短	man chou chang hua xu meng duan
 满怀幽恨	man huai you hen
 数点寒灯	shu dian han deng
 几声归雁	ji sheng gui yan
@@ -5342,7 +5342,7 @@ columns:
 廉颇老矣	lian po lao yi
 尚能饭否	shang neng fan fou
 张炎	zhang yan
-绿意・疏影	lv yi ・ shu ying
+绿意·疏影	lv yi shu ying
 碧圆自洁	bi yuan zi jie
 向浅洲远渚	xiang qian zhou yuan zhu
 亭亭清绝	ting ting qing jue
@@ -5350,26 +5350,26 @@ columns:
 不展秋心	bu zhan qiu xin
 能卷几多炎热	neng juan ji duo yan re
 鸳鸯密语同倾盖	yuan yang mi yu tong qing gai
-且莫与、浣纱人说	qie mo yu 、 huan sha ren shuo
-恐怨歌、忽断花风	kong yuan ge 、 hu duan hua feng
+且莫与、浣纱人说	qie mo yu huan sha ren shuo
+恐怨歌、忽断花风	kong yuan ge hu duan hua feng
 碎却翠云千叠	sui que cui yun qian die
 回首当年汉舞	hui shou dang nian han wu
-怕飞去、谩皱留仙裙摺	pa fei qu 、 man zhou liu xian qun zhe
+怕飞去、谩皱留仙裙摺	pa fei qu man zhou liu xian qun zhe
 恋恋青衫	lian lian qing shan
 犹染枯香	you ran ku xiang
 还叹鬓丝飘雪	hai tan bin si piao xue
 盘心清露如铅水	pan xin qing lu ru qian shui
-又一夜、西风吹折	you yi ye 、 xi feng chui zhe
-喜静看、匹练秋光	xi jing kan 、 pi lian qiu guang
+又一夜、西风吹折	you yi ye xi feng chui zhe
+喜静看、匹练秋光	xi jing kan pi lian qiu guang
 倒泻半湖明月	dao xie ban hu ming yue
 晁端礼	chao duan li
-绿头鸭・多丽	lv tou ya ・ duo li
+绿头鸭·多丽	lv tou ya duo li
 晚云收	wan yun shou
 淡天一片琉璃	dan tian yi pian liu li
-烂银盘、来从海底	lan yin pan 、 lai cong hai di
+烂银盘、来从海底	lan yin pan lai cong hai di
 皓色千里澄辉	hao se qian li cheng hui
-莹无尘、素娥淡伫	ying wu chen 、 su e dan zhu
-静可数、丹桂参差	jing ke shu 、 dan gui cen ci
+莹无尘、素娥淡伫	ying wu chen su e dan zhu
+静可数、丹桂参差	jing ke shu dan gui cen ci
 玉露初零	yu lu chu ling
 金风未凛	jin feng wei lin
 一年无似此佳时	yi nian wu shi ci jia shi
@@ -5382,12 +5382,12 @@ columns:
 念佳人	nian jia ren
 音尘别後	yin chen bie hou
 对此应解相思	dui ci ying jie xiang si
-最关情、漏声正永	zui guan qing 、 lou sheng zheng yong
-暗断肠、花影偷移	an duan chang 、 hua ying tou yi
+最关情、漏声正永	zui guan qing lou sheng zheng yong
+暗断肠、花影偷移	an duan chang hua ying tou yi
 料得来宵	liao de lai xiao
 清光未减	qing guang wei jian
 阴晴天气又争知	yin qing tian qi you zheng zhi
-共凝恋、如今别後	gong ning lian 、 ru jin bie hou
+共凝恋、如今别後	gong ning lian ru jin bie hou
 还是隔年期	hai shi ge nian qi
 人强健	ren qiang jian
 清尊素影	qing zun su ying
@@ -5398,7 +5398,7 @@ columns:
 放晓晴池院	fang xiao qing chi yuan
 杨柳于人便青眼	yang liu yu ren bian qing yan
 更风流多处	geng feng liu duo chu
-一点梅心、相映远	yi dian mei xin 、 xiang ying yuan
+一点梅心、相映远	yi dian mei xin xiang ying yuan
 约略轻笑浅	yue lve qing xiao qian
 一年春好处	yi nian chun hao chu
 不在浓芳	bu zai nong fang
@@ -5432,7 +5432,7 @@ columns:
 乱山无数	luan shan wu shu
 行尽暮沙衰草	xing jin mu sha shuai cao
 星斗横幽馆	xing dou heng you guan
-夜无眠、灯花空老	ye wu mian 、 deng hua kong lao
+夜无眠、灯花空老	ye wu mian deng hua kong lao
 雾浓香鸭	wu nong xiang ya
 冰凝泪烛	bing ning lei zhu
 霜天难晓	shuang tian nan xiao
@@ -5443,7 +5443,7 @@ columns:
 梦中朝雨	meng zhong chao yu
 都是醒时烦恼	dou shi xing shi fan nao
 料有牵情处	liao you qian qing chu
-忍思量、耳边曾道	ren si liang 、 er bian ceng dao
+忍思量、耳边曾道	ren si liang er bian ceng dao
 甚时跃马归来	shen shi yue ma gui lai
 认得迎门轻笑	ren de ying men qing xiao
 秦观	qin guan
@@ -5478,7 +5478,7 @@ columns:
 暂停征棹	zan ting zheng zhao
 聊共引离尊	liao gong yin li zun
 多少蓬莱旧事	duo shao peng lai jiu shi
-空回首、烟霭纷纷	kong hui shou 、 yan ai fen fen
+空回首、烟霭纷纷	kong hui shou yan ai fen fen
 斜阳外	xie yang wai
 寒鸦万点	han ya wan dian
 流水绕孤村	liu shui rao gu cun
@@ -5486,9 +5486,9 @@ columns:
 当此际	dang ci ji
 香囊暗解	xiang nang an jie
 罗带轻分	luo dai qing fen
-谩赢得、青楼薄名存	man ying de 、 qing lou bao ming cun
+谩赢得、青楼薄名存	man ying de qing lou bao ming cun
 此去何时见也	ci qu he shi jian ye
-襟袖上、空惹啼痕	jin xiu shang 、 kong re ti hen
+襟袖上、空惹啼痕	jin xiu shang kong re ti hen
 伤情处	shang qing chu
 高城望断	gao cheng wang duan
 灯火已黄昏	deng huo yi huang hun
@@ -5504,7 +5504,7 @@ columns:
 阮郎归	ruan lang gui
 湘天风雨破寒初	xiang tian feng yu po han chu
 深沈庭院虚	shen shen ting yuan xu
-丽谯吹罢《小单于》	li qiao chui ba 《 xiao chan yu 》
+丽谯吹罢《小单于》	li qiao chui ba xiao chan yu
 迢迢清夜徂	tiao tiao qing ye cu
 乡梦断	xiang meng duan
 旅魂孤	lv hun gu
@@ -5519,7 +5519,7 @@ columns:
 古台芳榭	gu tai fang xie
 飞燕蹴红英	fei yan cu hong ying
 舞困榆钱自落	wu kun yu qian zi luo
-秋千外、绿水桥平	qiu qian wai 、 lv shui qiao ping
+秋千外、绿水桥平	qiu qian wai lv shui qiao ping
 东风里	dong feng li
 朱门映柳	zhu men ying liu
 低底按小秦筝	di di an xiao qin zheng
@@ -5540,9 +5540,9 @@ columns:
 芳草碧色	fang cao bi se
 萋萋遍南陌	qi qi bian nan mo
 暖絮乱红	nuan xu luan hong
-也知人、春愁无力	ye zhi ren 、 chun chou wu li
+也知人、春愁无力	ye zhi ren chun chou wu li
 忆得盈盈拾翠侣	yi de ying ying shi cui lv
-共携赏、凤城寒食	gong xie shang 、 feng cheng han shi
+共携赏、凤城寒食	gong xie shang feng cheng han shi
 到今来	dao jin lai
 海角逢春	hai jiao feng chun
 天涯为客	tian ya wei ke
@@ -5550,9 +5550,9 @@ columns:
 还似织	hai shi zhi
 泪暗拭	lei an shi
 又偷滴	you tou di
-谩伫立、遍倚危阑	man zhu li 、 bian yi wei lan
+谩伫立、遍倚危阑	man zhu li bian yi wei lan
 尽黄昏	jin huang hun
-也只是、暮云凝碧	ye zhi shi 、 mu yun ning bi
+也只是、暮云凝碧	ye zhi shi mu yun ning bi
 拼则而已今拼了	pin ze er yi jin pin le
 忘则怎生便忘得	wang ze zen sheng bian wang de
 又还问鳞鸿	you hai wen lin hong
@@ -5570,7 +5570,7 @@ columns:
 飞燕又将归信误	fei yan you jiang gui xin wu
 小屏风上西江路	xiao ping feng shang xi jiang lu
 贺铸	he zhu
-醉中真・浣溪沙	zui zhong zhen ・ huan xi sha
+醉中真·浣溪沙	zui zhong zhen huan xi sha
 不信芳春厌老人	bu xin fang chun yan lao ren
 老人几度送春归	lao ren ji du song chun gui
 惜春行乐莫辞频	xi chun xing le mo ci pin
@@ -5578,7 +5578,7 @@ columns:
 恼花颠酒拼君嗔	nao hua dian jiu pin jun chen
 物情惟有醉中真	wu qing wei you zui zhong zhen
 贺铸	he zhu
-人南渡・感皇恩	ren nan du ・ gan huang en
+人南渡·感皇恩	ren nan du gan huang en
 兰芷满芳洲	lan zhi man fang zhou
 游思横路	you si heng lu
 罗袜尘生步	luo wa chen sheng bu
@@ -5600,15 +5600,15 @@ columns:
 艳真多态	yan zhen duo tai
 更的的	geng de de
 频回眄睐	pin hui mian lai
-便认得、琴心相许	bian ren de 、 qin xin xiang xu
+便认得、琴心相许	bian ren de qin xin xiang xu
 与写宜男双带	yu xie yi nan shuang dai
-记画堂、斜月朦胧	ji hua tang 、 xie yue meng long
+记画堂、斜月朦胧	ji hua tang xie yue meng long
 轻颦微笑娇无奈	qing pin wei xiao jiao wu nai
 便翡翠屏开	bian fei cui ping kai
 芙蓉帐掩	fu rong zhang yan
 与把香罗偷解	yu ba xiang luo tou jie
 自过了收灯後	zi guo le shou deng hou
-都不见、踏青挑菜	dou bu jian 、 ta qing tiao cai
+都不见、踏青挑菜	dou bu jian ta qing tiao cai
 几回凭双燕	ji hui ping shuang yan
 丁宁深意	ding ning shen yi
 往来翻恨重帘碍	wang lai fan hen zhong lian ai
@@ -5618,7 +5618,7 @@ columns:
 厌厌睡起	yan yan shui qi
 犹有花梢日在	you you hua shao ri zai
 贺铸	he zhu
-伴云来・天香	ban yun lai ・ tian xiang
+伴云来·天香	ban yun lai tian xiang
 烟络横林	yan luo heng lin
 山沈远照	shan shen yuan zhao
 逦迤黄昏钟鼓	li yi huang hun zhong gu
@@ -5626,11 +5626,11 @@ columns:
 蛩催机杼	qiong cui ji zhu
 共苦清秋风露	gong ku qing qiu feng lu
 不眠思妇	bu mian si fu
-齐应和、几声砧杵	qi ying he 、 ji sheng zhen chu
+齐应和、几声砧杵	qi ying he ji sheng zhen chu
 惊动天涯倦宦	jing dong tian ya juan huan
 岁华行暮	sui hua xing mu
 当年酒狂自负	dang nian jiu kuang zi fu
-谓东君、已春相付	wei dong jun 、 yi chun xiang fu
+谓东君、已春相付	wei dong jun yi chun xiang fu
 流浪征骖北道	liu lang zheng can bei dao
 客墙南浦	ke qiang nan pu
 幽恨无人晤语	you hen wu ren wu yu
@@ -5640,7 +5640,7 @@ columns:
 无名氏	wu ming shi
 青玉案	qing yu an
 一年春事都来几	yi nian chun shi dou lai ji
-早过了、三之二	zao guo le 、 san zhi er
+早过了、三之二	zao guo le san zhi er
 绿暗红嫣浑可事	lv an hong yan hun ke shi
 绿杨庭院	lv yang ting yuan
 暖风帘幕	nuan feng lian mu
@@ -5659,7 +5659,7 @@ columns:
 山色谁题	shan se shui ti
 楼前有雁斜书	lou qian you yan xie shu
 东风紧送斜阳下	dong feng jin song xie yang xia
-弄旧寒、晚酒醒馀	nong jiu han 、 wan jiu xing yu
+弄旧寒、晚酒醒馀	nong jiu han wan jiu xing yu
 自销凝	zi xiao ning
 能几花前	neng ji hua qian
 顿老相如	dun lao xiang ru
@@ -5669,7 +5669,7 @@ columns:
 怕舣游船	pa yi you chuan
 临流可奈清臞	lin liu ke nai qing qu
 飞红若到西湖底	fei hong ruo dao xi hu di
-搅翠澜、总是愁鱼	jiao cui lan 、 zong shi chou yu
+搅翠澜、总是愁鱼	jiao cui lan zong shi chou yu
 莫重来	mo zhong lai
 吹尽香绵	chui jin xiang mian
 泪满平芜	lei man ping wu
@@ -5681,7 +5681,7 @@ columns:
 古石埋香	gu shi mai xiang
 金沙锁骨连环	jin sha suo gu lian huan
 南楼不恨吹横笛	nan lou bu hen chui heng di
-恨晓风、千里关山	hen xiao feng 、 qian li guan shan
+恨晓风、千里关山	hen xiao feng qian li guan shan
 半飘零	ban piao ling
 庭上黄昏	ting shang huang hun
 月冷阑干	yue leng lan gan
@@ -5691,35 +5691,35 @@ columns:
 细雨归鸿	xi yu gui hong
 孤山无限春寒	gu shan wu xian chun han
 离魂难倩招清些	li hun nan qian zhao qing xie
-梦缟衣、解佩溪边	meng gao yi 、 jie pei xi bian
+梦缟衣、解佩溪边	meng gao yi jie pei xi bian
 最愁人	zui chou ren
 啼鸟晴明	ti niao qing ming
 叶底青圆	ye di qing yuan
 吴文英	wu wen ying
 三姝媚	san shu mei
 湖山经醉惯	hu shan jing zui guan
-溃春衫、啼痕酒痕无限	kui chun shan 、 ti hen jiu hen wu xian
+溃春衫、啼痕酒痕无限	kui chun shan ti hen jiu hen wu xian
 又客长安	you ke chang an
 叹断襟零袂	tan duan jin ling mei
 尘谁浣	chen shui huan
 紫曲门荒	zi qu men huang
-沿败井、风摇青蔓	yan bai jing 、 feng yao qing man
+沿败井、风摇青蔓	yan bai jing feng yao qing man
 对语东邻	dui yu dong lin
 犹是曾巢	you shi ceng chao
 谢堂双燕	xie tang shuang yan
 春梦人间须断	chun meng ren jian xu duan
-但怪得、当年梦缘能短	dan guai de 、 dang nian meng yuan neng duan
+但怪得、当年梦缘能短	dan guai de dang nian meng yuan neng duan
 绣屋秦筝	xiu wu qin zheng
 傍海棠偏爱	bang hai tang pian ai
 夜深开宴	ye shen kai yan
 舞歇歌沈	wu xie ge shen
-花未减、红颜先变	hua wei jian 、 hong yan xian bian
+花未减、红颜先变	hua wei jian hong yan xian bian
 伫久河桥欲去	zhu jiu he qiao yu qu
 斜阳泪满	xie yang lei man
 吴文英	wu wen ying
 八声甘州	ba sheng gan zhou
 渺空烟四远	miao kong yan si yuan
-是何年、青天坠长星	shi he nian 、 qing tian zhui zhang xing
+是何年、青天坠长星	shi he nian qing tian zhui zhang xing
 幻苍崖云树	huan cang ya yun shu
 名娃金屋	ming wa jin wu
 残霸宫城	can ba gong cheng
@@ -5732,8 +5732,8 @@ columns:
 独钓醒醒	du diao xing xing
 问苍波无语	wen cang bo wu yu
 华发奈山青	hua fa nai shan qing
-水涵空、阑干高处	shui han kong 、 lan gan gao chu
-送乱鸦、斜日落渔汀	song luan ya 、 xie ri luo yu ting
+水涵空、阑干高处	shui han kong lan gan gao chu
+送乱鸦、斜日落渔汀	song luan ya xie ri luo yu ting
 连呼酒	lian hu jiu
 上琴台去	shang qin tai qu
 秋与云平	qiu yu yun ping
@@ -5746,7 +5746,7 @@ columns:
 温柔便入深乡	wen rou bian ru shen xiang
 词韵窄	ci yun zhai
 酒杯长	jiu bei zhang
-翦蜡花、壶箭催忙	jian la hua 、 hu jian cui mang
+翦蜡花、壶箭催忙	jian la hua hu jian cui mang
 共追游处	gong zhui you chu
 凌波翠陌	ling bo cui mo
 连棹横塘	lian zhao heng tang
@@ -5757,12 +5757,12 @@ columns:
 依前唤酒银罂	yi qian huan jiu yin ying
 溪雨急	xi yu ji
 岸花狂	an hua kuang
-趁残鸦、飞过苍茫	chen can ya 、 fei guo cang mang
+趁残鸦、飞过苍茫	chen can ya fei guo cang mang
 故人楼上	gu ren lou shang
 凭谁指与	ping shui zhi yu
 芳草斜阳	fang cao xie yang
 吴文英	wu wen ying
-蹋莎行・踏莎行	ta sha xing ・ ta sha xing
+蹋莎行·踏莎行	ta sha xing ta sha xing
 润玉笼绡	run yu long xiao
 檀樱倚扇	tan ying yi shan
 绣圈犹带脂香浅	xiu quan you dai zhi xiang qian
@@ -5776,13 +5776,13 @@ columns:
 吴文英	wu wen ying
 夜游宫	ye you gong
 人去西楼雁杳	ren qu xi lou yan yao
-叙别梦、扬州一觉	xu bie meng 、 yang zhou yi jiao
+叙别梦、扬州一觉	xu bie meng yang zhou yi jiao
 云澹星疏楚山晓	yun dan xing shu chu shan xiao
 听啼乌	ting ti wu
 立河桥	li he qiao
 话未了	hua wei liao
 雨外蛩声早	yu wai qiong sheng zao
-细织就、霜丝多少	xi zhi jiu 、 shuang si duo shao
+细织就、霜丝多少	xi zhi jiu shuang si duo shao
 说与萧娘未知道	shuo yu xiao niang wei zhi dao
 向长安	xiang chang an
 对秋灯	dui qiu deng
@@ -5802,60 +5802,60 @@ columns:
 唐多令	tang duo ling
 何处合成愁	he chu he cheng chou
 离人心上秋	li ren xin shang qiu
-纵芭蕉、不雨也飕飕	zong ba jiao 、 bu yu ye sou sou
+纵芭蕉、不雨也飕飕	zong ba jiao bu yu ye sou sou
 都道晚凉天气好	dou dao wan liang tian qi hao
-有明月、怕登楼	you ming yue 、 pa deng lou
+有明月、怕登楼	you ming yue pa deng lou
 年事梦中休	nian shi meng zhong xiu
 花空烟水流	hua kong yan shui liu
-燕辞归、客尚淹留	yan ci gui 、 ke shang yan liu
+燕辞归、客尚淹留	yan ci gui ke shang yan liu
 垂柳不萦裙带住	chui liu bu ying qun dai zhu
-漫长是、系行舟	man chang shi 、 xi xing zhou
+漫长是、系行舟	man chang shi xi xing zhou
 吴文英	wu wen ying
-金缕歌・贺新郎	jin lv ge ・ he xin lang
+金缕歌·贺新郎	jin lv ge he xin lang
 乔木生云气	qiao mu sheng yun qi
-访中兴、英雄陈迹	fang zhong xing 、 ying xiong chen ji
+访中兴、英雄陈迹	fang zhong xing ying xiong chen ji
 暗追前事	an zhui qian shi
 战舰东风悭借便	zhan jian dong feng qian jie bian
 梦断神州故里	meng duan shen zhou gu li
-旋小筑、吴宫闲地	xuan xiao zhu 、 wu gong xian di
+旋小筑、吴宫闲地	xuan xiao zhu wu gong xian di
 华表月明归夜鹤	hua biao yue ming gui ye he
-叹当时、花竹今如此	tan dang shi 、 hua zhu jin ru ci
+叹当时、花竹今如此	tan dang shi hua zhu jin ru ci
 枝上露	zhi shang lu
 溅清泪	jian qing lei
 遨头小簇行春队	ao tou xiao cu xing chun dui
-步苍苔、寻幽别坞	bu cang tai 、 xun you bie wu
+步苍苔、寻幽别坞	bu cang tai xun you bie wu
 问梅开未	wen mei kai wei
 重唱梅边吸度曲	chong chang mei bian xi du qu
 催发寒梢冻蕊	cui fa han shao dong rui
-此心与、东君同意	ci xin yu 、 dong jun tong yi
+此心与、东君同意	ci xin yu dong jun tong yi
 後不如今非昔	hou bu ru jin fei xi
-两无言、相对沧浪水	liang wu yan 、 xiang dui cang lang shui
+两无言、相对沧浪水	liang wu yan xiang dui cang lang shui
 怀此恨	huai ci hen
 寄残醉	ji can zui
 潘希白	pan xi bai
 大有	da you
 戏马台前	xi ma tai qian
 采花篱下	cai hua li xia
-问岁华、还是重九	wen sui hua 、 hai shi chong jiu
-恰归来、南山翠色依旧	qia gui lai 、 nan shan cui se yi jiu
+问岁华、还是重九	wen sui hua hai shi chong jiu
+恰归来、南山翠色依旧	qia gui lai nan shan cui se yi jiu
 帘栊昨夜听风雨	lian long zuo ye ting feng yu
-都不似、登归时候	dou bu shi 、 deng gui shi hou
+都不似、登归时候	dou bu shi deng gui shi hou
 一片宋玉情怀	yi pian song yu qing huai
 十分卫郎清瘦	shi fen wei lang qing shou
-红萸佩、空对酒	hong yu pei 、 kong dui jiu
+红萸佩、空对酒	hong yu pei kong dui jiu
 砧杆动微寒	zhen gan dong wei han
 暗欺罗袖	an qi luo xiu
 秋已无多	qiu yi wu duo
 早是败荷衰柳	zao shi bai he shuai liu
 强整帽檐侧	qiang zheng mao yan ce
-曾经向、天涯搔首	ceng jing xiang 、 tian ya sao shou
-几回忆、故国莼鲈	ji hui yi 、 gu guo chun lu
+曾经向、天涯搔首	ceng jing xiang tian ya sao shou
+几回忆、故国莼鲈	ji hui yi gu guo chun lu
 霜前雁後	shuang qian yan hou
 刘辰翁	liu chen weng
 兰陵王	lan ling wang
 送春去	song chun qu
 春去人间无路	chun qu ren jian wu lu
-秋千外、芳草连天	qiu qian wai 、 fang cao lian tian
+秋千外、芳草连天	qiu qian wai fang cao lian tian
 谁遣风沙暗南浦	shui qian feng sha an nan pu
 依依甚意绪	yi yi shen yi xu
 漫忆海门飞絮	man yi hai men fei xu
@@ -5884,28 +5884,28 @@ columns:
 刘辰翁	liu chen weng
 宝鼎现	bao ding xian
 红妆春骑	hong zhuang chun qi
-踏月影、竿旗穿市	ta yue ying 、 gan qi chuan shi
-望不尽、楼台歌舞	wang bu jin 、 lou tai ge wu
+踏月影、竿旗穿市	ta yue ying gan qi chuan shi
+望不尽、楼台歌舞	wang bu jin lou tai ge wu
 习习香尘莲步底	xi xi xiang chen lian bu di
-箫声断、约彩鸾归去	xiao sheng duan 、 yue cai luan gui qu
+箫声断、约彩鸾归去	xiao sheng duan yue cai luan gui qu
 未怕金吾呵醉	wei pa jin wu he zui
-甚辇路、喧阗且止	shen nian lu 、 xuan tian qie zhi
+甚辇路、喧阗且止	shen nian lu xuan tian qie zhi
 听得念奴歌起	ting de nian nu ge qi
 父老犹记宣和事	fu lao you ji xuan he shi
-抱铜仙、清泪如水	bao tong xian 、 qing lei ru shui
-还转盼、沙河多丽	hai zhuan pan 、 sha he duo li
+抱铜仙、清泪如水	bao tong xian qing lei ru shui
+还转盼、沙河多丽	hai zhuan pan sha he duo li
 漾明光连邸第	yang ming guang lian di di
-帘影冻、散红光成绮	lian ying dong 、 san hong guang cheng qi
+帘影冻、散红光成绮	lian ying dong san hong guang cheng qi
 月浸葡萄十里	yue jin pu tao shi li
-看往来、神仙才子	kan wang lai 、 shen xian cai zi
+看往来、神仙才子	kan wang lai shen xian cai zi
 肯把菱花扑碎	ken ba ling hua pu sui
 肠断竹马儿童	chang duan zhu ma er tong
-空见说、三千乐指	kong jian shuo 、 san qian le zhi
+空见说、三千乐指	kong jian shuo san qian le zhi
 等多时春不归来	deng duo shi chun bu gui lai
 到春时欲睡	dao chun shi yu shui
-又说向、灯前拥髻	you shuo xiang 、 deng qian yong ji
+又说向、灯前拥髻	you shuo xiang deng qian yong ji
 暗滴鲛珠坠	an di jiao zhu zhui
-便当日、亲见霓裳	bian dang ri 、 qin jian ni chang
+便当日、亲见霓裳	bian dang ri qin jian ni chang
 天上人间梦里	tian shang ren jian meng li
 刘辰翁	liu chen weng
 永遇乐	yong yu le
@@ -5935,7 +5935,7 @@ columns:
 满村社鼓	man cun she gu
 刘辰翁	liu chen weng
 摸鱼儿	mo yu er
-怎知他、春归何处	zen zhi ta 、 chun gui he chu
+怎知他、春归何处	zen zhi ta chun gui he chu
 相逢且尽尊酒	xiang feng qie jin zun jiu
 少年袅袅天涯恨	shao nian niao niao tian ya hen
 长结西湖烟柳	zhang jie xi hu yan liu
@@ -5959,7 +5959,7 @@ columns:
 清狂顾曲	qing kuang gu qu
 此会几时又	ci hui ji shi you
 周密	zhou mi
-绣鸾凤花犯・花犯	xiu luan feng hua fan ・ hua fan
+绣鸾凤花犯·花犯	xiu luan feng hua fan hua fan
 楚江湄	chu jiang mei
 湘娥乍见	xiang e zha jian
 无言洒清泪	wu yan sa qing lei
@@ -5975,9 +5975,9 @@ columns:
 骚人恨	sao ren hen
 枉赋芳兰幽芷	wang fu fang lan you zhi
 春思远	chun si yuan
-谁叹赏、国香风味	shui tan shang 、 guo xiang feng wei
-相将共、岁寒伴侣	xiang jiang gong 、 sui han ban lv
-小窗净、沈烟熏翠袂	xiao chuang jing 、 shen yan xun cui mei
+谁叹赏、国香风味	shui tan shang guo xiang feng wei
+相将共、岁寒伴侣	xiang jiang gong sui han ban lv
+小窗净、沈烟熏翠袂	xiao chuang jing shen yan xun cui mei
 幽梦觉	you meng jue
 涓涓清露	juan juan qing lu
 一枝灯影里	yi zhi deng ying li
@@ -5990,16 +5990,16 @@ columns:
 曾未见	ceng wei jian
 谩拟梨云梅雪	man ni li yun mei xue
 淮山春晚	huai shan chun wan
-问谁识、芳心高洁	wen shui shi 、 fang xin gao jie
-消几番、花落花开	xiao ji fan 、 hua luo hua kai
+问谁识、芳心高洁	wen shui shi fang xin gao jie
+消几番、花落花开	xiao ji fan hua luo hua kai
 老了玉关豪杰	lao le yu guan hao jie
 金壶翦送琼枝	jin hu jian song qiong zhi
 看一骑红尘	kan yi qi hong chen
 香度瑶阙	xiang du yao que
 韶华正好	shao hua zheng hao
-应自喜、初识长安蜂蝶	ying zi xi 、 chu shi chang an feng die
+应自喜、初识长安蜂蝶	ying zi xi chu shi chang an feng die
 杜郎老矣	du lang lao yi
-想旧事、花须能说	xiang jiu shi 、 hua xu neng shuo
+想旧事、花须能说	xiang jiu shi hua xu neng shuo
 记少年	ji shao nian
 一梦扬州	yi meng yang zhou
 二十四桥明月	er shi si qiao ming yue
@@ -6011,17 +6011,17 @@ columns:
 碧砧度韵	bi zhen du yun
 银床飘叶	yin chuang piao ye
 衣湿桐阴露冷	yi shi tong yin lu leng
-采凉花、时赋秋雪	cai liang hua 、 shi fu qiu xue
+采凉花、时赋秋雪	cai liang hua shi fu qiu xue
 叹轻别	tan qing bie
 一襟幽事	yi jin you shi
 砌蛩能说	qi qiong neng shuo
 客思吟商还怯	ke si yin shang hai qie
-怨歌长、琼壶暗缺	yuan ge zhang 、 qiong hu an que
+怨歌长、琼壶暗缺	yuan ge zhang qiong hu an que
 翠扇恩疏	cui shan en shu
 红衣香褪	hong yi xiang tui
 翻成消歇	fan cheng xiao xie
 玉骨西风	yu gu xi feng
-恨最恨、闲却新凉时节	hen zui hen 、 xian que xin liang shi jie
+恨最恨、闲却新凉时节	hen zui hen xian que xin liang shi jie
 楚箫咽	chu xiao yan
 谁倚西楼淡月	shui yi xi lou dan yue
 周密	zhou mi
@@ -6033,7 +6033,7 @@ columns:
 恼芳情偏在	nao fang qing pian zai
 翠深红隙	cui shen hong xi
 漠漠香尘隔	mo mo xiang chen ge
-沸十里、乱弦丛笛	fei shi li 、 luan xian cong di
+沸十里、乱弦丛笛	fei shi li luan xian cong di
 看画船	kan hua chuan
 尽入西泠	jin ru xi ling
 闲却半湖春色	xian que ban hu chun se
@@ -6045,8 +6045,8 @@ columns:
 怕梨云梦冷	pa li yun meng leng
 杏香愁幂	xing xiang chou mi
 歌管酬寒食	ge guan chou han shi
-奈蝶怨、良宵岑寂	nai die yuan 、 liang xiao cen ji
-正满湖、碎月摇花	zheng man hu 、 sui yue yao hua
+奈蝶怨、良宵岑寂	nai die yuan liang xiao cen ji
+正满湖、碎月摇花	zheng man hu sui yue yao hua
 怎生去得	zen sheng qu de
 周密	zhou mi
 高阳台	gao yang tai
@@ -6056,7 +6056,7 @@ columns:
 宝带金章	bao dai jin zhang
 尊前茸帽风	zun qian rong mao feng
 秦关汴水经行地	qin guan bian shui jing xing di
-想登临、都付新诗	xiang deng lin 、 dou fu xin shi
+想登临、都付新诗	xiang deng lin dou fu xin shi
 纵英游	zong ying you
 叠鼓清笳	die gu qing jia
 骏马名姬	jun ma ming ji
@@ -6066,17 +6066,17 @@ columns:
 投老残年	tou lao can nian
 江南谁念方回	jiang nan shui nian fang hui
 东风渐绿西湖柳	dong feng jian lv xi hu liu
-雁已还、人未南归	yan yi hai 、 ren wei nan gui
+雁已还、人未南归	yan yi hai ren wei nan gui
 最关情	zui guan qing
 折尽梅花	zhe jin mei hua
 难寄相思	nan ji xiang si
 朱嗣发	zhu si fa
 摸鱼儿	mo yu er
-对西风、鬓摇烟碧	dui xi feng 、 bin yao yan bi
+对西风、鬓摇烟碧	dui xi feng bin yao yan bi
 参差前事流水	cen ci qian shi liu shui
 紫丝罗带鸳鸯结	zi si luo dai yuan yang jie
 的的镜盟钗誓	de de jing meng chai shi
-浑不记、漫手织回文	hun bu ji 、 man shou zhi hui wen
+浑不记、漫手织回文	hun bu ji man shou zhi hui wen
 几度欲心碎	ji du yu xin sui
 安花著蒂	an hua zhu di
 奈雨覆云翻	nai yu fu yun fan
@@ -6088,13 +6088,13 @@ columns:
 阴晴也只随天意	yin qing ye zhi sui tian yi
 枉了玉消香碎	wang le yu xiao xiang sui
 君且醉	jun qie zui
-君不见、长门青草春风泪	jun bu jian 、 chang men qing cao chun feng lei
+君不见、长门青草春风泪	jun bu jian chang men qing cao chun feng lei
 一时左计	yi shi zuo ji
 悔不早荆钗	hui bu zao jing chai
 暮天修竹	mu tian xiu zhu
 头白倚寒翠	tou bai yi han cui
 彭元逊	peng yuan xun
-解佩环・疏影	jie pei huan ・ shu ying
+解佩环·疏影	jie pei huan shu ying
 江空不渡	jiang kong bu du
 恨蘼芜杜若	hen mi wu du ruo
 零落无数	ling luo wu shu
@@ -6104,7 +6104,7 @@ columns:
 风烟雨雪阴晴晚	feng yan yu xue yin qing wan
 更何须	geng he xu
 春风千树	chun feng qian shu
-尽孤城、落木萧萧	jin gu cheng 、 luo mu xiao xiao
+尽孤城、落木萧萧	jin gu cheng luo mu xiao xiao
 日夜江声流去	ri ye jiang sheng liu qu
 日晏山深闻笛	ri yan shan shen wen di
 恐他年流落	kong ta nian liu luo
@@ -6120,7 +6120,7 @@ columns:
 彭元逊	peng yuan xun
 六丑	liu chou
 似东风老大	shi dong feng lao da
-那复有、当时风气	na fu you 、 dang shi feng qi
+那复有、当时风气	na fu you dang shi feng qi
 有情不收	you qing bu shou
 江山身是寄	jiang shan shen shi ji
 浩荡何世	hao dang he shi
@@ -6140,22 +6140,22 @@ columns:
 帐庐好在春睡	zhang lu hao zai chun shui
 共飞归湖上	gong fei gui hu shang
 草青无地	cao qing wu di
-雨、春心如腻	yu 、 chun xin ru ni
-欲待化、丰乐楼前	yu dai hua 、 feng le lou qian
+雨、春心如腻	yu chun xin ru ni
+欲待化、丰乐楼前	yu dai hua feng le lou qian
 青门都废	qing men dou fei
-何人念、流落无几	he ren nian 、 liu luo wu ji
+何人念、流落无几	he ren nian liu luo wu ji
 点点抟作	dian dian tuan zuo
 雪绵松润	xue mian song run
 为君泪	wei jun lei
 陆淞	lu song
 瑞鹤仙	rui he xian
 脸霞红印枕	lian xia hong yin zhen
-睡觉来、冠儿还是不整	shui jiao lai 、 guan er hai shi bu zheng
+睡觉来、冠儿还是不整	shui jiao lai guan er hai shi bu zheng
 屏间麝煤冷	ping jian she mei leng
 但眉峰压翠	dan mei feng ya cui
 泪珠弹粉	lei zhu dan fen
 堂深昼永	tang shen zhou yong
-燕交飞、风帘露井	yan jiao fei 、 feng lian lu jing
+燕交飞、风帘露井	yan jiao fei feng lian lu jing
 恨无人	hen wu ren
 与说相思	yu shuo xiang si
 近日带围宽尽	jin ri dai wei kuan jin
@@ -6169,10 +6169,10 @@ columns:
 待归来	dai gui lai
 先指花梢教看	xian zhi hua shao jiao kan
 却把心期细问	que ba xin qi xi wen
-问因循、过了青春	wen yin xun 、 guo le qing chun
+问因循、过了青春	wen yin xun guo le qing chun
 怎生意稳	zen sheng yi wen
 贺铸	he zhu
-减字浣溪沙・浣溪沙	jian zi huan xi sha ・ huan xi sha
+减字浣溪沙·浣溪沙	jian zi huan xi sha huan xi sha
 楼角初销一缕霞	lou jiao chu xiao yi lv xia
 淡黄杨柳暗栖鸦	dan huang yang liu an qi ya
 玉人和月摘梅花	yu ren he yue zhai mei hua
@@ -6182,15 +6182,15 @@ columns:
 贺铸	he zhu
 天门谣	tian men yao
 牛渚天门险	niu zhu tian men xian
-限南北、七雄豪占	xian nan bei 、 qi xiong hao zhan
+限南北、七雄豪占	xian nan bei qi xiong hao zhan
 清雾敛	qing wu lian
 与闲人登览	yu xian ren deng lan
 待月上潮平波滟滟	dai yue shang chao ping bo yan yan
-塞管轻吹新《阿滥》	sai guan qing chui xin 《 a lan 》
+塞管轻吹新《阿滥》	sai guan qing chui xin a lan
 风满槛	feng man kan
-历历数、西州更点	li li shu 、 xi zhou geng dian
+历历数、西州更点	li li shu xi zhou geng dian
 贺铸	he zhu
-石州引・石州慢	shi zhou yin ・ shi zhou man
+石州引·石州慢	shi zhou yin shi zhou man
 薄雨初寒	bao yu chu han
 斜照弄晴	xie zhao nong qing
 春意空阔	chun yi kong kuo
@@ -6223,7 +6223,7 @@ columns:
 泪竹痕鲜	lei zhu hen xian
 佩兰香老	pei lan xiang lao
 湘天浓暖	xiang tian nong nuan
-记小江、风月佳时	ji xiao jiang 、 feng yue jia shi
+记小江、风月佳时	ji xiao jiang feng yue jia shi
 屡约非烟游伴	lv yue fei yan you ban
 须信鸾弦易断	xu xin luan xian yi duan
 奈云和再鼓	nai yun he zai gu
@@ -6233,7 +6233,7 @@ columns:
 青翰棹舣	qing han zhao yi
 白苹洲畔	bai ping zhou pan
 尽木临皋飞观	jin mu lin gao fei guan
-不解寄、一字相思	bu jie ji 、 yi zi xiang si
+不解寄、一字相思	bu jie ji yi zi xiang si
 幸有归来双燕	xing you gui lai shuang yan
 贺铸	he zhu
 蝶恋花	die lian hua
@@ -6252,9 +6252,9 @@ columns:
 天阔云高	tian kuo yun gao
 溪横水远	xi heng shui yuan
 晚日寒生轻晕	wan ri han sheng qing yun
-闲阶静、杨花渐少	xian jie jing 、 yang hua jian shao
-朱门掩、莺声犹嫩	zhu men yan 、 ying sheng you nen
-悔匆匆、过却清明	hui cong cong 、 guo que qing ming
+闲阶静、杨花渐少	xian jie jing yang hua jian shao
+朱门掩、莺声犹嫩	zhu men yan ying sheng you nen
+悔匆匆、过却清明	hui cong cong guo que qing ming
 旋占得馀芳	xuan zhan de yu fang
 已成幽恨	yi cheng you hen
 都几日阴沈	dou ji ri yin shen
@@ -6263,9 +6263,9 @@ columns:
 怨入双眉闲斗损	yuan ru shuang mei xian dou sun
 乍品得情怀	zha pin de qing huai
 看承全近	kan cheng quan jin
-深深态、无非自许	shen shen tai 、 wu fei zi xu
-厌厌意、终羞人间	yan yan yi 、 zhong xiu ren jian
-争知道、梦里蓬莱	zheng zhi dao 、 meng li peng lai
+深深态、无非自许	shen shen tai wu fei zi xu
+厌厌意、终羞人间	yan yan yi zhong xiu ren jian
+争知道、梦里蓬莱	zheng zhi dao meng li peng lai
 待忘了馀香	dai wang le yu xiang
 时传音信	shi chuan yin xin
 纵留得莺花	zong liu de ying hua
@@ -6279,7 +6279,7 @@ columns:
 东君也不爱惜	dong jun ye bu ai xi
 雪压霜欺	xue ya shuang qi
 无情燕子	wu qing yan zi
-怕春寒、轻失花期	pa chun han 、 qing shi hua qi
+怕春寒、轻失花期	pa chun han qing shi hua qi
 却是有	que shi you
 年年塞雁	nian nian sai yan
 归来曾见开时	gui lai ceng jian kai shi
@@ -6289,30 +6289,30 @@ columns:
 伤心故人去後	shang xin gu ren qu hou
 冷落新诗	leng luo xin shi
 微云淡月	wei yun dan yue
-对江天、分付他谁	dui jiang tian 、 fen fu ta shui
+对江天、分付他谁	dui jiang tian fen fu ta shui
 空自忆	kong zi yi
 清香未减	qing xiang wei jian
 风流不在人知	feng liu bu zai ren zhi
 潘汾	pan fen
 贺新郎	he xin lang
 篆缕销香鼎	zhuan lv xiao xiang ding
-翠沈沈、庭阴转午	cui shen shen 、 ting yin zhuan wu
+翠沈沈、庭阴转午	cui shen shen ting yin zhuan wu
 画堂人静	hua tang ren jing
 芳草王孙知何处	fang cao wang sun zhi he chu
 惟有杨花糁径	wei you yang hua san jing
-正玉枕、瞢腾初醒	zheng yu zhen 、 meng teng chu xing
+正玉枕、瞢腾初醒	zheng yu zhen meng teng chu xing
 门外残红春已去	men wai can hong chun yi qu
-镇无聊、酒厌厌病	zhen wu liao 、 jiu yan yan bing
+镇无聊、酒厌厌病	zhen wu liao jiu yan yan bing
 云髻	yun ji
 未整	wei zheng
 江南旧事休重省	jiang nan jiu shi xiu zhong sheng
-但天涯、寻消问息	dan tian ya 、 xun xiao wen xi
+但天涯、寻消问息	dan tian ya xun xiao wen xi
 断鸿难倩	duan hong nan qian
 月满西楼凭阑久	yue man xi lou ping lan jiu
 依旧归期未定	yi jiu gui qi wei ding
-便只恐、瓶沈金井	bian zhi kong 、 ping shen jin jing
+便只恐、瓶沈金井	bian zhi kong ping shen jin jing
 嘶骑不来银烛暗	si qi bu lai yin zhu an
-枉教人、立尽梧桐影	wang jiao ren 、 li jin wu tong ying
+枉教人、立尽梧桐影	wang jiao ren li jin wu tong ying
 谁伴我	shui ban wo
 对鸾镜	dui luan jing
 李重元	li zhong yuan
@@ -6325,23 +6325,23 @@ columns:
 李玉	li yu
 贺新郎	he xin lang
 篆缕销金鼎	zhuan lv xiao jin ding
-醉沈沈、庭阴转午	zui shen shen 、 ting yin zhuan wu
+醉沈沈、庭阴转午	zui shen shen ting yin zhuan wu
 画堂人静	hua tang ren jing
 芳草王孙知何处	fang cao wang sun zhi he chu
 惟有杨花糁径	wei you yang hua san jing
-渐玉枕、腾腾春醒	jian yu zhen 、 teng teng chun xing
+渐玉枕、腾腾春醒	jian yu zhen teng teng chun xing
 帘外残红春已透	lian wai can hong chun yi tou
-镇无聊、酒厌厌病	zhen wu liao 、 jiu yan yan bing
+镇无聊、酒厌厌病	zhen wu liao jiu yan yan bing
 云鬓乱	yun bin luan
 未整	wei zheng
 江南旧事休重省	jiang nan jiu shi xiu zhong sheng
-遍天涯、寻消问息	bian tian ya 、 xun xiao wen xi
+遍天涯、寻消问息	bian tian ya xun xiao wen xi
 断鸿难倩	duan hong nan qian
 月满西楼凭栏久	yue man xi lou ping lan jiu
 依旧归期未定	yi jiu gui qi wei ding
-又只恐、瓶沈金井	you zhi kong 、 ping shen jin jing
+又只恐、瓶沈金井	you zhi kong ping shen jin jing
 嘶骑不来银烛暗	si qi bu lai yin zhu an
-枉教人、立尽梧桐影	wang jiao ren 、 li jin wu tong ying
+枉教人、立尽梧桐影	wang jiao ren li jin wu tong ying
 谁伴我	shui ban wo
 对鸾镜	dui luan jing
 陈与义	chen yu yi
@@ -6397,7 +6397,7 @@ columns:
 怅别後华表	chang bie hou hua biao
 那回双鹤	na hui shuang he
 相思除是	xiang si chu shi
-向醉里、暂忘却	xiang zui li 、 zan wang que
+向醉里、暂忘却	xiang zui li zan wang que
 张元干	zhang yuan gan
 石州慢	shi zhou man
 寒水依痕	han shui yi hen
@@ -6424,33 +6424,33 @@ columns:
 吕渭老	lv wei lao
 薄幸	bo xing
 青楼春晚	qing lou chun wan
-昼寂寂、梳匀又懒	zhou ji ji 、 shu yun you lan
-乍听得、鸦啼莺弄	zha ting de 、 ya ti ying nong
+昼寂寂、梳匀又懒	zhou ji ji shu yun you lan
+乍听得、鸦啼莺弄	zha ting de ya ti ying nong
 惹起新愁无限	re qi xin chou wu xian
-记年时、偷掷春心	ji nian shi 、 tou zhi chun xin
+记年时、偷掷春心	ji nian shi tou zhi chun xin
 花间隔雾遥相见	hua jian ge wu yao xiang jian
 便角枕题诗	bian jiao zhen ti shi
 宝钗贳酒	bao chai shi jiu
 共醉青苔深院	gong zui qing tai shen yuan
-怎忘得、回廊下	zen wang de 、 hui lang xia
-携手处、花明月满	xie shou chu 、 hua ming yue man
+怎忘得、回廊下	zen wang de hui lang xia
+携手处、花明月满	xie shou chu hua ming yue man
 如今但暮雨	ru jin dan mu yu
 蜂愁蝶恨	feng chou die hen
 小窗闲对芭蕉展	xiao chuang xian dui ba jiao zhan
 却谁拘管	que shui ju guan
-尽无言、闲品秦筝	jin wu yan 、 xian pin qin zheng
+尽无言、闲品秦筝	jin wu yan xian pin qin zheng
 泪满参差雁	lei man cen ci yan
 腰支渐小	yao zhi jian xiao
 心与杨花共远	xin yu yang hua gong yuan
 岳飞	yue fei
 满江红	man jiang hong
 怒发冲冠	nu fa chong guan
-凭阑处、潇潇雨歇	ping lan chu 、 xiao xiao yu xie
-抬望眼、仰天长啸	tai wang yan 、 yang tian chang xiao
+凭阑处、潇潇雨歇	ping lan chu xiao xiao yu xie
+抬望眼、仰天长啸	tai wang yan yang tian chang xiao
 壮怀激烈	zhuang huai ji lie
 三十功名尘与土	san shi gong ming chen yu tu
 八千里路云和月	ba qian li lu yun he yue
-莫等闲、白了少年头	mo deng xian 、 bai le shao nian tou
+莫等闲、白了少年头	mo deng xian bai le shao nian tou
 空悲切	kong bei qie
 靖康耻	jing kang chi
 犹未雪	you wei xue
@@ -6460,7 +6460,7 @@ columns:
 贺兰山缺	he lan shan que
 壮志饥餐胡虏肉	zhuang zhi ji can hu lu rou
 笑谈渴饮匈奴血	xiao tan ke yin xiong nu xue
-待从头、收拾旧山河	dai cong tou 、 shou shi jiu shan he
+待从头、收拾旧山河	dai cong tou shou shi jiu shan he
 朝天阙	chao tian que
 陈亮	chen liang
 水龙吟	shui long yin
@@ -6474,9 +6474,9 @@ columns:
 轻寒轻暖	qing han qing nuan
 恨芳菲世界	hen fang fei shi jie
 游人未赏	you ren wei shang
-都付与、莺和燕	dou fu yu 、 ying he yan
+都付与、莺和燕	dou fu yu ying he yan
 寂寞凭高念远	ji mo ping gao nian yuan
-向南楼、一声归雁	xiang nan lou 、 yi sheng gui yan
+向南楼、一声归雁	xiang nan lou yi sheng gui yan
 金钗斗草	jin chai dou cao
 青丝勒马	qing si lei ma
 风流云散	feng liu yun san
@@ -6487,7 +6487,7 @@ columns:
 又是疏烟淡月	you shi shu yan dan yue
 子规声断	zi gui sheng duan
 张镃	zhang zi
-宴山亭/燕山亭	yan shan ting / yan shan ting
+宴山亭	yan shan ting
 幽梦初回	you meng chu hui
 重阴未开	zhong yin wei kai
 晓色吹成疏雨	xiao se chui cheng shu yu
@@ -6495,26 +6495,26 @@ columns:
 蕙畹声摇	hui wan sheng yao
 新绿暗通南浦	xin lv an tong nan pu
 未有人行	wei you ren xing
-才半启、回廊朱户	cai ban qi 、 hui lang zhu hu
+才半启、回廊朱户	cai ban qi hui lang zhu hu
 无绪	wu xu
 空望极霓旌	kong wang ji ni jing
 锦书难据	jin shu nan ju
 苔径追忆曾游	tai jing zhui yi ceng you
-念谁伴、秋千采绳芳柱	nian shui ban 、 qiu qian cai sheng fang zhu
+念谁伴、秋千采绳芳柱	nian shui ban qiu qian cai sheng fang zhu
 犀奁黛卷	xi lian dai juan
 凤枕云孤	feng zhen yun gu
 应也几番凝伫	ying ye ji fan ning zhu
 怎得伊来	zen de yi lai
-花雾绕、小堂深处	hua wu rao 、 xiao tang shen chu
+花雾绕、小堂深处	hua wu rao xiao tang shen chu
 留住	liu zhu
-直到老、不教归去	zhi dao lao 、 bu jiao gui qu
+直到老、不教归去	zhi dao lao bu jiao gui qu
 刘过	liu guo
 唐多令	tang duo ling
 芦叶满汀洲	lu ye man ting zhou
 塞沙带浅流	sai sha dai qian liu
-二十年、重过南楼	er shi nian 、 zhong guo nan lou
+二十年、重过南楼	er shi nian zhong guo nan lou
 柳下系舟犹未稳	liu xia xi zhou you wei wen
-能几日、又中秋	neng ji ri 、 you zhong qiu
+能几日、又中秋	neng ji ri you zhong qiu
 黄鹤断矶头	huang he duan ji tou
 故人今不在	gu ren jin bu zai
 旧江山	jiu jiang shan
@@ -6547,16 +6547,16 @@ columns:
 姜夔	jiang kui
 杏花天	xing hua tian
 绿丝低拂鸳鸯浦	lv si di fu yuan yang pu
-想桃叶、当时唤渡	xiang tao ye 、 dang shi huan du
+想桃叶、当时唤渡	xiang tao ye dang shi huan du
 又将愁眼与春风	you jiang chou yan yu chun feng
 待去	dai qu
-倚兰桡、更少驻	yi lan rao 、 geng shao zhu
+倚兰桡、更少驻	yi lan rao geng shao zhu
 金陵路	jin ling lu
 莺吟燕舞	ying yin yan wu
-算潮水、知人最苦	suan chao shui 、 zhi ren zui ku
+算潮水、知人最苦	suan chao shui zhi ren zui ku
 满汀芳草不成归	man ting fang cao bu cheng gui
 日暮	ri mu
-更移舟、向甚处	geng yi zhou 、 xiang shen chu
+更移舟、向甚处	geng yi zhou xiang shen chu
 姜夔	jiang kui
 踏莎行	ta sha xing
 燕燕轻盈	yan yan qing ying
@@ -6577,13 +6577,13 @@ columns:
 况纨扇渐疏	kuang wan shan jian shu
 罗衣初萦	luo yi chu ying
 流光过隙	liu guang guo xi
-叹杏梁、双燕如客	tan xing liang 、 shuang yan ru ke
+叹杏梁、双燕如客	tan xing liang shuang yan ru ke
 人何在	ren he zai
 一帘淡月	yi lian dan yue
 仿佛照颜色	fang fu zhao yan se
 幽寂	you ji
 乱蛩吟壁	luan qiong yin bi
-动庾信、清愁似织	dong yu xin 、 qing chou shi zhi
+动庾信、清愁似织	dong yu xin qing chou shi zhi
 沈思年少浪迹	shen si nian shao lang ji
 笛里关山	di li guan shan
 柳下坊陌	liu xia fang mo
@@ -6594,7 +6594,7 @@ columns:
 而今何意	er jin he yi
 醉卧酒垆侧	zui wo jiu lu ce
 姜夔	jiang kui
-庆宫春・高阳台	qing gong chun ・ gao yang tai
+庆宫春·高阳台	qing gong chun gao yang tai
 双桨莼波	shuang jiang chun bo
 一蓑松雨	yi suo song yu
 暮愁渐满空阔	mu chou jian man kong kuo
@@ -6602,7 +6602,7 @@ columns:
 翩翩欲下	pian pian yu xia
 背人还过木末	bei ren hai guo mu mo
 那回归去	na hui gui qu
-荡云雪、孤舟夜发	dang yun xue 、 gu zhou ye fa
+荡云雪、孤舟夜发	dang yun xue gu zhou ye fa
 伤心重见	shang xin zhong jian
 依约眉山	yi yue mei shan
 黛痕低压	dai hen di ya
@@ -6613,7 +6613,7 @@ columns:
 飘然引去	piao ran yin qu
 此兴平生难遏	ci xing ping sheng nan e
 酒醒波远	jiu xing bo yuan
-政凝想、明素袜	zheng ning xiang 、 ming su wa
+政凝想、明素袜	zheng ning xiang ming su wa
 如今安在	ru jin an zai
 唯有阑干	wei you lan gan
 伴人一霎	ban ren yi sha
@@ -6648,8 +6648,8 @@ columns:
 池面冰胶	chi mian bing jiao
 墙腰雪老	qiang yao xue lao
 云意还又沈沈	yun yi hai you shen shen
-翠藤共、闲穿径竹	cui teng gong 、 xian chuan jing zhu
-渐笑语、惊起卧沙禽	jian xiao yu 、 jing qi wo sha qin
+翠藤共、闲穿径竹	cui teng gong xian chuan jing zhu
+渐笑语、惊起卧沙禽	jian xiao yu jing qi wo sha qin
 野老林泉	ye lao lin quan
 故王台榭	gu wang tai xie
 呼唤登临	hu huan deng lin
@@ -6661,13 +6661,13 @@ columns:
 空叹时序侵寻	kong tan shi xu qin xun
 记曾共	ji ceng gong
 西楼雅集	xi lou ya ji
-想垂杨、还袅万丝金	xiang chui yang 、 hai niao wan si jin
+想垂杨、还袅万丝金	xiang chui yang hai niao wan si jin
 待得归鞍到时	dai de gui an dao shi
 只怕春深	zhi pa chun shen
 姜夔	jiang kui
 念奴娇	nian nu jiao
 闹红一舸	nao hong yi ge
-记来时、尝与鸳鸯为侣	ji lai shi 、 chang yu yuan yang wei lv
+记来时、尝与鸳鸯为侣	ji lai shi chang yu yuan yang wei lv
 三十六陂人未到	san shi liu bei ren wei dao
 水佩风裳无数	shui pei feng shang wu shu
 翠叶吹凉	cui ye chui liang
@@ -6687,22 +6687,22 @@ columns:
 田田多少	tian tian duo shao
 几回沙际归路	ji hui sha ji gui lu
 姜夔	jiang kui
-琵琶仙・自度曲	pi pa xian ・ zi du qu
+琵琶仙·自度曲	pi pa xian zi du qu
 双桨来时	shuang jiang lai shi
-有人似、旧曲桃根桃叶	you ren shi 、 jiu qu tao gen tao ye
+有人似、旧曲桃根桃叶	you ren shi jiu qu tao gen tao ye
 歌扇轻约飞花	ge shan qing yue fei hua
 蛾眉正奇绝	e mei zheng qi jue
-春渐远、汀洲自绿	chun jian yuan 、 ting zhou zi lv
-更添了、几声啼	geng tian le 、 ji sheng ti
+春渐远、汀洲自绿	chun jian yuan ting zhou zi lv
+更添了、几声啼	geng tian le ji sheng ti
 十里扬州	shi li yang zhou
 三生杜牧	san sheng du mu
 前事休说	qian shi xiu shuo
-又还是、宫烛分烟	you hai shi 、 gong zhu fen yan
-奈愁里、匆匆换时节	nai chou li 、 cong cong huan shi jie
+又还是、宫烛分烟	you hai shi gong zhu fen yan
+奈愁里、匆匆换时节	nai chou li cong cong huan shi jie
 都把一襟芳思	dou ba yi jin fang si
 与空阶榆荚	yu kong jie yu jia
-千万缕、藏鸦细柳	qian wan lv 、 cang ya xi liu
-为玉尊、起舞回雪	wei yu zun 、 qi wu hui xue
+千万缕、藏鸦细柳	qian wan lv cang ya xi liu
+为玉尊、起舞回雪	wei yu zun qi wu hui xue
 想见西出阳关	xiang jian xi chu yang guan
 故人初别	gu ren chu bie
 姜夔	jiang kui
@@ -6714,8 +6714,8 @@ columns:
 还见筱墙萤暗	hai jian xiao qiang ying an
 藓阶蛩切	xian jie qiong qie
 送客重寻西去路	song ke zhong xun xi qu lu
-问水面、琵琶谁拨	wen shui mian 、 pi pa shui bo
-最可惜、一片江山	zui ke xi 、 yi pian jiang shan
+问水面、琵琶谁拨	wen shui mian pi pa shui bo
+最可惜、一片江山	zui ke xi yi pian jiang shan
 总付与啼	zong fu yu ti
 长恨相从未款	zhang hen xiang cong wei kuan
 而今何事	er jin he shi
@@ -6725,7 +6725,7 @@ columns:
 缥缈行舟如叶	piao miao xing zhou ru ye
 想文君望久	xiang wen jun wang jiu
 倚竹愁生步罗袜	yi zhu chou sheng bu luo wa
-归来後、翠尊双饮	gui lai hou 、 cui zun shuang yin
+归来後、翠尊双饮	gui lai hou cui zun shuang yin
 下了珠帘	xia le zhu lian
 玲珑闲看月	ling long xian kan yue
 姜夔	jiang kui
@@ -6748,27 +6748,27 @@ columns:
 青楼梦好	qing lou meng hao
 难赋深情	nan fu shen qing
 二十四桥仍在	er shi si qiao reng zai
-波心荡、冷月无声	bo xin dang 、 leng yue wu sheng
+波心荡、冷月无声	bo xin dang leng yue wu sheng
 念桥边红药	nian qiao bian hong yao
 年年知为谁生	nian nian zhi wei shui sheng
 姜夔	jiang kui
 长亭怨慢	chang ting yuan man
-渐吹尽、枝头香絮	jian chui jin 、 zhi tou xiang xu
+渐吹尽、枝头香絮	jian chui jin zhi tou xiang xu
 是处人家	shi chu ren jia
 绿深门户	lv shen men hu
 远浦萦回	yuan pu ying hui
 暮帆零乱向何许	mu fan ling luan xiang he xu
 阅人多矣	yue ren duo yi
-谁得似、长亭树	shui de shi 、 chang ting shu
+谁得似、长亭树	shui de shi chang ting shu
 树若有情时	shu ruo you qing shi
-不会得、青青如此	bu hui de 、 qing qing ru ci
+不会得、青青如此	bu hui de qing qing ru ci
 日暮	ri mu
 望高城不见	wang gao cheng bu jian
 只见乱山无数	zhi jian luan shan wu shu
 韦郎去也	wei lang qu ye
-怎忘得、玉环分付	zen wang de 、 yu huan fen fu
-第一是、早早归来	di yi shi 、 zao zao gui lai
-怕红萼、无人为主	pa hong e 、 wu ren wei zhu
+怎忘得、玉环分付	zen wang de yu huan fen fu
+第一是、早早归来	di yi shi zao zao gui lai
+怕红萼、无人为主	pa hong e wu ren wei zhu
 算空有并刀	suan kong you bing dao
 难翦离愁千缕	nan jian li chou qian lv
 姜夔	jiang kui
@@ -6780,7 +6780,7 @@ columns:
 都是江南旧相识	dou shi jiang nan jiu xiang shi
 正岑寂	zheng cen ji
 明朝又寒食	ming chao you han shi
-强携酒、小桥宅	qiang xie jiu 、 xiao qiao zhai
+强携酒、小桥宅	qiang xie jiu xiao qiao zhai
 怕梨花落尽成秋色	pa li hua luo jin cheng qiu se
 燕燕飞来	yan yan fei lai
 问春何在	wen chun he zai
@@ -6793,8 +6793,8 @@ columns:
 唤起玉人	huan qi yu ren
 不管清寒与攀摘	bu guan qing han yu pan zhai
 何逊而今渐老	he xun er jin jian lao
-都忘却、春风词笔	dou wang que 、 chun feng ci bi
-但怪得、竹外疏花	dan guai de 、 zhu wai shu hua
+都忘却、春风词笔	dou wang que chun feng ci bi
+但怪得、竹外疏花	dan guai de zhu wai shu hua
 香冷入瑶席	xiang leng ru yao xi
 江国	jiang guo
 正寂寂	zheng ji ji
@@ -6803,8 +6803,8 @@ columns:
 翠尊易泣	cui zun yi qi
 红萼无言耿相忆	hong e wu yan geng xiang yi
 长记曾携手处	zhang ji ceng xie shou chu
-千树压、西湖寒碧	qian shu ya 、 xi hu han bi
-又片片、吹尽也	you pian pian 、 chui jin ye
+千树压、西湖寒碧	qian shu ya xi hu han bi
+又片片、吹尽也	you pian pian chui jin ye
 几时见得	ji shi jian de
 姜夔	jiang kui
 疏影	shu ying
@@ -6815,8 +6815,8 @@ columns:
 篱角黄昏	li jiao huang hun
 无言自倚修竹	wu yan zi yi xiu zhu
 昭君不惯胡沙远	zhao jun bu guan hu sha yuan
-但暗忆、江南江北	dan an yi 、 jiang nan jiang bei
-想佩环、月夜归来	xiang pei huan 、 yue ye gui lai
+但暗忆、江南江北	dan an yi jiang nan jiang bei
+想佩环、月夜归来	xiang pei huan yue ye gui lai
 化作此花幽独	hua zuo ci hua you du
 犹记深宫旧事	you ji shen gong jiu shi
 那人正睡里	na ren zheng shui li
@@ -6825,8 +6825,8 @@ columns:
 不管盈盈	bu guan ying ying
 早与安排金屋	zao yu an pai jin wu
 还教一片随波去	hai jiao yi pian sui bo qu
-又却怨、玉龙哀曲	you que yuan 、 yu long ai qu
-等恁时、重觅幽香	deng nen shi 、 zhong mi you xiang
+又却怨、玉龙哀曲	you que yuan yu long ai qu
+等恁时、重觅幽香	deng nen shi zhong mi you xiang
 已入小窗横幅	yi ru xiao chuang heng fu
 姜夔	jiang kui
 翠楼吟	cui lou yin
@@ -6834,7 +6834,7 @@ columns:
 尘轻虎落	chen qing hu luo
 今年汉初赐	jin nian han chu ci
 新翻胡部曲	xin fan hu bu qu
-听毡幕、元戎歌吹	ting zhan mu 、 yuan rong ge chui
+听毡幕、元戎歌吹	ting zhan mu yuan rong ge chui
 层楼高峙	ceng lou gao zhi
 看栏曲萦红	kan lan qu ying hong
 檐牙飞翠	yan ya fei cui
@@ -6846,7 +6846,7 @@ columns:
 拥素云黄鹤	yong su yun huang he
 与君游戏	yu jun you xi
 玉梯凝望久	yu ti ning wang jiu
-叹芳草、萋萋千里	tan fang cao 、 qi qi qian li
+叹芳草、萋萋千里	tan fang cao qi qi qian li
 天涯情味	tian ya qing wei
 仗酒清愁	zhang jiu qing chou
 花销英气	hua xiao ying qi
@@ -6854,7 +6854,7 @@ columns:
 晚来还卷	wan lai hai juan
 一帘秋霁	yi lian qiu ji
 钱惟演	qian wei yan
-木兰花・玉楼春	mu lan hua ・ yu lou chun
+木兰花·玉楼春	mu lan hua yu lou chun
 城上风光莺语乱	cheng shang feng guang ying yu luan
 城下烟波春拍岸	cheng xia yan bo chun pai an
 绿杨芳草几时休	lv yang fang cao ji shi xiu
@@ -6882,14 +6882,14 @@ columns:
 范仲淹	fan zhong yan
 御街行	yu jie xing
 纷纷堕叶飘香砌	fen fen duo ye piao xiang qi
-夜寂静、寒声碎	ye ji jing 、 han sheng sui
+夜寂静、寒声碎	ye ji jing han sheng sui
 真珠帘卷玉楼空	zhen zhu lian juan yu lou kong
 天淡银河垂地	tian dan yin he chui di
 年年今夜	nian nian jin ye
 月华如练	yue hua ru lian
 长是人千里	zhang shi ren qian li
 愁肠已断无由醉	chou chang yi duan wu you zui
-酒未到、先成泪	jiu wei dao 、 xian cheng lei
+酒未到、先成泪	jiu wei dao xian cheng lei
 残灯明灭枕头欹	can deng ming mie zhen tou yi
 谙尽孤眠滋味	an jin gu mian zi wei
 都来此事	dou lai ci shi
@@ -6910,7 +6910,7 @@ columns:
 冉冉飞下汀洲	ran ran fei xia ting zhou
 思悠悠	si you you
 暗想当初	an xiang dang chu
-有多少、幽欢佳会	you duo shao 、 you huan jia hui
+有多少、幽欢佳会	you duo shao you huan jia hui
 岂知聚散难期	qi zhi ju san nan qi
 翻成雨恨云愁	fan cheng yu hen yun chou
 阻追游	zu zhui you
@@ -6925,40 +6925,40 @@ columns:
 对长亭晚	dui chang ting wan
 骤雨初歇	zhou yu chu xie
 都门帐饮无绪	dou men zhang yin wu xu
-留恋处、兰舟催发	liu lian chu 、 lan zhou cui fa
+留恋处、兰舟催发	liu lian chu lan zhou cui fa
 执手相看泪眼	zhi shou xiang kan lei yan
 竟无语凝噎	jing wu yu ning ye
-念去去、千里烟波	nian qu qu 、 qian li yan bo
+念去去、千里烟波	nian qu qu qian li yan bo
 暮霭沈沈楚天阔	mu ai shen shen chu tian kuo
 多情自古伤离别	duo qing zi gu shang li bie
-更那堪、冷落清秋节	geng na kan 、 leng luo qing qiu jie
+更那堪、冷落清秋节	geng na kan leng luo qing qiu jie
 今宵酒醒何处	jin xiao jiu xing he chu
-杨柳岸、晓风残月	yang liu an 、 xiao feng can yue
+杨柳岸、晓风残月	yang liu an xiao feng can yue
 此去经年	ci qu jing nian
-应是良辰、好景虚设	ying shi liang chen 、 hao jing xu she
-便纵有、千种风情	bian zong you 、 qian zhong feng qing
+应是良辰、好景虚设	ying shi liang chen hao jing xu she
+便纵有、千种风情	bian zong you qian zhong feng qing
 更与何人说	geng yu he ren shuo
 柳永	liu yong
 采莲令	cai lian ling
 月华收	yue hua shou
 云淡霜天曙	yun dan shuang tian shu
-西征客、此时情苦	xi zheng ke 、 ci shi qing ku
+西征客、此时情苦	xi zheng ke ci shi qing ku
 翠娥执手送临歧	cui e zhi shou song lin qi
 轧轧开朱户	ya ya kai zhu hu
-千娇面、盈盈伫立	qian jiao mian 、 ying ying zhu li
+千娇面、盈盈伫立	qian jiao mian ying ying zhu li
 无言有泪	wu yan you lei
 断肠争忍回顾	duan chang zheng ren hui gu
 一叶兰舟	yi ye lan zhou
 便恁急桨凌波去	bian nen ji jiang ling bo qu
-贪行色、岂知离绪	tan xing se 、 qi zhi li xu
+贪行色、岂知离绪	tan xing se qi zhi li xu
 万般方寸	wan ban fang cun
 但饮恨	dan yin hen
 脉脉同谁语	mo mo tong shui yu
-更回首、重城不见	geng hui shou 、 zhong cheng bu jian
+更回首、重城不见	geng hui shou zhong cheng bu jian
 寒江天外	han jiang tian wai
 隐隐两三烟树	yin yin liang san yan shu
 柳永	liu yong
-凤栖梧・蝶恋花	feng qi wu ・ die lian hua
+凤栖梧·蝶恋花	feng qi wu die lian hua
 伫倚危楼风细细	zhu yi wei lou feng xi xi
 望极春愁	wang ji chun chou
 黯黯生天际	an an sheng tian ji
@@ -6971,14 +6971,14 @@ columns:
 为伊消得人憔悴	wei yi xiao de ren qiao cui
 柳永	liu yong
 浪淘沙	lang tao sha
-梦觉、透窗风一线	meng jue 、 tou chuang feng yi xian
+梦觉、透窗风一线	meng jue tou chuang feng yi xian
 寒灯吹息	han deng chui xi
 那堪酒醒	na kan jiu xing
 又闻空阶	you wen kong jie
 夜雨频滴	ye yu pin di
-嗟因循、久作天涯客	jie yin xun 、 jiu zuo tian ya ke
-负佳人、几许盟言	fu jia ren 、 ji xu meng yan
-便忍把、从前欢会	bian ren ba 、 cong qian huan hui
+嗟因循、久作天涯客	jie yin xun jiu zuo tian ya ke
+负佳人、几许盟言	fu jia ren ji xu meng yan
+便忍把、从前欢会	bian ren ba cong qian huan hui
 陡顿翻成忧戚	dou dun fan cheng you qi
 愁极	chou ji
 再三追思	zai san zhui si
@@ -6993,14 +6993,14 @@ columns:
 恰到如今	qia dao ru jin
 天长漏永	tian zhang lou yong
 无端自家疏隔	wu duan zi jia shu ge
-知何时、却拥秦云态	zhi he shi 、 que yong qin yun tai
+知何时、却拥秦云态	zhi he shi que yong qin yun tai
 愿低帏昵枕	yuan di wei ni zhen
 轻轻细说与	qing qing xi shuo yu
 江乡夜夜	jiang xiang ye ye
 数寒更思忆	shu han geng si yi
 柳永	liu yong
 定风波	ding feng bo
-自春来、惨绿愁红	zi chun lai 、 can lv chou hong
+自春来、惨绿愁红	zi chun lai can lv chou hong
 芳心是事可可	fang xin shi shi ke ke
 日上花梢	ri shang hua shao
 莺穿柳带	ying chuan liu dai
@@ -7012,8 +7012,8 @@ columns:
 恨薄情一去	hen bo qing yi qu
 音书无个	yin shu wu ge
 早知恁麽	zao zhi nen mo
-悔当初、不把雕鞍锁	hui dang chu 、 bu ba diao an suo
-向鸡窗、只与蛮笺象管	xiang ji chuang 、 zhi yu man jian xiang guan
+悔当初、不把雕鞍锁	hui dang chu bu ba diao an suo
+向鸡窗、只与蛮笺象管	xiang ji chuang zhi yu man jian xiang guan
 拘束教吟课	ju shu jiao yin ke
 镇相随	zhen xiang sui
 莫抛躲	mo pao duo
@@ -7067,14 +7067,14 @@ columns:
 当年少日	dang nian shao ri
 暮宴朝欢	mu yan chao huan
 况有狂朋怪侣	kuang you kuang peng guai lv
-遇当歌、对酒竞留连	yu dang ge 、 dui jiu jing liu lian
+遇当歌、对酒竞留连	yu dang ge dui jiu jing liu lian
 别来迅景如梭	bie lai xun jing ru suo
 旧游似梦	jiu you shi meng
 烟水程何限	yan shui cheng he xian
-念利名、憔悴长萦绊	nian li ming 、 qiao cui zhang ying ban
-追往事、空惨愁颜	zhui wang shi 、 kong can chou yan
-漏箭移、稍觉轻寒	lou jian yi 、 shao jue qing han
-渐呜咽、画角数声残	jian wu ye 、 hua jiao shu sheng can
+念利名、憔悴长萦绊	nian li ming qiao cui zhang ying ban
+追往事、空惨愁颜	zhui wang shi kong can chou yan
+漏箭移、稍觉轻寒	lou jian yi shao jue qing han
+渐呜咽、画角数声残	jian wu ye hua jiao shu sheng can
 对闲窗畔	dui xian chuang pan
 停灯向晓	ting deng xiang xiao
 抱影无眠	bao ying wu mian
@@ -7089,7 +7089,7 @@ columns:
 樵风乍起	qiao feng zha qi
 更闻商旅相呼	geng wen shang lv xiang hu
 片帆高举	pian fan gao ju
-泛画鹢、翩翩过南浦	fan hua yi 、 pian pian guo nan pu
+泛画鹢、翩翩过南浦	fan hua yi pian pian guo nan pu
 望中酒旆闪闪	wang zhong jiu pei shan shan
 一簇烟村	yi cu yan cun
 数行霜树	shu xing shuang shu
@@ -7099,14 +7099,14 @@ columns:
 衰杨掩映	shuai yang yan ying
 岸边两两三三	an bian liang liang san san
 浣沙游女	huan sha you nv
-避行客、含羞笑相语	bi xing ke 、 han xiu xiao xiang yu
+避行客、含羞笑相语	bi xing ke han xiu xiao xiang yu
 到此因念	dao ci yin nian
 绣阁轻抛	xiu ge qing pao
 浪萍难驻	lang ping nan zhu
 叹後约丁宁竟何据	tan hou yue ding ning jing he ju
 惨离怀	can li huai
 空恨岁晚归期阻	kong hen sui wan gui qi zu
-凝泪眼、杳杳神京路	ning lei yan 、 yao yao shen jing lu
+凝泪眼、杳杳神京路	ning lei yan yao yao shen jing lu
 断鸿声远长天暮	duan hong sheng yuan chang tian mu
 柳永	liu yong
 玉蝴蝶	yu hu die
@@ -7115,8 +7115,8 @@ columns:
 目送秋光	mu song qiu guang
 晚景萧疏	wan jing xiao shu
 堪动宋玉悲凉	kan dong song yu bei liang
-水风轻、苹花渐老	shui feng qing 、 ping hua jian lao
-月露冷、梧叶飘黄	yue lu leng 、 wu ye piao huang
+水风轻、苹花渐老	shui feng qing ping hua jian lao
+月露冷、梧叶飘黄	yue lu leng wu ye piao huang
 遣情伤	qian qing shang
 故人何在	gu ren he zai
 烟水茫茫	yan shui mang mang
@@ -7126,14 +7126,14 @@ columns:
 屡变星霜	lv bian xing shuang
 海阔山遥	hai kuo shan yao
 未知何处是潇湘	wei zhi he chu shi xiao xiang
-念双燕、难凭远信	nian shuang yan 、 nan ping yuan xin
-指暮天、空识归航	zhi mu tian 、 kong shi gui hang
+念双燕、难凭远信	nian shuang yan nan ping yuan xin
+指暮天、空识归航	zhi mu tian kong shi gui hang
 黯相望	an xiang wang
 断鸿声里	duan hong sheng li
 立尽斜阳	li jin xie yang
 柳永	liu yong
 八声甘州	ba sheng gan zhou
-对潇潇、暮雨洒江天	dui xiao xiao 、 mu yu sa jiang tian
+对潇潇、暮雨洒江天	dui xiao xiao mu yu sa jiang tian
 一番洗清秋	yi fan xi qing qiu
 渐霜风凄惨	jian shuang feng qi can
 关河冷落	guan he leng luo
@@ -7147,12 +7147,12 @@ columns:
 归思难收	gui si nan shou
 叹年来踪迹	tan nian lai zong ji
 何事苦淹留	he shi ku yan liu
-想佳人、妆楼望	xiang jia ren 、 zhuang lou wang
-误几回、天际识归舟	wu ji hui 、 tian ji shi gui zhou
-争知我、倚阑干处	zheng zhi wo 、 yi lan gan chu
+想佳人、妆楼望	xiang jia ren zhuang lou wang
+误几回、天际识归舟	wu ji hui tian ji shi gui zhou
+争知我、倚阑干处	zheng zhi wo yi lan gan chu
 正恁凝愁	zheng nen ning chou
 柳永	liu yong
-竹马子・竹马儿	zhu ma zi ・ zhu ma er
+竹马子·竹马儿	zhu ma zi zhu ma er
 登孤垒荒凉	deng gu lei huang liang
 危亭旷望	wei ting kuang wang
 静临烟渚	jing lin yan zhu
@@ -7182,7 +7182,7 @@ columns:
 孤城暮角	gu cheng mu jiao
 引胡茄怨	yin hu jia yuan
 水茫茫	shui mang mang
-平沙雁、旋惊散	ping sha yan 、 xuan jing san
+平沙雁、旋惊散	ping sha yan xuan jing san
 烟敛寒林簇	yan lian han lin cu
 画屏展	hua ping zhan
 天际遥山小	tian ji yao shan xiao
@@ -7192,7 +7192,7 @@ columns:
 觉客程劳	jue ke cheng lao
 年光晚	nian guang wan
 异乡风物	yi xiang feng wu
-忍萧索、当愁眼	ren xiao suo 、 dang chou yan
+忍萧索、当愁眼	ren xiao suo dang chou yan
 帝城赊	di cheng she
 秦楼阻	qin lou zu
 旅魂乱	lv hun luan
@@ -7213,18 +7213,18 @@ columns:
 昨日乱山昏	zuo ri luan shan hun
 来时衣上云	lai shi yi shang yun
 张先	zhang xian
-一丛花令・一丛花	yi cong hua ling ・ yi cong hua
+一丛花令·一丛花	yi cong hua ling yi cong hua
 伤高怀远几时穷	shang gao huai yuan ji shi qiong
 无物似情浓	wu wu shi qing nong
 离愁正引千丝乱	li chou zheng yin qian si luan
-更东陌、飞絮	geng dong mo 、 fei xu
+更东陌、飞絮	geng dong mo fei xu
 嘶骑渐遥	si qi jian yao
 征尘不断	zheng chen bu duan
 何处认郎踪	he chu ren lang zong
 双鸳池沼水溶溶	shuang yuan chi zhao shui rong rong
 南北小桡通	nan bei xiao rao tong
 梯横画阁黄昏後	ti heng hua ge huang hun hou
-又还是、斜月帘栊	you hai shi 、 xie yue lian long
+又还是、斜月帘栊	you hai shi xie yue lian long
 沈恨细思	shen hen xi si
 不如桃杏	bu ru tao xing
 犹解嫁东风	you jie jia dong feng
@@ -7260,7 +7260,7 @@ columns:
 夜过也	ye guo ye
 东窗未白凝残月	dong chuang wei bai ning can yue
 张先	zhang xian
-青门引・青门饮	qing men yin ・ qing men yin
+青门引·青门饮	qing men yin qing men yin
 乍暖还轻冷	zha nuan hai qing leng
 风雨晚来方定	feng yu wan lai fang ding
 庭轩寂寞近清明	ting xuan ji mo jin qing ming
@@ -7307,7 +7307,7 @@ columns:
 人面不知何处	ren mian bu zhi he chu
 绿波依旧东流	lv bo yi jiu dong liu
 晏殊	yan shu
-木兰花・玉楼春	mu lan hua ・ yu lou chun
+木兰花·玉楼春	mu lan hua yu lou chun
 燕鸿过後莺归去	yan hong guo hou ying gui qu
 细算浮生千万绪	xi suan fu sheng qian wan xu
 长於春梦几多时	zhang yu chun meng ji duo shi
@@ -7317,7 +7317,7 @@ columns:
 劝君莫作独醒人	quan jun mo zuo du xing ren
 烂醉花间应有数	lan zui hua jian ying you shu
 晏殊	yan shu
-木兰花・玉楼春	mu lan hua ・ yu lou chun
+木兰花·玉楼春	mu lan hua yu lou chun
 池塘水绿风微暖	chi tang shui lv feng wei nuan
 记得玉真初见面	ji de yu zhen chu jian mian
 重头歌韵响铮琮	chong tou ge yun xiang zheng cong
@@ -7463,13 +7463,13 @@ columns:
 一春长费买花钱	yi chun zhang fei mai hua qian
 日日醉花边	ri ri zui hua bian
 玉骢惯识西湖路	yu cong guan shi xi hu lu
-骄嘶过、沽酒垆前	jiao si guo 、 gu jiu lu qian
+骄嘶过、沽酒垆前	jiao si guo gu jiu lu qian
 红杏香中箫鼓	hong xing xiang zhong xiao gu
 绿杨影里秋千	lv yang ying li qiu qian
 暖风十里丽人天	nuan feng shi li li ren tian
 花压髻云偏	hua ya ji yun pian
 画船载取春归去	hua chuan zai qu chun gui qu
-馀情寄、湖水湖烟	yu qing ji 、 hu shui hu yan
+馀情寄、湖水湖烟	yu qing ji hu shui hu yan
 明日重扶残醉	ming ri zhong fu can zui
 来寻陌上花钿	lai xun mo shang hua dian
 史达祖	shi da zu
@@ -7479,18 +7479,18 @@ columns:
 千里偷催春暮	qian li tou cui chun mu
 尽日冥迷	jin ri ming mi
 愁里欲飞还住	chou li yu fei hai zhu
-惊粉重、蝶宿西园	jing fen zhong 、 die su xi yuan
-喜泥润、燕归南浦	xi ni run 、 yan gui nan pu
-最妨它、佳约风流	zui fang ta 、 jia yue feng liu
+惊粉重、蝶宿西园	jing fen zhong die su xi yuan
+喜泥润、燕归南浦	xi ni run yan gui nan pu
+最妨它、佳约风流	zui fang ta jia yue feng liu
 钿车不到杜陵路	dian che bu dao du ling lu
 沈沈江上望极	shen shen jiang shang wang ji
 还被春潮晚急	hai bei chun chao wan ji
 难寻官渡	nan xun guan du
 隐约遥峰	yin yue yao feng
 和泪谢娘眉妩	he lei xie niang mei wu
-临断岸、新绿生时	lin duan an 、 xin lv sheng shi
-是落红、带愁流处	shi luo hong 、 dai chou liu chu
-记当日、门掩梨花	ji dang ri 、 men yan li hua
+临断岸、新绿生时	lin duan an xin lv sheng shi
+是落红、带愁流处	shi luo hong dai chou liu chu
+记当日、门掩梨花	ji dang ri men yan li hua
 翦灯深夜语	jian deng shen ye yu
 史达祖	shi da zu
 双双燕	shuang shuang yan
@@ -7500,7 +7500,7 @@ columns:
 差池欲住	cha chi yu zhu
 试入旧巢相并	shi ru jiu chao xiang bing
 还相雕梁藻井	hai xiang diao liang zao jing
-又软语、商量不定	you ruan yu 、 shang liang bu ding
+又软语、商量不定	you ruan yu shang liang bu ding
 飘然快拂花梢	piao ran kuai fu hua shao
 翠尾分开红影	cui wei fen kai hong ying
 芳径	fang jing
@@ -7510,7 +7510,7 @@ columns:
 红楼归晚	hong lou gui wan
 看足柳昏花暝	kan zu liu hun hua ming
 应自栖香正稳	ying zi qi xiang zheng wen
-便忘了、天涯芳信	bian wang le 、 tian ya fang xin
+便忘了、天涯芳信	bian wang le tian ya fang xin
 愁损翠黛双蛾	chou sun cui dai shuang e
 日日画阑独凭	ri ri hua lan du ping
 史达祖	shi da zu
@@ -7521,16 +7521,16 @@ columns:
 谩凝碧瓦难留	man ning bi wa nan liu
 信知暮寒轻浅	xin zhi mu han qing qian
 行天入镜	xing tian ru jing
-做弄出、轻松纤软	zuo nong chu 、 qing song xian ruan
-料故园、不卷重帘	liao gu yuan 、 bu juan zhong lian
+做弄出、轻松纤软	zuo nong chu qing song xian ruan
+料故园、不卷重帘	liao gu yuan bu juan zhong lian
 误了乍来双燕	wu le zha lai shuang yan
-青未了、柳回白眼	qing wei liao 、 liu hui bai yan
-红欲断、杏开素面	hong yu duan 、 xing kai su mian
+青未了、柳回白眼	qing wei liao liu hui bai yan
+红欲断、杏开素面	hong yu duan xing kai su mian
 旧游忆著山阴	jiu you yi zhu shan yin
 厚盟遂妨上苑	hou meng sui fang shang yuan
 寒炉重暖	han lu zhong nuan
 便放慢春衫针线	bian fang man chun shan zhen xian
-恐凤靴、挑菜归来	kong feng xue 、 tiao cai gui lai
+恐凤靴、挑菜归来	kong feng xue tiao cai gui lai
 万一灞桥相见	wan yi ba qiao xiang jian
 史达祖	shi da zu
 喜迁莺	xi qian ying
@@ -7541,7 +7541,7 @@ columns:
 冰丝织练	bing si zhi lian
 黄道宝光相直	huang dao bao guang xiang zhi
 自怜诗酒瘦	zi lian shi jiu shou
-难应接、许多春色	nan ying jie 、 xu duo chun se
+难应接、许多春色	nan ying jie xu duo chun se
 最无赖	zui wu lai
 是随香趁烛	shi sui xiang chen zhu
 曾伴狂客	ceng ban kuang ke
@@ -7553,9 +7553,9 @@ columns:
 梅厅雪在	mei ting xue zai
 谁与细倾春碧	shui yu xi qing chun bi
 旧情拘未定	jiu qing ju wei ding
-犹自学、当年游历	you zi xue 、 dang nian you li
+犹自学、当年游历	you zi xue dang nian you li
 怕万一	pa wan yi
-误玉人、夜寒帘隙	wu yu ren 、 ye han lian xi
+误玉人、夜寒帘隙	wu yu ren ye han lian xi
 史达祖	shi da zu
 三姝媚	san shu mei
 烟光摇缥瓦	yan guang yao piao wa
@@ -7565,7 +7565,7 @@ columns:
 想泪痕尘影	xiang lei hen chen ying
 凤弦常下	feng xian chang xia
 倦出犀帷	juan chu xi wei
-频梦见、王孙骄马	pin meng jian 、 wang sun jiao ma
+频梦见、王孙骄马	pin meng jian wang sun jiao ma
 讳道相思	hui dao xiang si
 偷理绡裙	tou li xiao qun
 自惊腰衩	zi jing yao cha
@@ -7576,7 +7576,7 @@ columns:
 遍旧家门巷	bian jiu jia men xiang
 首询声价	shou xun sheng jia
 可惜东风	ke xi dong feng
-将恨与、闲花俱谢	jiang hen yu 、 xian hua ju xie
+将恨与、闲花俱谢	jiang hen yu xian hua ju xie
 记取崔徽模样	ji qu cui hui mu yang
 归来暗写	gui lai an xie
 史达祖	shi da zu
@@ -7588,7 +7588,7 @@ columns:
 犹将泪点偷藏	you jiang lei dian tou cang
 念前事	nian qian shi
 怯流光	qie liu guang
-早春窥、酥雨池塘	zao chun kui 、 su yu chi tang
+早春窥、酥雨池塘	zao chun kui su yu chi tang
 向销凝里	xiang xiao ning li
 梅开半面	mei kai ban mian
 情满徐妆	qing man xu zhuang
@@ -7599,7 +7599,7 @@ columns:
 如何未织鸳鸯	ru he wei zhi yuan yang
 人扶醉	ren fu zui
 月依墙	yue yi qiang
-是当初、谁敢疏狂	shi dang chu 、 shui gan shu kuang
+是当初、谁敢疏狂	shi dang chu shui gan shu kuang
 把闲言语	ba xian yan yu
 花房夜久	hua fang ye jiu
 各自思量	ge zi si liang
@@ -7612,11 +7612,11 @@ columns:
 还被乱鸥飞去	hai bei luan ou fei qu
 秀句难续	xiu ju nan xu
 冷眼尽归图画上	leng yan jin gui tu hua shang
-认隔岸、微茫云屋	ren ge an 、 wei mang yun wu
-想半属、渔市樵村	xiang ban shu 、 yu shi qiao cun
+认隔岸、微茫云屋	ren ge an wei mang yun wu
+想半属、渔市樵村	xiang ban shu yu shi qiao cun
 欲暮竞然竹	yu mu jing ran zhu
 须信风流未老	xu xin feng liu wei lao
-凭持酒、慰此凄凉心目	ping chi jiu 、 wei ci qi liang xin mu
+凭持酒、慰此凄凉心目	ping chi jiu wei ci qi liang xin mu
 一鞭南陌	yi bian nan mo
 几篙官渡	ji gao guan du
 赖有歌眉舒绿	lai you ge mei shu lv
@@ -7627,14 +7627,14 @@ columns:
 望彻淮山	wang che huai shan
 相思无雁足	xiang si wu yan zu
 史达祖	shi da zu
-玉胡蝶・玉蝴蝶	yu hu die ・ yu hu die
+玉胡蝶·玉蝴蝶	yu hu die yu hu die
 晚雨未摧宫树	wan yu wei cui gong shu
 可怜闲叶	ke lian xian ye
 犹抱凉蝉	you bao liang chan
 短景归秋	duan jing gui qiu
 吟思又接愁边	yin si you jie chou bian
-漏初长、梦魂难禁	lou chu zhang 、 meng hun nan jin
-人渐老、风月俱寒	ren jian lao 、 feng yue ju han
+漏初长、梦魂难禁	lou chu zhang meng hun nan jin
+人渐老、风月俱寒	ren jian lao feng yue ju han
 想幽欢	xiang you huan
 土花庭	tu hua ting
 虫网阑干	chong wang lan gan
@@ -7644,8 +7644,8 @@ columns:
 苦近秋莲	ku jin qiu lian
 一笛当楼	yi di dang lou
 谢娘悬泪立风前	xie niang xuan lei li feng qian
-故园晚、强留诗酒	gu yuan wan 、 qiang liu shi jiu
-新雁远、不致寒暄	xin yan yuan 、 bu zhi han xuan
+故园晚、强留诗酒	gu yuan wan qiang liu shi jiu
+新雁远、不致寒暄	xin yan yuan bu zhi han xuan
 隔苍烟	ge cang yan
 楚香罗袖	chu xiang luo xiu
 谁伴婵娟	shui ban chan juan
@@ -7660,12 +7660,12 @@ columns:
 故园信息	gu yuan xin xi
 爱渠入眼南山碧	ai qu ru yan nan shan bi
 念上国	nian shang guo
-谁是、脍鲈江汉未归客	shui shi 、 kuai lu jiang han wei gui ke
+谁是、脍鲈江汉未归客	shui shi kuai lu jiang han wei gui ke
 还又岁晚	hai you sui wan
 瘦骨临风	shou gu lin feng
 夜闻秋声	ye wen qiu sheng
 吹动岑寂	chui dong cen ji
-露蛩悲、清灯冷屋	lu qiong bei 、 qing deng leng wu
+露蛩悲、清灯冷屋	lu qiong bei qing deng leng wu
 翻书愁上鬓毛白	fan shu chou shang bin mao bai
 年少俊游浑断得	nian shao jun you hun duan de
 但可怜处	dan ke lian chu
@@ -7675,12 +7675,12 @@ columns:
 卢祖皋	lu zu gao
 宴清都	yan qing dou
 春讯飞琼管	chun xun fei qiong guan
-风日薄、度墙啼鸟声乱	feng ri bao 、 du qiang ti niao sheng luan
+风日薄、度墙啼鸟声乱	feng ri bao du qiang ti niao sheng luan
 江城次第	jiang cheng ci di
 笙歌翠合	sheng ge cui he
 绮罗香暖	qi luo xiang nuan
 溶溶涧渌冰泮	rong rong jian lu bing pan
-醉梦里、年华暗换	zui meng li 、 nian hua an huan
+醉梦里、年华暗换	zui meng li nian hua an huan
 料黛眉重锁隋堤	liao dai mei zhong suo sui di
 芳心还动梁苑	fang xin hai dong liang yuan
 新来雁阔云音	xin lai yan kuo yun yin
@@ -7690,8 +7690,8 @@ columns:
 笼愁澹月	long chou dan yue
 恁时庭院	nen shi ting yuan
 离肠未语先断	li chang wei yu xian duan
-算犹有、凭高望眼	suan you you 、 ping gao wang yan
-更那堪、芳草连天	geng na kan 、 fang cao lian tian
+算犹有、凭高望眼	suan you you ping gao wang yan
+更那堪、芳草连天	geng na kan fang cao lian tian
 飞梅弄晚	fei mei nong wan
 卢祖皋	lu zu gao
 江城子	jiang cheng zi
@@ -7733,7 +7733,7 @@ columns:
 土花沿翠	tu hua yan cui
 萤火坠墙阴	ying huo zhui qiang yin
 静听寒声断续	jing ting han sheng duan xu
-微韵转、凄咽悲沉	wei yun zhuan 、 qi yan bei chen
+微韵转、凄咽悲沉	wei yun zhuan qi yan bei chen
 争求侣	zheng qiu lv
 殷勤劝织	yin qin quan zhi
 促破晓机心	cu po xiao ji xin
@@ -7743,7 +7743,7 @@ columns:
 任满身花影	ren man shen hua ying
 犹自追寻	you zi zhui xun
 携向华堂戏斗	xie xiang hua tang xi dou
-亭台小、笼巧妆金	ting tai xiao 、 long qiao zhuang jin
+亭台小、笼巧妆金	ting tai xiao long qiao zhuang jin
 今休说	jin xiu shuo
 从渠床下	cong qu chuang xia
 凉夜伴孤吟	liang ye ban gu yin
@@ -7757,16 +7757,16 @@ columns:
 月下相认	yue xia xiang ren
 睡浓更苦凄风紧	shui nong geng ku qi feng jin
 惊回心未稳	jing hui xin wei wen
-送晓色、一壶葱茜	song xiao se 、 yi hu cong qian
+送晓色、一壶葱茜	song xiao se yi hu cong qian
 才知花梦准	cai zhi hua meng zhun
 湘娥化作此幽芳	xiang e hua zuo ci you fang
 凌波路	ling bo lu
 古岸云沙遗恨	gu an yun sha yi hen
 临砌影	lin qi ying
-寒香乱、冻梅藏韵	han xiang luan 、 dong mei cang yun
-熏炉畔、旋移傍枕	xun lu pan 、 xuan yi bang zhen
-还又见、玉人垂绀鬒	hai you jian 、 yu ren chui gan zhen
-料唤赏、清华池馆	liao huan shang 、 qing hua chi guan
+寒香乱、冻梅藏韵	han xiang luan dong mei cang yun
+熏炉畔、旋移傍枕	xun lu pan xuan yi bang zhen
+还又见、玉人垂绀鬒	hai you jian yu ren chui gan zhen
+料唤赏、清华池馆	liao huan shang qing hua chi guan
 台杯须满引	tai bei xu man yin
 吴文英	wu wen ying
 浣溪沙	huan xi sha
@@ -7804,7 +7804,7 @@ columns:
 沙印小莲步	sha yin xiao lian bu
 自怜两鬓清霜	zi lian liang bin qing shuang
 一年寒食	yi nian han shi
-又身在、云山深处	you shen zai 、 yun shan shen chu
+又身在、云山深处	you shen zai yun shan shen chu
 昼闲度	zhou xian du
 因甚天也悭春	yin shen tian ye qian chun
 轻阴便成雨	qing yin bian cheng yu
@@ -7812,7 +7812,7 @@ columns:
 归梦趁风絮	gui meng chen feng xu
 有情花影阑干	you qing hua ying lan gan
 莺声门径	ying sheng men jing
-解留我、霎时凝伫	jie liu wo 、 sha shi ning zhu
+解留我、霎时凝伫	jie liu wo sha shi ning zhu
 吴文英	wu wen ying
 祝英台近	zhu ying tai jin
 翦红情	jian hong qing
@@ -7822,7 +7822,7 @@ columns:
 不放岁华去	bu fang sui hua qu
 有人添烛西窗	you ren tian zhu xi chuang
 不眠侵晓	bu mian qin xiao
-笑声转、新年莺语	xiao sheng zhuan 、 xin nian ying yu
+笑声转、新年莺语	xiao sheng zhuan xin nian ying yu
 旧尊俎	jiu zun zu
 玉纤曾擘黄柑	yu xian ceng bai huang gan
 柔香系幽素	rou xiang xi you su
@@ -7830,7 +7830,7 @@ columns:
 还迷镜中路	hai mi jing zhong lu
 可怜千点吴霜	ke lian qian dian wu shuang
 寒销不尽	han xiao bu jin
-又相对、落梅如雨	you xiang dui 、 luo mei ru yu
+又相对、落梅如雨	you xiang dui luo mei ru yu
 吴文英	wu wen ying
 澡兰香	zao lan xiang
 盘丝系腕	pan si xi wan
@@ -7839,7 +7839,7 @@ columns:
 银瓶露井	yin ping lu jing
 彩云窗	cai yun chuang
 往事少年依约	wang shi shao nian yi yue
-为当时、曾写榴裙	wei dang shi 、 ceng xie liu qun
+为当时、曾写榴裙	wei dang shi ceng xie liu qun
 伤心红绡褪萼	shang xin hong xiao tui e
 黍梦光阴渐老	shu meng guang yin jian lao
 汀洲烟箬	ting zhou yan ruo
@@ -7849,9 +7849,9 @@ columns:
 薰风燕乳	xun feng yan ru
 暗雨梅黄	an yu mei huang
 午镜澡兰帘幕	wu jing zao lan lian mu
-念秦楼、也拟人归	nian qin lou 、 ye ni ren gui
+念秦楼、也拟人归	nian qin lou ye ni ren gui
 应翦菖浦自酌	ying jian chang pu zi zhuo
-但怅望、一屡新蟾	dan chang wang 、 yi lv xin chan
+但怅望、一屡新蟾	dan chang wang yi lv xin chan
 随人天角	sui ren tian jiao
 赵佶	zhao ji
 燕山亭	yan shan ting
@@ -7862,7 +7862,7 @@ columns:
 艳溢香融	yan yi xiang rong
 羞杀蕊珠宫女	xiu sha rui zhu gong nv
 易得凋零	yi de diao ling
-更多少、无情风雨	geng duo shao 、 wu qing feng yu
+更多少、无情风雨	geng duo shao wu qing feng yu
 愁苦	chou ku
 闲院落凄凉	xian yuan luo qi liang
 几番春暮	ji fan chun mu
@@ -7873,9 +7873,9 @@ columns:
 万水千山	wan shui qian shan
 知他故宫何处	zhi ta gu gong he chu
 怎不思量	zen bu si liang
-除梦里、有时会去	chu meng li 、 you shi hui qu
+除梦里、有时会去	chu meng li you shi hui qu
 无据	wu ju
-和梦也、有时不做	he meng ye 、 you shi bu zuo
+和梦也、有时不做	he meng ye you shi bu zuo
 廖世美	liao shi mei
 烛影摇红	zhu ying yao hong
 霭霭春空	ai ai chun kong
@@ -7883,7 +7883,7 @@ columns:
 紫薇登览最关情	zi wei deng lan zui guan qing
 绝妙夸能赋	jue miao kua neng fu
 惆怅相思迟暮	chou chang xiang si chi mu
-记当日、朱阑共语	ji dang ri 、 zhu lan gong yu
+记当日、朱阑共语	ji dang ri zhu lan gong yu
 塞鸿难问	sai hong nan wen
 岸柳何穷	an liu he qiong
 别愁纷絮	bie chou fen xu
@@ -7892,7 +7892,7 @@ columns:
 断肠何必更残阳	duan chang he bi geng can yang
 极目伤平楚	ji mu shang ping chu
 晚霁波声带雨	wan ji bo sheng dai yu
-悄无人、舟横野渡	qiao wu ren 、 zhou heng ye du
+悄无人、舟横野渡	qiao wu ren zhou heng ye du
 数峰江上	shu feng jiang shang
 芳草天涯	fang cao tian ya
 参差烟树	cen ci yan shu
@@ -7904,7 +7904,7 @@ columns:
 任宝奁闲掩	ren bao lian xian yan
 日上帘钩	ri shang lian gou
 生怕闲愁暗恨	sheng pa xian chou an hen
-多少事、欲说还休	duo shao shi 、 yu shuo hai xiu
+多少事、欲说还休	duo shao shi yu shuo hai xiu
 今年瘦	jin nian shou
 非干病酒	fei gan bing jiu
 不是悲秋	bu shi bei qiu
@@ -7915,7 +7915,7 @@ columns:
 念武陵春晚	nian wu ling chun wan
 云锁重楼	yun suo zhong lou
 记取楼前绿水	ji qu lou qian lv shui
-应念我、终日凝眸	ying nian wo 、 zhong ri ning mou
+应念我、终日凝眸	ying nian wo zhong ri ning mou
 凝眸处	ning mou chu
 从今更数	cong jin geng shu
 几段新愁	ji duan xin chou
@@ -7964,7 +7964,7 @@ columns:
 元宵佳节	yuan xiao jia jie
 融和天气	rong he tian qi
 次第岂无风雨	ci di qi wu feng yu
-来相召、香车宝马	lai xiang zhao 、 xiang che bao ma
+来相召、香车宝马	lai xiang zhao xiang che bao ma
 谢他酒朋诗侣	xie ta jiu peng shi lv
 中州盛日	zhong zhou sheng ri
 闺门多暇	gui men duo xia
@@ -7975,17 +7975,17 @@ columns:
 如今憔悴	ru jin qiao cui
 风鬟霜鬓	feng huan shuang bin
 怕见夜间出去	pa jian ye jian chu qu
-不如向、帘儿底下	bu ru xiang 、 lian er di xia
+不如向、帘儿底下	bu ru xiang lian er di xia
 听人笑语	ting ren xiao yu
 李清照	li qing zhao
 声声慢	sheng sheng man
 寻寻觅觅	xun xun mi mi
 冷冷清清	leng leng qing qing
 凄凄惨惨戚戚	qi qi can can qi qi
-乍暖还寒时候	zha nuan hai han shi hou
+乍暖还寒时候	zha nuan huan han shi hou
 最难将息	zui nan jiang xi
 三杯两盏淡酒	san bei liang zhan dan jiu
-怎敌他、晚来风急	zen di ta 、 wan lai feng ji
+怎敌他、晚来风急	zen di ta wan lai feng ji
 雁过也	yan guo ye
 正伤心	zheng shang xin
 却是旧时相识	que shi jiu shi xiang shi
@@ -7995,9 +7995,9 @@ columns:
 守著窗儿	shou zhu chuang er
 独自怎生得黑	du zi zen sheng de hei
 梧桐更兼细雨	wu tong geng jian xi yu
-到黄昏、点点滴滴	dao huang hun 、 dian dian di di
+到黄昏、点点滴滴	dao huang hun dian dian di di
 这次第	zhe ci di
-怎一个、愁字了得	zen yi ge 、 chou zi liao de
+怎一个、愁字了得	zen yi ge chou zi liao de
 蔡伸	cai shen
 苏武慢	su wu man
 雁落平沙	yan luo ping sha
@@ -8012,7 +8012,7 @@ columns:
 望碧云空暮	wang bi yun kong mu
 佳人何处	jia ren he chu
 梦魂俱远	meng hun ju yuan
-忆旧游、邃馆朱扉	yi jiu you 、 sui guan zhu fei
+忆旧游、邃馆朱扉	yi jiu you sui guan zhu fei
 小园香径	xiao yuan xiang jing
 尚想桃花人面	shang xiang tao hua ren mian
 书盈锦轴	shu ying jin zhou
@@ -8021,7 +8021,7 @@ columns:
 两地离愁	liang di li chou
 一尊芳酒	yi zun fang jiu
 凄凉危阑倚遍	qi liang wei lan yi bian
-尽迟留、凭仗西风	jin chi liu 、 ping zhang xi feng
+尽迟留、凭仗西风	jin chi liu ping zhang xi feng
 吹乾泪眼	chui qian lei yan
 蔡伸	cai shen
 柳梢青	liu shao qing
@@ -8032,18 +8032,18 @@ columns:
 海棠铺绣	hai tang pu xiu
 梨花飘雪	li hua piao xue
 丁香露泣残枝	ding xiang lu qi can zhi
-算未比、愁肠寸结	suan wei bi 、 chou chang cun jie
+算未比、愁肠寸结	suan wei bi chou chang cun jie
 自是休文	zi shi xiu wen
 多情多感	duo qing duo gan
 不干风月	bu gan feng yue
 辛弃疾	xin qi ji
 摸鱼儿	mo yu er
-更能消、几番风雨	geng neng xiao 、 ji fan feng yu
+更能消、几番风雨	geng neng xiao ji fan feng yu
 匆匆春又归去	cong cong chun you gui qu
 惜春长恨花开早	xi chun zhang hen hua kai zao
 何况落红无数	he kuang luo hong wu shu
 春且住	chun qie zhu
-见说道、天涯芳草迷归路	jian shuo dao 、 tian ya fang cao mi gui lu
+见说道、天涯芳草迷归路	jian shuo dao tian ya fang cao mi gui lu
 怨春不语	yuan chun bu yu
 算只有殷勤	suan zhi you yin qin
 画檐珠网	hua yan zhu wang
@@ -8054,7 +8054,7 @@ columns:
 千金纵买相如赋	qian jin zong mai xiang ru fu
 脉脉此情谁诉	mo mo ci qing shui su
 君莫舞	jun mo wu
-君不见、玉环飞燕皆尘土	jun bu jian 、 yu huan fei yan jie chen tu
+君不见、玉环飞燕皆尘土	jun bu jian yu huan fei yan jie chen tu
 闲愁最苦	xian chou zui ku
 休去倚危楼	xiu qu yi wei lou
 斜阳正在	xie yang zheng zai
@@ -8071,9 +8071,9 @@ columns:
 江南游子	jiang nan you zi
 把吴钩看了	ba wu gou kan le
 栏干拍遍	lan gan pai bian
-无人会、登临意	wu ren hui 、 deng lin yi
+无人会、登临意	wu ren hui deng lin yi
 休说鲈鱼堪	xiu shuo lu yu kan
-尽西风、季鹰归未	jin xi feng 、 ji ying gui wei
+尽西风、季鹰归未	jin xi feng ji ying gui wei
 求田问舍	qiu tian wen she
 怕应羞见	pa ying xiu jian
 刘郎才气	liu lang cai qi
@@ -8086,7 +8086,7 @@ columns:
 辛弃疾	xin qi ji
 念奴娇	nian nu jiao
 野棠花落	ye tang hua luo
-又匆匆、过了青明时节	you cong cong 、 guo le qing ming shi jie
+又匆匆、过了青明时节	you cong cong guo le qing ming shi jie
 地东风欺客梦	di dong feng qi ke meng
 一夜云屏寒怯	yi ye yun ping han qie
 曲岸持觞	qu an chi shang
@@ -8128,12 +8128,12 @@ columns:
 辛弃疾	xin qi ji
 木兰花慢	mu lan hua man
 老来情味减	lao lai qing wei jian
-对别酒、怯流年	dui bie jiu 、 qie liu nian
+对别酒、怯流年	dui bie jiu qie liu nian
 况屈指中秋	kuang qu zhi zhong qiu
 十分好月	shi fen hao yue
 不照人圆	bu zhao ren yuan
-无情水、都不管	wu qing shui 、 dou bu guan
-共西风、只等送归船	gong xi feng 、 zhi deng song gui chuan
+无情水、都不管	wu qing shui dou bu guan
+共西风、只等送归船	gong xi feng zhi deng song gui chuan
 秋晚莼鲈江上	qiu wan chun lu jiang shang
 夜深儿女灯前	ye shen er nv deng qian
 征衫	zheng shan
@@ -8143,7 +8143,7 @@ columns:
 留教视草	liu jiao shi cao
 却遣筹边	que qian chou bian
 长安故人问我	chang an gu ren wen wo
-道寻常、泥酒只依然	dao xun chang 、 ni jiu zhi yi ran
+道寻常、泥酒只依然	dao xun chang ni jiu zhi yi ran
 目断秋霄落雁	mu duan qiu xiao luo yan
 醉来时响空弦	zui lai shi xiang kong xian
 辛弃疾	xin qi ji
@@ -8155,7 +8155,7 @@ columns:
 十日九风雨	shi ri jiu feng yu
 断肠片片飞红	duan chang pian pian fei hong
 都无人管	dou wu ren guan
-倩谁唤、流莺声住	qian shui huan 、 liu ying sheng zhu
+倩谁唤、流莺声住	qian shui huan liu ying sheng zhu
 鬓边觑	bin bian qu
 试把花卜心期	shi ba hua bo xin qi
 才簪又重数	cai zan you chong shu
@@ -8163,11 +8163,11 @@ columns:
 呜咽梦中语	wu ye meng zhong yu
 是他春带愁来	shi ta chun dai chou lai
 春归何处	chun gui he chu
-却不解、将愁归去	que bu jie 、 jiang chou gui qu
+却不解、将愁归去	que bu jie jiang chou gui qu
 辛弃疾	xin qi ji
 青玉案	qing yu an
 东风夜放花千树	dong feng ye fang hua qian shu
-更吹落、星如雨	geng chui luo 、 xing ru yu
+更吹落、星如雨	geng chui luo xing ru yu
 宝马雕车香满路	bao ma diao che xiang man lu
 凤箫声动	feng xiao sheng dong
 玉壶光转	yu hu guang zhuan
@@ -8181,21 +8181,21 @@ columns:
 辛弃疾	xin qi ji
 贺新郎	he xin lang
 凤尾龙香拨	feng wei long xiang bo
-自开元、霓裳曲罢	zi kai yuan 、 ni chang qu ba
+自开元、霓裳曲罢	zi kai yuan ni chang qu ba
 几番风月	ji fan feng yue
 最苦浔阳江头客	zui ku xun yang jiang tou ke
 画舸亭亭待发	hua ge ting ting dai fa
-记出塞、黄云堆雪	ji chu sai 、 huang yun dui xue
+记出塞、黄云堆雪	ji chu sai huang yun dui xue
 马上离愁三万里	ma shang li chou san wan li
-望昭阳、宫殿孤鸿没	wang zhao yang 、 gong dian gu hong mei
+望昭阳、宫殿孤鸿没	wang zhao yang gong dian gu hong mei
 弦解语	xian jie yu
 恨难说	hen nan shuo
 辽阳驿使音尘绝	liao yang yi shi yin chen jue
-琐窗寒、轻拢慢拈	suo chuang han 、 qing long man nian
+琐窗寒、轻拢慢拈	suo chuang han qing long man nian
 泪珠盈睫	lei zhu ying jie
 推手含情还却手	tui shou han qing hai que shou
 一抹梁州哀彻	yi mo liang zhou ai che
-千古事、云飞烟灭	qian gu shi 、 yun fei yan mie
+千古事、云飞烟灭	qian gu shi yun fei yan mie
 贺老定场无消息	he lao ding chang wu xiao xi
 想沈香亭北繁华歇	xiang shen xiang ting bei fan hua xie
 弹到此	dan dao ci
@@ -8203,21 +8203,21 @@ columns:
 辛弃疾	xin qi ji
 贺新郎	he xin lang
 绿树听鹈	lv shu ting ti
-更那堪、鹧鸪声住	geng na kan 、 zhe gu sheng zhu
+更那堪、鹧鸪声住	geng na kan zhe gu sheng zhu
 杜鹃声切	du juan sheng qie
 啼到春归无寻处	ti dao chun gui wu xun chu
 苦恨芳菲都歇	ku hen fang fei dou xie
-算未抵、人间离别	suan wei di 、 ren jian li bie
+算未抵、人间离别	suan wei di ren jian li bie
 马上琵琶关塞黑	ma shang pi pa guan sai hei
-更长门、翠辇辞金阙	geng chang men 、 cui nian ci jin que
+更长门、翠辇辞金阙	geng chang men cui nian ci jin que
 看燕燕	kan yan yan
 送归妾	song gui qie
 将军百战身名裂	jiang jun bai zhan shen ming lie
-向河梁、回头万里	xiang he liang 、 hui tou wan li
+向河梁、回头万里	xiang he liang hui tou wan li
 故人长绝	gu ren zhang jue
 易水萧萧西风冷	yi shui xiao xiao xi feng leng
 满座衣冠似雪	man zuo yi guan shi xue
-正壮士、悲歌未彻	zheng zhuang shi 、 bei ge wei che
+正壮士、悲歌未彻	zheng zhuang shi bei ge wei che
 啼鸟还知如许恨	ti niao hai zhi ru xu hen
 料不啼清泪长啼血	liao bu ti qing lei zhang ti xue
 谁共我	shui gong wo
@@ -8230,8 +8230,8 @@ columns:
 无端风雨	wu duan feng yu
 未肯收尽馀寒	wei ken shou jin yu han
 年时燕子	nian shi yan zi
-料今宵、梦到西园	liao jin xiao 、 meng dao xi yuan
-浑未办、黄柑荐酒	hun wei ban 、 huang gan jian jiu
+料今宵、梦到西园	liao jin xiao meng dao xi yuan
+浑未办、黄柑荐酒	hun wei ban huang gan jian jiu
 更传青韭堆盘	geng chuan qing jiu dui pan
 却笑东风从此	que xiao dong feng cong ci
 便薰梅染柳	bian xun mei ran liu
@@ -8239,8 +8239,8 @@ columns:
 闲时又来镜里	xian shi you lai jing li
 转变朱颜	zhuan bian zhu yan
 清愁不断	qing chou bu duan
-问何人、会解连环	wen he ren 、 hui jie lian huan
-生怕见、花开花落	sheng pa jian 、 hua kai hua luo
+问何人、会解连环	wen he ren hui jie lian huan
+生怕见、花开花落	sheng pa jian hua kai hua luo
 朝来塞雁先还	chao lai sai yan xian hai
 程垓	cheng gai
 水龙吟	shui long yin
@@ -8254,37 +8254,37 @@ columns:
 对人容易	dui ren rong yi
 算好春长在	suan hao chun zhang zai
 好花长见	hao hua zhang jian
-元只是、人憔悴	yuan zhi shi 、 ren qiao cui
+元只是、人憔悴	yuan zhi shi ren qiao cui
 回首池南旧事	hui shou chi nan jiu shi
-恨星星、不堪重记	hen xing xing 、 bu kan zhong ji
+恨星星、不堪重记	hen xing xing bu kan zhong ji
 如今但有	ru jin dan you
 看花老眼	kan hua lao yan
 伤时清泪	shang shi qing lei
 不怕逢花瘦	bu pa feng hua shou
-只愁怕、老来风味	zhi chou pa 、 lao lai feng wei
+只愁怕、老来风味	zhi chou pa lao lai feng wei
 待繁红乱处	dai fan hong luan chu
 留云借月	liu yun jie yue
 也须拼醉	ye xu pin zui
 贺铸	he zhu
-绿头鸭・多丽	lv tou ya ・ duo li
+绿头鸭·多丽	lv tou ya duo li
 玉人家	yu ren jia
 画楼珠箔临津	hua lou zhu bo lin jin
-托微风、彩箫流怨	tuo wei feng 、 cai xiao liu yuan
+托微风、彩箫流怨	tuo wei feng cai xiao liu yuan
 断肠马上曾闻	duan chang ma shang ceng wen
-燕堂开、艳妆丛里	yan tang kai 、 yan zhuang cong li
-调琴思、认歌颦	diao qin si 、 ren ge pin
+燕堂开、艳妆丛里	yan tang kai yan zhuang cong li
+调琴思、认歌颦	diao qin si ren ge pin
 麝蜡烟浓	she la yan nong
 玉莲漏短	yu lian lou duan
 更衣不待酒初醺	geng yi bu dai jiu chu xun
-绣屏掩、枕鸳相就	xiu ping yan 、 zhen yuan xiang jiu
+绣屏掩、枕鸳相就	xiu ping yan zhen yuan xiang jiu
 香气渐暾暾	xiang qi jian tun tun
 回廊影	hui lang ying
 疏钟淡月	shu zhong dan yue
 几许销魂	ji xu xiao hun
-翠钗分、银笺封泪	cui chai fen 、 yin jian feng lei
+翠钗分、银笺封泪	cui chai fen yin jian feng lei
 舞鞋从此生尘	wu xie cong ci sheng chen
-住兰舟、载将离恨	zhu lan zhou 、 zai jiang li hen
-转南浦、背西曛	zhuan nan pu 、 bei xi xun
+住兰舟、载将离恨	zhu lan zhou zai jiang li hen
+转南浦、背西曛	zhuan nan pu bei xi xun
 记取明年	ji qu ming nian
 蔷薇谢後	qiang wei xie hou
 佳期应未误行云	jia qi ying wei wu xing yun
@@ -8306,9 +8306,9 @@ columns:
 不如垂柳	bu ru chui liu
 算春常不老	suan chun chang bu lao
 人愁春老	ren chou chun lao
-愁只是、人间有	chou zhi shi 、 ren jian you
+愁只是、人间有	chou zhi shi ren jian you
 春恨十常八九	chun hen shi chang ba jiu
-忍轻辜、芳醪经口	ren qing gu 、 fang lao jing kou
+忍轻辜、芳醪经口	ren qing gu fang lao jing kou
 那知自是	na zhi zi shi
 桃花结子	tao hua jie zi
 不因春瘦	bu yin chun shou
@@ -8326,7 +8326,7 @@ columns:
 南山尚相送	nan shan shang xiang song
 只高城人隔	zhi gao cheng ren ge
 罨画园林溪绀碧	yan hua yuan lin xi gan bi
-算重来、尽成陈迹	suan zhong lai 、 jin cheng chen ji
+算重来、尽成陈迹	suan zhong lai jin cheng chen ji
 刘郎鬓如此	liu lang bin ru ci
 况桃花颜色	kuang tao hua yan se
 晁补之	chao bu zhi
@@ -8334,7 +8334,7 @@ columns:
 青烟幂处	qing yan mi chu
 碧海飞金镜	bi hai fei jin jing
 永夜闲阶卧桂影	yong ye xian jie wo gui ying
-露凉时、零乱多少寒	lu liang shi 、 ling luan duo shao han
+露凉时、零乱多少寒	lu liang shi ling luan duo shao han
 神京远	shen jing yuan
 惟有蓝桥路近	wei you lan qiao lu jin
 水晶帘不下	shui jing lian bu xia
@@ -8342,8 +8342,8 @@ columns:
 冷浸佳人淡脂粉	leng jin jia ren dan zhi fen
 待都将许多明	dai dou jiang xu duo ming
 付与金尊	fu yu jin zun
-投晓共、流霞倾尽	tou xiao gong 、 liu xia qing jin
-更携取、胡床上南楼	geng xie qu 、 hu chuang shang nan lou
+投晓共、流霞倾尽	tou xiao gong liu xia qing jin
+更携取、胡床上南楼	geng xie qu hu chuang shang nan lou
 看玉做人间	kan yu zuo ren jian
 素秋千倾	su qiu qian qing
 周邦彦	zhou bang yan
@@ -8379,7 +8379,7 @@ columns:
 断肠院落	duan chang yuan luo
 一帘风絮	yi lian feng xu
 周邦彦	zhou bang yan
-锁窗寒・琐寒窗	suo chuang han ・ suo han chuang
+锁窗寒·琐寒窗	suo chuang han suo han chuang
 暗柳啼鸦	an liu ti ya
 单衣伫立	dan yi zhu li
 小帘朱户	xiao lian zhu hu
@@ -8438,7 +8438,7 @@ columns:
 沈沈暗寒食	shen shen an han shi
 梁间燕	liang jian yan
 前社客	qian she ke
-似笑我、闭门愁寂	shi xiao wo 、 bi men chou ji
+似笑我、闭门愁寂	shi xiao wo bi men chou ji
 乱花过	luan hua guo
 隔院芸香	ge yuan yun xiang
 满地狼藉	man di lang ji
@@ -8459,22 +8459,22 @@ columns:
 怨怀无托	yuan huai wu tuo
 嗟情人断绝	jie qing ren duan jue
 信音辽邈	xin yin liao miao
-信妙手、能解连环	xin miao shou 、 neng jie lian huan
+信妙手、能解连环	xin miao shou neng jie lian huan
 似风散雨收	shi feng san yu shou
 雾轻云薄	wu qing yun bao
 燕子楼空	yan zi lou kong
-暗尘锁、一床弦索	an chen suo 、 yi chuang xian suo
+暗尘锁、一床弦索	an chen suo yi chuang xian suo
 想移根换叶	xiang yi gen huan ye
 尽是旧时	jin shi jiu shi
 手种红药	shou zhong hong yao
 汀洲渐生杜若	ting zhou jian sheng du ruo
 料舟依岸曲	liao zhou yi an qu
 人在天角	ren zai tian jiao
-谩记得、当日音书	man ji de 、 dang ri yin shu
+谩记得、当日音书	man ji de dang ri yin shu
 把闲语闲言	ba xian yu xian yan
 待总烧却	dai zong shao que
 水驿春回	shui yi chun hui
-望寄我、江南梅萼	wang ji wo 、 jiang nan mei e
+望寄我、江南梅萼	wang ji wo jiang nan mei e
 拚今生	pan jin sheng
 对花对酒	dui hua dui jiu
 为伊落泪	wei yi luo lei
@@ -8484,9 +8484,9 @@ columns:
 行路永	xing lu yong
 客去车尘漠漠	ke qu che chen mo mo
 斜阳映山落	xie yang ying shan luo
-敛馀红、犹恋孤城栏角	lian yu hong 、 you lian gu cheng lan jiao
+敛馀红、犹恋孤城栏角	lian yu hong you lian gu cheng lan jiao
 凌波步弱	ling bo bu ruo
-过短亭、何用素约	guo duan ting 、 he yong su yue
+过短亭、何用素约	guo duan ting he yong su yue
 有流莺劝我	you liu ying quan wo
 重解绣鞍	zhong jie xiu an
 缓引春酌	huan yin chun zhuo
@@ -8496,34 +8496,34 @@ columns:
 惊飙动幕	jing biao dong mu
 扶残醉	fu can zui
 绕红药	rao hong yao
-叹西园、已是花深无地	tan xi yuan 、 yi shi hua shen wu di
+叹西园、已是花深无地	tan xi yuan yi shi hua shen wu di
 东风何事又恶	dong feng he shi you e
 任流光过却	ren liu guang guo que
 犹喜洞天自乐	you xi dong tian zi le
 周邦彦	zhou bang yan
-浪涛沙・浪淘沙	lang tao sha ・ lang tao sha
+浪涛沙·浪淘沙	lang tao sha lang tao sha
 昼阴重	zhou yin zhong
 霜凋岸草	shuang diao an cao
 雾隐城堞	wu yin cheng die
 南陌脂车待发	nan mo zhi che dai fa
 东门帐饮乍阕	dong men zhang yin zha que
 正拂面垂杨堪缆结	zheng fu mian chui yang kan lan jie
-掩红泪、玉手亲折	yan hong lei 、 yu shou qin zhe
+掩红泪、玉手亲折	yan hong lei yu shou qin zhe
 念汉浦离鸿去何许	nian han pu li hong qu he xu
 经时信音绝	jing shi xin yin jue
 情切	qing qie
 望中地远天阔	wang zhong di yuan tian kuo
 向露冷风清	xiang lu leng feng qing
-无人处、耿耿寒漏咽	wu ren chu 、 geng geng han lou yan
+无人处、耿耿寒漏咽	wu ren chu geng geng han lou yan
 嗟万事难忘	jie wan shi nan wang
 唯是轻别	wei shi qing bie
 翠尊未竭	cui zun wei jie
 凭断云留取	ping duan yun liu qu
 西楼残月	xi lou can yue
 罗带光销纹衾叠	luo dai guang xiao wen qin die
-连环解、旧香顿歇	lian huan jie 、 jiu xiang dun xie
-怨歌永、琼壶敲尽缺	yuan ge yong 、 qiong hu qiao jin que
-恨春去、不与人期	hen chun qu 、 bu yu ren qi
+连环解、旧香顿歇	lian huan jie jiu xiang dun xie
+怨歌永、琼壶敲尽缺	yuan ge yong qiong hu qiao jin que
+恨春去、不与人期	hen chun qu bu yu ren qi
 弄夜色	nong ye se
 空馀满地梨花雪	kong yu man di li hua xue
 周邦彦	zhou bang yan
@@ -8534,7 +8534,7 @@ columns:
 地卑山近	di bei shan jin
 衣润费垆烟	yi run fei lu yan
 人静乌鸢自乐	ren jing wu yuan zi le
-小桥外、新绿溅溅	xiao qiao wai 、 xin lv jian jian
+小桥外、新绿溅溅	xiao qiao wai xin lv jian jian
 凭栏久	ping lan jiu
 黄芦苦竹	huang lu ku zhu
 拟泛九江船	ni fan jiu jiang chuan
@@ -8545,7 +8545,7 @@ columns:
 且莫思身外	qie mo si shen wai
 长近尊前	zhang jin zun qian
 憔悴江南倦客	qiao cui jiang nan juan ke
-不堪听、急管繁弦	bu kan ting 、 ji guan fan xian
+不堪听、急管繁弦	bu kan ting ji guan fan xian
 歌筵畔	ge yan pan
 先安簟枕	xian an dian zhen
 容我醉时眠	rong wo zui shi mian
@@ -8563,7 +8563,7 @@ columns:
 叹年华一瞬	tan nian hua yi shun
 人今千里	ren jin qian li
 梦沈书远	meng shen shu yuan
-空见说、鬓怯琼梳	kong jian shuo 、 bin qie qiong shu
+空见说、鬓怯琼梳	kong jian shuo bin qie qiong shu
 容销金镜	rong xiao jin jing
 渐懒趁时匀染	jian lan chen shi yun ran
 梅风地溽	mei feng di ru
@@ -8577,13 +8577,13 @@ columns:
 周邦彦	zhou bang yan
 夜游宫	ye you gong
 叶下斜阳照水	ye xia xie yang zhao shui
-卷轻浪、沈沈千里	juan qing lang 、 shen shen qian li
+卷轻浪、沈沈千里	juan qing lang shen shen qian li
 桥上酸风射眸子	qiao shang suan feng she mou zi
 立多时	li duo shi
 看黄昏	kan huang hun
 灯火市	deng huo shi
 古屋寒窗底	gu wu han chuang di
-听几片、井桐飞坠	ting ji pian 、 jing tong fei zhui
+听几片、井桐飞坠	ting ji pian jing tong fei zhui
 不恋单衾再三起	bu lian dan qin zai san qi
 有谁知	you shui zhi
 为萧娘	wei xiao niang
@@ -8597,7 +8597,7 @@ columns:
 纤云散	xian yun san
 耿耿素娥欲下	geng geng su e yu xia
 衣裳淡雅	yi shang dan ya
-看楚女、纤腰一把	kan chu nv 、 xian yao yi ba
+看楚女、纤腰一把	kan chu nv xian yao yi ba
 箫鼓喧	xiao gu xuan
 人影参差	ren ying cen ci
 满路飘香麝	man lu piao xiang she
@@ -8608,7 +8608,7 @@ columns:
 相逢处	xiang feng chu
 自有暗尘随马	zi you an chen sui ma
 年光是也	nian guang shi ye
-唯只见、旧情衰谢	wei zhi jian 、 jiu qing shuai xie
+唯只见、旧情衰谢	wei zhi jian jiu qing shuai xie
 清漏移	qing lou yi
 飞盖归来	fei gai gui lai
 从舞休歌罢	cong wu xiu ge ba
@@ -8630,13 +8630,13 @@ columns:
 梦轻难记	meng qing nan ji
 自怜幽独	zi lian you du
 行人归意速	xing ren gui yi su
-最先念、流潦妨车毂	zui xian nian 、 liu lao fang che gu
-怎奈向、兰成憔悴	zen nai xiang 、 lan cheng qiao cui
+最先念、流潦妨车毂	zui xian nian liu lao fang che gu
+怎奈向、兰成憔悴	zen nai xiang lan cheng qiao cui
 卫玠清羸	wei jie qing lei
-等闲时、易伤心目	deng xian shi 、 yi shang xin mu
+等闲时、易伤心目	deng xian shi yi shang xin mu
 未怪平阳客	wei guai ping yang ke
-双泪落、笛中哀曲	shuang lei luo 、 di zhong ai qu
-况萧索、青芜国	kuang xiao suo 、 qing wu guo
+双泪落、笛中哀曲	shuang lei luo di zhong ai qu
+况萧索、青芜国	kuang xiao suo qing wu guo
 红糁铺地	hong san pu di
 门外荆桃如菽	men wai jing tao ru shu
 夜游共谁秉烛	ye you gong shui bing zhu
@@ -8657,15 +8657,15 @@ columns:
 相逢似有恨	xiang feng shi you hen
 依依愁悴	yi yi chou cui
 吟望久	yin wang jiu
-青苔上、旋看飞坠	qing tai shang 、 xuan kan fei zhui
-相将见、脆丸荐酒	xiang jiang jian 、 cui wan jian jiu
-人正在、空江烟浪里	ren zheng zai 、 kong jiang yan lang li
-但梦想、一枝潇洒	dan meng xiang 、 yi zhi xiao sa
+青苔上、旋看飞坠	qing tai shang xuan kan fei zhui
+相将见、脆丸荐酒	xiang jiang jian cui wan jian jiu
+人正在、空江烟浪里	ren zheng zai kong jiang yan lang li
+但梦想、一枝潇洒	dan meng xiang yi zhi xiao sa
 黄昏斜照水	huang hun xie zhao shui
 周邦彦	zhou bang yan
 六丑	liu chou
 正单衣试酒	zheng dan yi shi jiu
-恨客里、光阴虚掷	hen ke li 、 guang yin xu zhi
+恨客里、光阴虚掷	hen ke li guang yin xu zhi
 愿春暂留	yuan chun zan liu
 春归如过翼	chun gui ru guo yi
 一去无迹	yi qu wu ji
@@ -8685,18 +8685,18 @@ columns:
 长条故惹行客	chang tiao gu re xing ke
 似牵衣待话	shi qian yi dai hua
 别情无极	bie qing wu ji
-残英小、强簪巾帻	can ying xiao 、 qiang zan jin ze
+残英小、强簪巾帻	can ying xiao qiang zan jin ze
 终不似一朵	zhong bu shi yi duo
 钗头颤袅	chai tou chan niao
 向人侧	xiang ren ce
-漂流处、莫趁潮汐	piao liu chu 、 mo chen chao xi
-恐断红、尚有相思字	kong duan hong 、 shang you xiang si zi
+漂流处、莫趁潮汐	piao liu chu mo chen chao xi
+恐断红、尚有相思字	kong duan hong shang you xiang si zi
 何由见得	he you jian de
 周邦彦	zhou bang yan
 兰陵王	lan ling wang
 柳阴直	liu yin zhi
 烟里丝丝弄碧	yan li si si nong bi
-隋堤上、曾见几番	sui di shang 、 ceng jian ji fan
+隋堤上、曾见几番	sui di shang ceng jian ji fan
 拂水飘绵送行色	fu shui piao mian song xing se
 登临望故国	deng lin wang gu guo
 谁识	shui shi
@@ -8738,33 +8738,33 @@ columns:
 夜深月过女墙来	ye shen yue guo nv qiang lai
 赏心东望淮水	shang xin dong wang huai shui
 酒旗戏鼓甚处市	jiu qi xi gu shen chu shi
-想依稀、王谢邻里	xiang yi xi 、 wang xie lin li
+想依稀、王谢邻里	xiang yi xi wang xie lin li
 燕子不知何世	yan zi bu zhi he shi
-入寻常、巷陌人家	ru xun chang 、 xiang mo ren jia
+入寻常、巷陌人家	ru xun chang xiang mo ren jia
 相对如说兴亡	xiang dui ru shuo xing wang
 斜阳里	xie yang li
 周邦彦	zhou bang yan
 绮寮怨	qi liao yuan
 上马人扶残醉	shang ma ren fu can zui
 晓风吹未醒	xiao feng chui wei xing
-映水曲、翠瓦朱檐	ying shui qu 、 cui wa zhu yan
-垂杨里、乍见津亭	chui yang li 、 zha jian jin ting
+映水曲、翠瓦朱檐	ying shui qu cui wa zhu yan
+垂杨里、乍见津亭	chui yang li zha jian jin ting
 当时曾题败壁	dang shi ceng ti bai bi
-蛛丝罩、淡墨苔晕青	zhu si zhao 、 dan mo tai yun qing
-念去来、岁月如流	nian qu lai 、 sui yue ru liu
-徘徊久、叹息愁思盈	pai huai jiu 、 tan xi chou si ying
+蛛丝罩、淡墨苔晕青	zhu si zhao dan mo tai yun qing
+念去来、岁月如流	nian qu lai sui yue ru liu
+徘徊久、叹息愁思盈	pai huai jiu tan xi chou si ying
 去去倦寻路程	qu qu juan xun lu cheng
 江陵旧事	jiang ling jiu shi
 何曾再问杨琼	he zeng zai wen yang qiong
 旧曲凄清	jiu qu qi qing
-敛愁黛、与谁听	lian chou dai 、 yu shui ting
+敛愁黛、与谁听	lian chou dai yu shui ting
 尊前故人如在	zun qian gu ren ru zai
-想念我、最关情	xiang nian wo 、 zui guan qing
+想念我、最关情	xiang nian wo zui guan qing
 何须渭城	he xu wei cheng
 歌声未尽处	ge sheng wei jin chu
 先泪零	xian lei ling
 周邦彦	zhou bang yan
-拜星月・拜星月慢	bai xing yue ・ bai xing yue man
+拜星月·拜星月慢	bai xing yue bai xing yue man
 夜色催更	ye se cui geng
 清尘收露	qing chen shou lu
 小曲幽坊月暗	xiao qu you fang yue an
@@ -8775,31 +8775,31 @@ columns:
 暖日明霞光烂	nuan ri ming xia guang lan
 水眄兰情	shui mian lan qing
 总平生稀见	zong ping sheng xi jian
-画图中、旧识春风面	hua tu zhong 、 jiu shi chun feng mian
-谁知道、自到瑶台畔	shui zhi dao 、 zi dao yao tai pan
+画图中、旧识春风面	hua tu zhong jiu shi chun feng mian
+谁知道、自到瑶台畔	shui zhi dao zi dao yao tai pan
 眷恋雨润云温	juan lian yu run yun wen
 苦惊风吹散	ku jing feng chui san
-念荒寒、寄宿无人馆	nian huang han 、 ji su wu ren guan
-重门闭、败壁秋虫叹	zhong men bi 、 bai bi qiu chong tan
-怎奈向、一缕相思	zen nai xiang 、 yi lv xiang si
+念荒寒、寄宿无人馆	nian huang han ji su wu ren guan
+重门闭、败壁秋虫叹	zhong men bi bai bi qiu chong tan
+怎奈向、一缕相思	zen nai xiang yi lv xiang si
 隔溪山不断	ge xi shan bu duan
 周邦彦	zhou bang yan
 尉迟杯	yu chi bei
 隋堤路	sui di lu
-渐日晚、密霭生深树	jian ri wan 、 mi ai sheng shen shu
+渐日晚、密霭生深树	jian ri wan mi ai sheng shen shu
 阴阴淡月笼沙	yin yin dan yue long sha
 还宿河桥深处	hai su he qiao shen chu
 无情画舸	wu qing hua ge
-都不管、烟波隔南浦	dou bu guan 、 yan bo ge nan pu
-等行人、醉拥重衾	deng xing ren 、 zui yong zhong qin
+都不管、烟波隔南浦	dou bu guan yan bo ge nan pu
+等行人、醉拥重衾	deng xing ren zui yong zhong qin
 载将离恨归去	zai jiang li hen gui qu
 因念旧客京华	yin nian jiu ke jing hua
-长偎傍、疏林小槛欢聚	zhang wei bang 、 shu lin xiao kan huan ju
+长偎傍、疏林小槛欢聚	zhang wei bang shu lin xiao kan huan ju
 冶叶倡条俱相识	ye ye chang tiao ju xiang shi
-仍惯见、珠歌翠舞	reng guan jian 、 zhu ge cui wu
-如今向、渔村水驿	ru jin xiang 、 yu cun shui yi
-夜如岁、焚香独自语	ye ru sui 、 fen xiang du zi yu
-有何人、念我无	you he ren 、 nian wo wu
+仍惯见、珠歌翠舞	reng guan jian zhu ge cui wu
+如今向、渔村水驿	ru jin xiang yu cun shui yi
+夜如岁、焚香独自语	ye ru sui fen xiang du zi yu
+有何人、念我无	you he ren nian wo wu
 梦魂凝想鸳侣	meng hun ning xiang yuan lv
 周邦彦	zhou bang yan
 蝶恋花·早行	die lian hua zao xing
@@ -8814,7 +8814,7 @@ columns:
 楼上阑干横斗柄	lou shang lan gan heng dou bing
 露寒人远鸡相应	lu han ren yuan ji xiang ying
 周邦彦	zhou bang yan
-夜飞鹊・夜飞鹊慢	ye fei que ・ ye fei que man
+夜飞鹊·夜飞鹊慢	ye fei que ye fei que man
 河桥送人处	he qiao song ren chu
 凉夜何其	liang ye he qi
 斜月远堕馀辉	xie yue yuan duo yu hui
@@ -8824,7 +8824,7 @@ columns:
 探风前津鼓	tan feng qian jin gu
 树杪参旗	shu miao can qi
 华骢会意	hua cong hui yi
-纵扬鞭、亦自行迟	zong yang bian 、 yi zi xing chi
+纵扬鞭、亦自行迟	zong yang bian yi zi xing chi
 迢递路回清野	tiao di lu hui qing ye
 人语渐无闻	ren yu jian wu wen
 空带愁归	kong dai chou gui
@@ -8832,37 +8832,37 @@ columns:
 遗钿不见	yi dian bu jian
 斜径都迷	xie jing dou mi
 兔葵燕麦	tu kui yan mai
-向残阳、欲与人齐	xiang can yang 、 yu yu ren qi
+向残阳、欲与人齐	xiang can yang yu yu ren qi
 但徘徊班草	dan pai huai ban cao
 欷酹酒	xi lei jiu
 极望天西	ji wang tian xi
 周邦彦	zhou bang yan
-关河令・清商怨	guan he ling ・ qing shang yuan
+关河令·清商怨	guan he ling qing shang yuan
 秋阴时晴渐向暝	qiu yin shi qing jian xiang ming
 变一庭凄冷	bian yi ting qi leng
 伫听寒声	zhu ting han sheng
 云深无雁影	yun shen wu yan ying
 更深人去寂静	geng shen ren qu ji jing
-但照壁、孤灯相映	dan zhao bi 、 gu deng xiang ying
+但照壁、孤灯相映	dan zhao bi gu deng xiang ying
 酒已都醒	jiu yi dou xing
 如何消夜永	ru he xiao ye yong
 孔夷	kong yi
 南浦	nan pu
 风悲画角	feng bei hua jiao
-听单于、三弄落谯门	ting chan yu 、 san nong luo qiao men
+听单于、三弄落谯门	ting chan yu san nong luo qiao men
 投宿征骑	tou su zheng qi
 飞雪满孤村	fei xue man gu cun
 酒市渐闲灯火	jiu shi jian xian deng huo
-正敲窗、乱叶舞纷纷	zheng qiao chuang 、 luan ye wu fen fen
+正敲窗、乱叶舞纷纷	zheng qiao chuang luan ye wu fen fen
 送数声惊雁	song shu sheng jing yan
 下离烟水	xia li yan shui
 嘹唳度寒云	liao li du han yun
 好在半胧溪月	hao zai ban long xi yue
-到如今、无处不销魂	dao ru jin 、 wu chu bu xiao hun
+到如今、无处不销魂	dao ru jin wu chu bu xiao hun
 故国梅花归梦	gu guo mei hua gui meng
 愁损绿罗裙	chou sun lv luo qun
 为问暗香闲艳	wei wen an xiang xian yan
-也相思、万点付啼痕	ye xiang si 、 wan dian fu ti hen
+也相思、万点付啼痕	ye xiang si wan dian fu ti hen
 算翠屏应是	suan cui ping ying shi
 两眉馀恨倚黄昏	liang mei yu hen yi huang hun
 晁冲之	chao chong zhi
@@ -8898,15 +8898,15 @@ columns:
 梦深薇露	meng shen wei lu
 化作断魂心字	hua zuo duan hun xin zi
 红瓷候火	hong ci hou huo
-还乍识、冰环玉指	hai zha shi 、 bing huan yu zhi
+还乍识、冰环玉指	hai zha shi bing huan yu zhi
 一缕萦帘翠影	yi lv ying lian cui ying
 依稀海天云气	yi xi hai tian yun qi
 几回娇半醉	ji hui jiao ban zui
-翦春灯、夜寒花碎	jian chun deng 、 ye han hua sui
+翦春灯、夜寒花碎	jian chun deng ye han hua sui
 更好故溪飞雪	geng hao gu xi fei xue
 小窗深闭	xiao chuang shen bi
 荀令如今顿老	xun ling ru jin dun lao
-总忘却、樽前旧风味	zong wang que 、 zun qian jiu feng wei
+总忘却、樽前旧风味	zong wang que zun qian jiu feng wei
 谩惜馀熏	man xi yu xun
 空篝素被	kong gou su bei
 王沂孙	wang yi sun
@@ -8918,18 +8918,18 @@ columns:
 深深拜	shen shen bai
 相逢谁在香径	xiang feng shui zai xiang jing
 画眉未稳	hua mei wei wen
-料素娥、犹带离恨	liao su e 、 you dai li hen
-最堪爱、一曲银钩小	zui kan ai 、 yi qu yin gou xiao
+料素娥、犹带离恨	liao su e you dai li hen
+最堪爱、一曲银钩小	zui kan ai yi qu yin gou xiao
 宝帘挂秋冷	bao lian gua qiu leng
 千古盈亏休问	qian gu ying kui xiu wen
 叹慢磨玉斧	tan man mo yu fu
 难补金镜	nan bu jin jing
 太液池犹在	tai ye chi you zai
-凄凉处、何人重赋清景	qi liang chu 、 he ren zhong fu qing jing
+凄凉处、何人重赋清景	qi liang chu he ren zhong fu qing jing
 故山夜永	gu shan ye yong
-试待他、窥户端正	shi dai ta 、 kui hu duan zheng
+试待他、窥户端正	shi dai ta kui hu duan zheng
 看云外山河	kan yun wai shan he
-还老尽、桂花影	hai lao jin 、 gui hua ying
+还老尽、桂花影	hai lao jin gui hua ying
 王沂孙	wang yi sun
 齐天乐	qi tian le
 一襟馀恨宫魂断	yi jin yu hen gong hun duan
@@ -8961,7 +8961,7 @@ columns:
 小帖金泥	xiao tie jin ni
 不知春在谁家	bu zhi chun zai shui jia
 相思一夜窗前梦	xiang si yi ye chuang qian meng
-奈个人、水隔天遮	nai ge ren 、 shui ge tian zhe
+奈个人、水隔天遮	nai ge ren shui ge tian zhe
 但凄然	dan qi ran
 满树幽香	man shu you xiang
 满地横斜	man di heng xie
@@ -8971,7 +8971,7 @@ columns:
 怎得银笺	zen de yin jian
 殷勤与说年华	yin qin yu shuo nian hua
 如今处处生芳草	ru jin chu chu sheng fang cao
-纵凭高、不见天涯	zong ping gao 、 bu jian tian ya
+纵凭高、不见天涯	zong ping gao bu jian tian ya
 更消他	geng xiao ta
 几度东风	ji du dong feng
 几度飞花	ji du fei hua
@@ -8986,77 +8986,77 @@ columns:
 记唤酒寻芳处	ji huan jiu xun fang chu
 盈盈褪妆晚	ying ying tui zhuang wan
 已销黯	yi xiao an
-况凄凉、近来离思	kuang qi liang 、 jin lai li si
-应忘却、明月夜深归辇	ying wang que 、 ming yue ye shen gui nian
+况凄凉、近来离思	kuang qi liang jin lai li si
+应忘却、明月夜深归辇	ying wang que ming yue ye shen gui nian
 荏苒一枝春	ren ran yi zhi chun
-恨东风、人似天远	hen dong feng 、 ren shi tian yuan
+恨东风、人似天远	hen dong feng ren shi tian yuan
 纵有残花	zong you can hua
-洒征衣、铅泪都满	sa zheng yi 、 qian lei dou man
+洒征衣、铅泪都满	sa zheng yi qian lei dou man
 但殷勤折取	dan yin qin zhe qu
 自遣一襟幽怨	zi qian yi jin you yuan
 王沂孙	wang yi sun
-长亭怨・长亭怨慢	chang ting yuan ・ chang ting yuan man
-泛孤艇、东皋过遍	fan gu ting 、 dong gao guo bian
+长亭怨·长亭怨慢	chang ting yuan chang ting yuan man
+泛孤艇、东皋过遍	fan gu ting dong gao guo bian
 尚记当日	shang ji dang ri
 绿阴门掩	lv yin men yan
 屐齿莓阶	ji chi mei jie
 酒痕罗袖事何限	jiu hen luo xiu shi he xian
 欲寻前迹	yu xun qian ji
-空惆怅、成秋苑	kong chou chang 、 cheng qiu yuan
+空惆怅、成秋苑	kong chou chang cheng qiu yuan
 自约赏花人	zi yue shang hua ren
-别後总、风流云散	bie hou zong 、 feng liu yun san
+别後总、风流云散	bie hou zong feng liu yun san
 水远	shui yuan
 怎知流水外	zen zhi liu shui wai
 却是乱山尤远	que shi luan shan you yuan
 天涯梦短	tian ya meng duan
-想忘了、绮疏雕槛	xiang wang le 、 qi shu diao kan
-望不尽、苒苒斜阳	wang bu jin 、 ran ran xie yang
-抚乔木、年华将晚	fu qiao mu 、 nian hua jiang wan
+想忘了、绮疏雕槛	xiang wang le qi shu diao kan
+望不尽、苒苒斜阳	wang bu jin ran ran xie yang
+抚乔木、年华将晚	fu qiao mu nian hua jiang wan
 但数点红英	dan shu dian hong ying
 犹识西园凄婉	you shi xi yuan qi wan
 姚云文	yao yun wen
 紫萸香慢	zi yu xiang man
-近重阳、偏多风雨	jin chong yang 、 pian duo feng yu
+近重阳、偏多风雨	jin chong yang pian duo feng yu
 绝怜此日暄明	jue lian ci ri xuan ming
 问秋香浓未	wen qiu xiang nong wei
-待携客、出西城	dai xie ke 、 chu xi cheng
+待携客、出西城	dai xie ke chu xi cheng
 正自羁怀多感	zheng zi ji huai duo gan
 怕荒台高处	pa huang tai gao chu
 更不胜情	geng bu sheng qing
-向尊前、又忆洒酒插花人	xiang zun qian 、 you yi sa jiu cha hua ren
-只座上、已无老兵	zhi zuo shang 、 yi wu lao bing
+向尊前、又忆洒酒插花人	xiang zun qian you yi sa jiu cha hua ren
+只座上、已无老兵	zhi zuo shang yi wu lao bing
 凄情	qi qing
 浅醉还醒	qian zui hai xing
-愁不肯、与诗平	chou bu ken 、 yu shi ping
+愁不肯、与诗平	chou bu ken yu shi ping
 记长楸走马	ji zhang qiu zou ma
 雕弓笮柳	diao gong ze liu
 前事休评	qian shi xiu ping
 紫萸一枝传赐	zi yu yi zhi chuan ci
-梦谁到、汉家陵	meng shui dao 、 han jia ling
-尽乌纱、便随风去	jin wu sha 、 bian sui feng qu
+梦谁到、汉家陵	meng shui dao han jia ling
+尽乌纱、便随风去	jin wu sha bian sui feng qu
 要天知道	yao tian zhi dao
 华发如此星星	hua fa ru ci xing xing
 歌罢涕零	ge ba ti ling
 蒋捷	jiang jie
 贺新郎	he xin lang
 梦冷黄金屋	meng leng huang jin wu
-叹秦筝、斜鸿阵里	tan qin zheng 、 xie hong zhen li
+叹秦筝、斜鸿阵里	tan qin zheng xie hong zhen li
 素弦尘扑	su xian chen pu
 化作娇莺飞归去	hua zuo jiao ying fei gui qu
 犹认纱窗旧绿	you ren sha chuang jiu lv
-正过雨、荆桃如菽	zheng guo yu 、 jing tao ru shu
+正过雨、荆桃如菽	zheng guo yu jing tao ru shu
 此恨难平君知否	ci hen nan ping jun zhi fou
-似琼台、涌起弹棋局	shi qiong tai 、 yong qi dan qi ju
+似琼台、涌起弹棋局	shi qiong tai yong qi dan qi ju
 消瘦影	xiao shou ying
 嫌明烛	xian ming zhu
 鸳楼碎泻东西玉	yuan lou sui xie dong xi yu
-问芳、何时再展	wen fang 、 he shi zai zhan
+问芳、何时再展	wen fang he shi zai zhan
 翠钗难卜	cui chai nan bo
 待把宫眉横云样	dai ba gong mei heng yun yang
 描上生绡画幅	miao shang sheng xiao hua fu
-怕不是、新来妆束	pa bu shi 、 xin lai zhuang shu
+怕不是、新来妆束	pa bu shi xin lai zhuang shu
 彩扇红牙今都在	cai shan hong ya jin dou zai
-恨无人、解听开元曲	hen wu ren 、 jie ting kai yuan qu
+恨无人、解听开元曲	hen wu ren jie ting kai yuan qu
 空掩袖	kong yan xiu
 倚寒竹	yi han zhu
 蒋捷	jiang jie
@@ -9070,7 +9070,7 @@ columns:
 而今灯漫挂	er jin deng man gua
 不是暗尘明月	bu shi an chen ming yue
 那时元夜	na shi yuan ye
-况年来、心懒意怯	kuang nian lai 、 xin lan yi qie
+况年来、心懒意怯	kuang nian lai xin lan yi qie
 羞与蛾儿争要	xiu yu e er zheng yao
 江城人悄初更打	jiang cheng ren qiao chu geng da
 问繁华谁解	wen fan hua shui jie
@@ -9093,8 +9093,8 @@ columns:
 放冰蜍飞到	fang bing chu fei dao
 丝丝窗隙	si si chuang xi
 琼瑰暗泣	qiong gui an qi
-念乡关、霜芜似织	nian xiang guan 、 shuang wu shi zhi
-漫将身、化鹤归来	man jiang shen 、 hua he gui lai
+念乡关、霜芜似织	nian xiang guan shuang wu shi zhi
+漫将身、化鹤归来	man jiang shen hua he gui lai
 忘却旧游端的	wang que jiu you duan de
 欢极	huan ji
 蓬壶蕖浸	peng hu qu jin
@@ -9106,11 +9106,11 @@ columns:
 劝清光	quan qing guang
 乍可幽窗相伴	zha ke you chuang xiang ban
 休照红楼夜笛	xiu zhao hong lou ye di
-怕人间、换谱伊凉	pa ren jian 、 huan pu yi liang
+怕人间、换谱伊凉	pa ren jian huan pu yi liang
 素娥未识	su e wei shi
 张炎	zhang yan
-甘州・八声甘州	gan zhou ・ ba sheng gan zhou
-记玉关、踏雪事清游	ji yu guan 、 ta xue shi qing you
+甘州·八声甘州	gan zhou ba sheng gan zhou
+记玉关、踏雪事清游	ji yu guan ta xue shi qing you
 寒气脆貂裘	han qi cui diao qiu
 傍枯林古道	bang ku lin gu dao
 长河饮马	chang he yin ma
@@ -9125,7 +9125,7 @@ columns:
 折芦花赠远	zhe lu hua zeng yuan
 零落一身秋	ling luo yi shen qiu
 向寻常野桥流水	xiang xun chang ye qiao liu shui
-待招来、不是旧沙鸥	dai zhao lai 、 bu shi jiu sha ou
+待招来、不是旧沙鸥	dai zhao lai bu shi jiu sha ou
 空怀感	kong huai gan
 有斜阳处	you xie yang chu
 却怕登楼	que pa deng lou
@@ -9138,17 +9138,17 @@ columns:
 几处闲田	ji chu xian tian
 隔水动春锄	ge shui dong chun chu
 新烟禁柳	xin yan jin liu
-想如今、绿到西湖	xiang ru jin 、 lv dao xi hu
-犹记得、当年深隐	you ji de 、 dang nian shen yin
+想如今、绿到西湖	xiang ru jin lv dao xi hu
+犹记得、当年深隐	you ji de dang nian shen yin
 门掩两三株	men yan liang san zhu
 愁余	chou yu
 荒洲古溆	huang zhou gu xu
 断梗疏萍	duan geng shu ping
 更漂流何处	geng piao liu he chu
-空自觉、围羞带减	kong zi jue 、 wei xiu dai jian
+空自觉、围羞带减	kong zi jue wei xiu dai jian
 影怯灯孤	ying qie deng gu
 常疑即见桃花面	chang yi ji jian tao hua mian
-甚近来、翻笑无书	shen jin lai 、 fan xiao wu shu
+甚近来、翻笑无书	shen jin lai fan xiao wu shu
 书纵远	shu zong yuan
 如何也都无	ru he ye dou wu
 张炎	zhang yan
@@ -9156,23 +9156,23 @@ columns:
 楚江空晚	chu jiang kong wan
 怅离群万里	chang li qun wan li
 恍然惊散	huang ran jing san
-自顾影、欲下寒塘	zi gu ying 、 yu xia han tang
+自顾影、欲下寒塘	zi gu ying yu xia han tang
 正沙净草枯	zheng sha jing cao ku
 水平天远	shui ping tian yuan
 写不成书	xie bu cheng shu
-只寄得、相思一点	zhi ji de 、 xiang si yi dian
+只寄得、相思一点	zhi ji de xiang si yi dian
 料因循误了	liao yin xun wu le
 残毡拥雪	can zhan yong xue
 故人心眼	gu ren xin yan
 谁怜旅愁荏苒	shui lian lv chou ren ran
 谩长门夜悄	man chang men ye qiao
 锦筝弹怨	jin zheng dan yuan
-想伴侣、犹宿芦花	xiang ban lv 、 you su lu hua
+想伴侣、犹宿芦花	xiang ban lv you su lu hua
 也曾念春前	ye ceng nian chun qian
 去程应转	qu cheng ying zhuan
 暮雨相呼	mu yu xiang hu
-怕蓦地、玉关重见	pa mo di 、 yu guan zhong jian
-未羞他、双燕归来	wei xiu ta 、 shuang yan gui lai
+怕蓦地、玉关重见	pa mo di yu guan zhong jian
+未羞他、双燕归来	wei xiu ta shuang yan gui lai
 画帘半卷	hua lian ban juan
 张炎	zhang yan
 月下笛	yue xia di
@@ -9182,7 +9182,7 @@ columns:
 寒窗梦里	han chuang meng li
 犹记经行旧时路	you ji jing xing jiu shi lu
 连昌约略无多柳	lian chang yue lve wu duo liu
-第一是、难听夜雨	di yi shi 、 nan ting ye yu
+第一是、难听夜雨	di yi shi nan ting ye yu
 谩惊回凄悄	man jing hui qi qiao
 相看烛影	xiang kan zhu ying
 拥衾谁语	yong qin shui yu
@@ -9193,8 +9193,8 @@ columns:
 天涯倦旅	tian ya juan lv
 此时心事良苦	ci shi xin shi liang ku
 只愁重洒西州泪	zhi chou zhong sa xi zhou lei
-问杜曲、人家在否	wen du qu 、 ren jia zai fou
-恐翠袖、正天寒	kong cui xiu 、 zheng tian han
+问杜曲、人家在否	wen du qu ren jia zai fou
+恐翠袖、正天寒	kong cui xiu zheng tian han
 犹倚梅花那树	you yi mei hua na shu
 苏过	su guo
 点绛唇	dian jiang chun
@@ -9210,23 +9210,23 @@ columns:
 叶梦得	ye meng de
 贺新郎	he xin lang
 睡起啼莺语	shui qi ti ying yu
-掩青苔、房栊向晚	yan qing tai 、 fang long xiang wan
+掩青苔、房栊向晚	yan qing tai fang long xiang wan
 乱红无数	luan hong wu shu
 吹尽残花无人见	chui jin can hua wu ren jian
 惟有垂杨自舞	wei you chui yang zi wu
-渐暖霭、初回轻暑	jian nuan ai 、 chu hui qing shu
+渐暖霭、初回轻暑	jian nuan ai chu hui qing shu
 宝扇重寻明月影	bao shan zhong xun ming yue ying
-暗尘侵、尚有乘鸾女	an chen qin 、 shang you cheng luan nv
+暗尘侵、尚有乘鸾女	an chen qin shang you cheng luan nv
 惊旧恨	jing jiu hen
 遽如许	ju ru xu
 江南梦断横江渚	jiang nan meng duan heng jiang zhu
-浪黏天、葡萄涨绿	lang nian tian 、 pu tao zhang lv
+浪黏天、葡萄涨绿	lang nian tian pu tao zhang lv
 半空烟雨	ban kong yan yu
 无限楼前沧波意	wu xian lou qian cang bo yi
 谁采苹花寄取	shui cai ping hua ji qu
-但怅望、兰舟容与	dan chang wang 、 lan zhou rong yu
+但怅望、兰舟容与	dan chang wang lan zhou rong yu
 万里云帆何时到	wan li yun fan he shi dao
-送孤鸿、目断千山阻	song gu hong 、 mu duan qian shan zu
+送孤鸿、目断千山阻	song gu hong mu duan qian shan zu
 谁为我	shui wei wo
 唱金缕	chang jin lv
 叶梦得	ye meng de
@@ -9234,11 +9234,11 @@ columns:
 落花已作风前舞	luo hua yi zuo feng qian wu
 又送黄昏雨	you song huang hun yu
 晓来庭院半残红	xiao lai ting yuan ban can hong
-惟有游丝千丈、晴空	wei you you si qian zhang 、 qing kong
+惟有游丝千丈、晴空	wei you you si qian zhang qing kong
 殷勤花下同携手	yin qin hua xia tong xie shou
 更尽杯中酒	geng jin bei zhong jiu
 美人不用敛蛾眉	mei ren bu yong lian e mei
-我亦多情、无奈酒阑时	wo yi duo qing 、 wu nai jiu lan shi
+我亦多情、无奈酒阑时	wo yi duo qing wu nai jiu lan shi
 刘一止	liu yi zhi
 喜迁莺	xi qian ying
 晓光催角	xiao guang cui jiao
@@ -9249,7 +9249,7 @@ columns:
 残月尚穿林薄	can yue shang chuan lin bao
 泪痕带霜微凝	lei hen dai shuang wei ning
 酒力冲寒犹弱	jiu li chong han you ruo
-叹倦客、悄不禁	tan juan ke 、 qiao bu jin
+叹倦客、悄不禁	tan juan ke qiao bu jin
 重染风尘京洛	zhong ran feng chen jing luo
 追念	zhui nian
 人别後	ren bie hou
@@ -9279,7 +9279,7 @@ columns:
 洗妆真态	xi zhuang zhen tai
 不作铅华御	bu zuo qian hua yu
 竹外一枝斜	zhu wai yi zhi xie
-想佳人、天寒日暮	xiang jia ren 、 tian han ri mu
+想佳人、天寒日暮	xiang jia ren tian han ri mu
 黄昏小院	huang hun xiao yuan
 无处著清香	wu chu zhu qing xiang
 风细细	feng xi xi
@@ -9288,7 +9288,7 @@ columns:
 月边疏影	yue bian shu ying
 梦到消魂处	meng dao xiao hun chu
 结子欲黄时	jie zi yu huang shi
-又须著、廉纤细雨	you xu zhu 、 lian xian xi yu
+又须著、廉纤细雨	you xu zhu lian xian xi yu
 孤芳一世	gu fang yi shi
 供断有情愁	gong duan you qing chou
 销瘦却	xiao shou que
@@ -9298,48 +9298,48 @@ columns:
 三台	san tai
 见梨花初带夜月	jian li hua chu dai ye yue
 海棠半含朝雨	hai tang ban han chao yu
-内苑春、不禁过青门	nei yuan chun 、 bu jin guo qing men
-御沟涨、潜通南浦	yu gou zhang 、 qian tong nan pu
-东风静、细柳垂金缕	dong feng jing 、 xi liu chui jin lv
-望凤阙、非烟非雾	wang feng que 、 fei yan fei wu
-好时代、朝野多欢	hao shi dai 、 chao ye duo huan
-遍九陌、太平箫鼓	bian jiu mo 、 tai ping xiao gu
+内苑春、不禁过青门	nei yuan chun bu jin guo qing men
+御沟涨、潜通南浦	yu gou zhang qian tong nan pu
+东风静、细柳垂金缕	dong feng jing xi liu chui jin lv
+望凤阙、非烟非雾	wang feng que fei yan fei wu
+好时代、朝野多欢	hao shi dai chao ye duo huan
+遍九陌、太平箫鼓	bian jiu mo tai ping xiao gu
 乍莺儿百啭断续	zha ying er bai zhuan duan xu
 燕子飞来飞去	yan zi fei lai fei qu
-近绿水、台榭映秋千	jin lv shui 、 tai xie ying qiu qian
-斗草聚、双双游女	dou cao ju 、 shuang shuang you nv
-饧香更、酒冷踏青路	tang xiang geng 、 jiu leng ta qing lu
-会暗识、夭桃朱户	hui an shi 、 yao tao zhu hu
-向晚骤、宝马雕鞍	xiang wan zhou 、 bao ma diao an
-醉襟惹、乱花飞絮	zui jin re 、 luan hua fei xu
+近绿水、台榭映秋千	jin lv shui tai xie ying qiu qian
+斗草聚、双双游女	dou cao ju shuang shuang you nv
+饧香更、酒冷踏青路	tang xiang geng jiu leng ta qing lu
+会暗识、夭桃朱户	hui an shi yao tao zhu hu
+向晚骤、宝马雕鞍	xiang wan zhou bao ma diao an
+醉襟惹、乱花飞絮	zui jin re luan hua fei xu
 正轻寒轻暖漏永	zheng qing han qing nuan lou yong
 半阴半晴云暮	ban yin ban qing yun mu
-禁火天、已是试新妆	jin huo tian 、 yi shi shi xin zhuang
-岁华到、三分佳处	sui hua dao 、 san fen jia chu
-清明看、汉宫传蜡炬	qing ming kan 、 han gong chuan la ju
-散翠烟、飞入槐府	san cui yan 、 fei ru huai fu
-敛兵卫、阊阖门开	lian bing wei 、 chang he men kai
-住传宣、又还休务	zhu chuan xuan 、 you hai xiu wu
+禁火天、已是试新妆	jin huo tian yi shi shi xin zhuang
+岁华到、三分佳处	sui hua dao san fen jia chu
+清明看、汉宫传蜡炬	qing ming kan han gong chuan la ju
+散翠烟、飞入槐府	san cui yan fei ru huai fu
+敛兵卫、阊阖门开	lian bing wei chang he men kai
+住传宣、又还休务	zhu chuan xuan you hai xiu wu
 田为	tian wei
-江神子慢・江城子慢	jiang shen zi man ・ jiang cheng zi man
+江神子慢·江城子慢	jiang shen zi man jiang cheng zi man
 玉台挂秋月	yu tai gua qiu yue
 铅素浅	qian su qian
 梅花傅香雪	mei hua fu xiang xue
 冰姿洁	bing zi jie
-金莲衬、小小凌波罗袜	jin lian chen 、 xiao xiao ling bo luo wa
+金莲衬、小小凌波罗袜	jin lian chen xiao xiao ling bo luo wa
 雨初歇	yu chu xie
 楼外孤鸿声渐远	lou wai gu hong sheng jian yuan
-远山外、行人音信绝	yuan shan wai 、 xing ren yin xin jue
+远山外、行人音信绝	yuan shan wai hang ren yin xin jue
 此恨对语犹难	ci hen dui yu you nan
 那堪更寄书说	na kan geng ji shu shuo
 教人红销翠减	jiao ren hong xiao cui jian
 觉衣宽金缕	jue yi kuan jin lv
 都为轻别	dou wei qing bie
 太情切	tai qing qie
-消魂处、画角黄昏时节	xiao hun chu 、 hua jiao huang hun shi jie
+消魂处、画角黄昏时节	xiao hun chu hua jiao huang hun shi jie
 声呜咽	sheng wu ye
 落尽庭花春去也	luo jin ting hua chun qu ye
-银蟾迥、无情圆又缺	yin chan jiong 、 wu qing yuan you que
+银蟾迥、无情圆又缺	yin chan jiong wu qing yuan you que
 恨伊不似馀香	hen yi bu shi yu xiang
 惹鸳鸯结	re yuan yang jie
 陈克	chen ke
@@ -9388,7 +9388,7 @@ columns:
 无名氏	wu ming shi
 青玉案	qing yu an
 年年社日停针线	nian nian she ri ting zhen xian
-怎忍见、双飞燕	zen ren jian 、 shuang fei yan
+怎忍见、双飞燕	zen ren jian shuang fei yan
 今日江城春已半	jin ri jiang cheng chun yi ban
 一身犹在	yi shen you zai
 乱山深处	luan shan shen chu
@@ -9400,7 +9400,7 @@ columns:
 酒无人劝	jiu wu ren quan
 醉也无人管	zui ye wu ren guan
 范成大	fan cheng da
-秦楼月・忆秦娥	qin lou yue ・ yi qin e
+秦楼月·忆秦娥	qin lou yue yi qin e
 楼阴缺	lou yin que
 阑干影卧东厢月	lan gan ying wo dong xiang yue
 东厢月	dong xiang yue
@@ -9416,12 +9416,12 @@ columns:
 晚晴风歇	wan qing feng xie
 一夜春折威	yi ye chun zhe wei
 脉脉花疏天淡	mo mo hua shu tian dan
-云来去、数枝雪	yun lai qu 、 shu zhi xue
+云来去、数枝雪	yun lai qu shu zhi xue
 胜绝	sheng jue
 愁亦绝	chou yi jue
 此情谁共说	ci qing shui gong shuo
 惟有两行低雁	wei you liang xing di yan
-知人倚、画楼月	zhi ren yi 、 hua lou yue
+知人倚、画楼月	zhi ren yi hua lou yue
 范成大	fan cheng da
 眼儿媚	yan er mei
 酣酣日脚紫烟浮	han han ri jiao zi yan fu
@@ -9478,7 +9478,7 @@ columns:
 张孝祥	zhang xiao xiang
 念奴娇	nian nu jiao
 洞庭青草	dong ting qing cao
-近中秋、更无一点风色	jin zhong qiu 、 geng wu yi dian feng se
+近中秋、更无一点风色	jin zhong qiu geng wu yi dian feng se
 玉鉴琼田三万顷	yu jian qiong tian san wan qing
 著我扁舟一叶	zhu wo pian zhou yi ye
 素月分辉	su yue fen hui
@@ -9588,7 +9588,7 @@ columns:
 谁持彩练当空舞	shui chi cai lian dang kong wu
 雨后复斜阳	yu hou fu xie yang
 关山阵阵苍	guan shan zhen zhen cang
-当年鏖(áo)战急	dang nian ao (áo) zhan ji
+当年鏖战急	dang nian ao zhan ji
 弹洞前村壁	dan dong qian cun bi
 装点此关山	zhuang dian ci guan shan
 今朝更好看	jin zhao geng hao kan
@@ -9613,16 +9613,16 @@ columns:
 今日长缨在手	jin ri chang ying zai shou
 何时缚住苍龙	he shi fu zhu cang long
 毛泽东	mao ze dong
-十六字令	shi liu zi ling
-其一：山	qi yi ： shan
+十六字令·三首	shi liu zi ling san shou
+其一：山	qi yi shan
 快马加鞭未下鞍	kuai ma jia bian wei xia an
 惊回首	jing hui shou
 离天三尺三	li tian san chi san
-其二：山	qi er ： shan
+其二：山	qi er shan
 倒海翻江卷巨澜	dao hai fan jiang juan ju lan
 奔腾急	ben teng ji
 万马战犹酣	wan ma zhan you han
-其三：山	qi san ： shan
+其三：山	qi san shan
 刺破青天锷未残	ci po qing tian e wei can
 天欲堕	tian yu duo
 赖以拄其间	lai yi zhu qi jian
@@ -9635,7 +9635,8 @@ columns:
 不管风吹浪打	bu guan feng chui lang da
 胜似闲庭信步	sheng si xian ting xin bu
 今日得宽馀	jin ri de kuan yu
-子在川上曰：逝者如斯夫	zi zai chuan shang yue ： shi zhe ru si fu
+子在川上曰	zi zai chuan shang yue
+逝者如斯夫	shi zhe ru si fu
 风樯动	feng qiang dong
 龟蛇静	gui she jing
 起宏图	qi hong tu
@@ -9688,7 +9689,7 @@ columns:
 二女二男	er nv er nan
 育吾兄弟	yu wu xiong di
 艰辛备历	jian xin bei li
-摧折作磨	cui she zuo mo
+摧折作磨	cui zhe zuo mo
 因此遭疾	yin ci zao ji
 中间万万	zhong jian wan wan
 皆伤心史	jie shang xin shi
@@ -9815,7 +9816,8 @@ columns:
 人或为鱼鳖	ren huo wei yu bie
 千秋功罪	qian qiu gong zui
 谁人曾与评说	shui ren ceng yu ping shuo
-而今我谓昆仑：不要这高	er jin wo wei kun lun ： bu yao zhe gao
+而今我谓昆仑	er jin wo wei kun lun
+不要这高	bu yao zhe gao
 不要这多雪	bu yao zhe duo xue
 安得倚天抽宝剑	an de yi tian chou bao jian
 把汝裁为三截	ba ru cai wei san jie
@@ -9908,9 +9910,10 @@ columns:
 祭黄帝陵文	ji huang di ling wen
 中华民国二十六年四月五日	zhong hua min guo er shi liu nian si yue wu ri
 苏维埃政府主席毛泽东	su wei ai zheng fu zhu xi mao ze dong
-人民抗日红军总司令朱德,敬遣代表林祖涵	ren min kang ri hong jun zong si ling zhu de , jing qian dai biao lin zu han
+人民抗日红军总司令朱德	ren min kang ri hong jun zong si ling zhu de
+敬遣代表林祖涵	jing qian dai biao lin zu han
 以鲜花时果之仪致祭于中华民族之始祖轩辕黄帝之陵	yi xian hua shi guo zhi yi zhi ji yu zhong hua min zu zhi shi zu xuan yuan huang di zhi ling
-而致词曰：	er zhi ci yue ：
+而致词曰	er zhi ci yue
 赫赫始祖	he he shi zu
 吾华肇造	wu hua zhao zao
 胄衍祀绵	zhou yan si mian
@@ -9936,7 +9939,8 @@ columns:
 涿鹿奋战	zhuo lu fen zhan
 区宇以宁	qu yu yi ning
 岂其苗裔	qi qi miao yi
-不武如斯：泱泱大国	bu wu ru si ： yang yang da guo
+不武如斯	bu wu ru si
+泱泱大国	yang yang da guo
 让其沦胥	rang qi lun xu
 东等不才	dong deng bu cai
 剑屦俱奋	jian ju ju fen
@@ -9979,7 +9983,7 @@ columns:
 分田分地真忙	fen tian fen di zhen mang
 毛泽东	mao ze dong
 如梦令·元旦	ru meng ling yuan dan
-宁化、清流、归化	ning hua 、 qing liu 、 gui hua
+宁化、清流、归化	ning hua qing liu gui hua
 路隘林深苔滑	lu ai lin shen tai hua
 今日向何方	jin ri xiang he fang
 直指武夷山下	zhi zhi wu yi shan xia
@@ -10172,7 +10176,7 @@ columns:
 君今不幸离人世	jun jin bu xing li ren shi
 国有疑难可问谁	guo you yi nan ke wen shui
 毛泽东	mao ze dong
-渔家傲·反第二次大“围剿”	yu jia ao fan di er ci da “ wei jiao ”
+渔家傲·反第二次大“围剿”	yu jia ao fan di er ci da wei jiao
 白云山头云欲立	bai yun shan tou yun yu li
 白云山下呼声急	bai yun shan xia hu sheng ji
 枯木朽株齐努力	ku mu xiu zhu qi nu li
@@ -10202,7 +10206,8 @@ columns:
 怎么得了	zen me de le
 哎呀我要飞跃	ai ya wo yao fei yue
 借问君去何方	jie wen jun qu he fang
-雀儿答道：有仙山琼阁	que er da dao ： you xian shan qiong ge
+雀儿答道	que er da dao
+有仙山琼阁	you xian shan qiong ge
 不见前年秋月朗	bu jian qian nian qiu yue lang
 订了三家条约	ding le san jia tiao yue
 还有吃的	hai you chi de
@@ -10267,7 +10272,7 @@ columns:
 独坐池塘如虎踞	du zuo chi tang ru hu ju
 绿荫树下养精神	lv yin shu xia yang jing shen
 春来我不先开口	chun lai wo bu xian kai kou
-哪个虫儿敢作声	nei ge chong er gan zuo sheng
+哪个虫儿敢作声	na ge chong er gan zuo sheng
 毛泽东	mao ze dong
 江城子·迎一九六六年新年	jiang cheng zi ying yi jiu liu liu nian xin nian
 革命江山风光好	ge ming jiang shan feng guang hao
@@ -10452,7 +10457,7 @@ columns:
 愚公尽扫饕蚊日	yu gong jin sao tao wen ri
 公祭无忘告马翁	gong ji wu wang gao ma weng
 毛泽东	mao ze dong
-七律·改鲁迅《亥年残秋偶作》	qi lv gai lu xun 《 hai nian can qiu ou zuo 》
+七律·改鲁迅《亥年残秋偶作》	qi lv gai lu xun hai nian can qiu ou zuo
 曾惊秋萧临天下	ceng jing qiu xiao lin tian xia
 又遣春温上笔端	you qian chun wen shang bi duan
 尘海苍茫恐百岁	chen hai cang mang kong bai sui
@@ -10591,7 +10596,7 @@ columns:
 满嘴胡放屁	man zui hu fang pi
 叫人可笑又可气	jiao ren ke xiao you ke qi
 滑天下之大稽	hua tian xia zhi da ji
-“小口径上刺刀”	“ xiao kou jing shang ci dao ”
+“小口径上刺刀”	xiao kou jing shang ci dao
 叫人大牙笑掉	jiao ren da ya xiao diao
 如何来上请教	ru he lai shang qing jiao
 不知是焊是铆	bu zhi shi han shi mao
